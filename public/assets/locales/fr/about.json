@@ -1,0 +1,28 @@
+{
+  "title": "À propos d'Grippenet.fr",
+  "signupCard": {
+    "imageAlt": "Participer",
+    "title": "Participer",
+    "body": "Aidez-nous à surveiller de près l’évolution de la grippe et du coronavirus. Chaque semaine, indiquez-nous comment vous vous sentez.",
+    "actionLabel": "Enregistrez-vous"
+  },
+  "surveyCard": {
+    "imageAlt": "Participez !",
+    "title": "Participez maintenant !",
+    "body": "indiquez-nous comment vous vous sentez",
+    "actionLabel": "Questionnaires"
+  },
+  "logoCredits": {
+    "title": "En collaboration avec",
+    "hasseltLogo": "Logo for the University of Hasselt",
+    "uantwerpenLogo": "Logo for the University of Antwerpen",
+    "epiposeLogo": "Logo for the Epipose Project"
+  },
+  "video": {
+    "poster": "",
+    "mp4": "https://youtu.be/JpsTUsi2MRE",
+    "mxf": "",
+    "webm": "",
+    "fallbackText": "Votre browser ne prend pas en charge cette vidéo."
+  }
+}

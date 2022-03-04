@@ -1,0 +1,21 @@
+
+{
+  "config": {
+    "type": "simpleLogo",
+    "className": "",
+    "image": {
+      "altKey": "logoAlt",
+      "sm": {
+        "url": "/images/l/gncovidnet.png",
+        "className": "py-2",
+        "width": 226
+      },
+      "lg": {
+        "url": "/images/l/gncovidnet.png",
+        "className": "py-2",
+        "width": 250
+      }
+    },
+    "useLanguageSelector": false
+  }
+}

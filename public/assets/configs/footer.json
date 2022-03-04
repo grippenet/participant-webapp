@@ -1,0 +1,50 @@
+{
+  "columns": [
+    {
+      "columnKey": "services",
+      "items": [
+        {
+          "type": "internal",
+          "itemKey": "contact",
+          "value": "/contact"
+        },
+        {
+          "type": "external",
+          "itemKey": "twitter",
+          "value": "https://twitter.com/grippenet",
+          "iconClass": "fab fa-twitter"
+        }
+      ]
+    },
+    {
+      "columnKey": "about",
+      "items": [
+        {
+          "type": "internal",
+          "itemKey": "privacy",
+          "value": "/privacy"
+        },
+        {
+          "type": "internal",
+          "itemKey": "disclaimer",
+          "value": "/disclaimer"
+        },
+        {
+          "type": "internal",
+          "itemKey": "accessibility",
+          "value": "/accessibility"
+        }
+      ]
+    },
+    {
+      "columnKey": "languages",
+      "items": [
+        {
+          "type": "language",
+          "itemKey": "fr",
+          "value": "fr"
+        }
+      ]
+    }
+  ]
+}
