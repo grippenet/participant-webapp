@@ -1,5 +1,5 @@
 # web-client
-The web-interface for the participants of the Infectieradar Belgium survey platform
+The web-interface for the participants of the Influenzanet platform
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -24,8 +24,9 @@ The example-public-folder contains example configurations within the assets fold
 
 ## Deployment Setup
 1. Create a fork of this repo in your local organisation. 
-2. Configure the fields present in the file env-sample.config. Make sure to update the fields like Recaptcha key, instance, etc. Lookup step 1 of local setup for examples.
-3. Create github secrets for the following fields:
+2. Copy env-sample.config to .env.production (this file should be commited so should never contains secret values)
+3. Configure the fields present in the file env-sample.config. Make sure to update the fields like Recaptcha key, instance, etc. Lookup step 1 of local setup for examples.
+4. Create github secrets for the following fields:
   3.1. DOCKER_ORGANIZATION
   3.2. DOCKER_REPO_NAME
   3.3. DOCKER_USER
@@ -33,34 +34,14 @@ The example-public-folder contains example configurations within the assets fold
 4. Configure the actions file under .github/workflows/docker-image.yml to build and deploy docker images as needed.
 
 ## Local Setup
-1. Create `.env.local` and copy in it the contents of env-sample.config. Edit the fields below: 
-  ```
-  REACT_APP_DEFAULT_INSTANCE=<instance-name>
-  REACT_APP_API_BASE_URL=/api
-  REACT_APP_DEFAULT_LANGUAGE=en
-  REACT_APP_FALLBACK_LANGUAGE=en
-  REACT_APP_CONTENT_URL="/assets"
-  REACT_APP_USE_RECAPTCHA=true
-  REACT_APP_RECAPTCHA_SITEKEY=<reCaptcha_public_key>
-  REACT_APP_TITLE=Infectieradar.be
-  REACT_APP_DESCRIPTION="Een onderzoek in de strijd tegen epidemieën"
-  REACT_APP_CSP_DEFAULT_SRC="'self'"
-  REACT_APP_CSP_MEDIA_SRC="'self'"
-  REACT_APP_CSP_IMG_SRC="'self' data: https:"
-  REACT_APP_CSP_STYLE_SRC="'unsafe-inline' 'self' https://www.gstatic.com/recaptcha/ https://www.google.com/recaptcha/ "
-  REACT_APP_CSP_SCRIPT_SRC="'unsafe-inline' https://www.gstatic.com/recaptcha/ https://www.google.com/recaptcha/ 'self' 'unsafe-eval'"
-  REACT_APP_CSP_FRAME_SRC="https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha"
-  REACT_APP_CSP_CHILD_SRC="https://www.google.com/"
-  REACT_APP_CSP_CONNECT_URLS="http://survey.infectieradar.be https://survey.infectieradar.be ws://survey.infectieradar.be// ws://survey.infectieradar.be/ https://www.google.com/recaptcha/ https://www.google.com/ http://www.w3.org/2000/svg"
-
-  ```
+1. Create `.env.local` using the template .env.local.template
 Replace the connect urls with all the urls which must be allowed in CSP connect-src, including PARTICIPANT-API SERVICE address, separated by spaces.
 The option "unsafe-eval" in script-src, is needed for Vega plot rendering.
 
 Note: System falls back to 'en' if REACT_APP_DEFAULT_LANGUAGE and REACT_APP_FALLBACK_LANGUAGE is not set.
 
-2. Install dependencies by running ```yarn install```
-3. Run the web ui by entering ```yarn start```
+1. Install dependencies by running ```yarn install```
+2. Run the web ui by entering ```yarn start```
 
 ## Results Page
 The result's page is a container to display different subpages. The list of subpages needs to be defined through the file
