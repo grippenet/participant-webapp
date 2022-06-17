@@ -44,3 +44,6 @@ Thumbs.db
 *.local
 build
 public/content/nl/results/temp
+
+# Local
+/run
