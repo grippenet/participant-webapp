@@ -164,12 +164,9 @@
   "changeLanguage": {
     "title": "Languages",
     "defaultLanguageLabel": "Default language",
-    "info": "You can change the default language here. If availble, also emails will be send in this language.",
+    "info": "You can change the default language here. If available, also emails will be send in this language.",
     "languages": {
-      "nl-be": "Nederlands",
-      "en": "English",
-      "fr-be": "Français",
-      "de-be": "Deutsch"
+      "fr": "Français"
     },
     "cancelBtn": "Cancel",
     "confirmBtn": "Confirm language",
