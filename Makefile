@@ -11,4 +11,4 @@ help:
 	@echo "  DOCKER_OPTS : default docker build options (default : $(DOCKER_OPTS))"
 
 docker:
-	docker build -t $(DOCKER_TAG):$(VERSION)  -f Dockerfile $(DOCKER_OPTS) --build-arg ENV_FILE=$DOCKER_ENV .
+	docker build -t $(DOCKER_TAG):$(VERSION)  -f Dockerfile $(DOCKER_OPTS) --build-arg ENV_FILE=$(DOCKER_ENV) .
