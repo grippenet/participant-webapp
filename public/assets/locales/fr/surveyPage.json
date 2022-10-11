@@ -5,6 +5,11 @@
     "cancelBtn": "Continuer à compléter le questionnaire",
     "confirmBtn": "Quitter le questionnaire"
   },
+  "submitSuccessDialog": {
+    "title": "Info",
+    "content": "Votre réponse a bien été enregistrée",
+    "btn": "Merci !"
+  },
   "noSurveyLoaded": "Erreur. Actualiser cette page",
   "submittingSurveyResponsesMsg": "Soumettre le questionnaire",
   "notValidQuestion": "Choisissez une réponse valable pour toutes les questions",
