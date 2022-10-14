@@ -14,90 +14,45 @@ The example-public-folder contains example configurations within the assets fold
 2. Configure the keys, markdown content within the locales folders.
 3. Upload additional images needed into the public/assets/images folder.
 4. Configure page layouts, headers, and footers by configuring the files present in public/assets/configs.
+  
 4.1. **Appconfig**: Set the language codes for the supported languages here. Also configure the avatars available for user profiles here.
+
 4.2. **header**: Set the logo image and styles used in the header here.
+
 4.3. **Navbar**: Set the items and the URL's they map on the navigation bar. This also includes the items that show up under the user dropdown on the right corner of the navbar.
+
 4.4. **Footer**: Configure the columns and links in the footer section.
+
 4.5. **Pages**: Contains an array of the different pages of the webapp. Here you can map a url to a page, and set the layout, contents, elements and styles for each page item. Note: "pageKey" is used to map to a file in locales to render the labels for the elements of the page in each language. "itemkey" defines the name to be looked for in the file defined by "pageKey".
 
 
 
 ## Deployment Setup
+
 1. Create a fork of this repo in your local organisation. 
 2. Copy env-sample.config to .env.production (this file should be commited so should never contains secret values)
 3. Configure the fields present in the file env-sample.config. Make sure to update the fields like Recaptcha key, instance, etc. Lookup step 1 of local setup for examples.
 4. Create github secrets for the following fields:
-  3.1. DOCKER_ORGANIZATION
-  3.2. DOCKER_REPO_NAME
-  3.3. DOCKER_USER
-  3.4. DOCKER_PASSWORD
-4. Configure the actions file under .github/workflows/docker-image.yml to build and deploy docker images as needed.
+
+- DOCKER_ORGANIZATION
+- DOCKER_REPO_NAME
+- DOCKER_USER
+- DOCKER_PASSWORD
+
+1. Configure the actions file under .github/workflows/docker-image.yml to build and deploy docker images as needed.
 
 ## Local Setup
+
 1. Create `.env.local` using the template .env.local.template
+
 Replace the connect urls with all the urls which must be allowed in CSP connect-src, including PARTICIPANT-API SERVICE address, separated by spaces.
 The option "unsafe-eval" in script-src, is needed for Vega plot rendering.
 
 Note: System falls back to 'en' if REACT_APP_DEFAULT_LANGUAGE and REACT_APP_FALLBACK_LANGUAGE is not set.
 
-1. Install dependencies by running ```yarn install```
-2. Run the web ui by entering ```yarn start```
+2. Install dependencies by running ```yarn install```
 
-## Results Page
-The result's page is a container to display different subpages. The list of subpages needs to be defined through the file
-`content/<language>/results.json`
-for each translation.
-
-Example content for the `results.json`:
-
-``` json
-{
-  "defaultRoute": "week43",
-  "pages": [
-    {
-      "linkName": "Results for Week 43",
-      "route": "week43",
-      "markdown": "content/nl/results/week43.md"
-    },
-    {
-      "linkName": "Results for Week 42",
-      "route": "week42",
-      "markdown": "content/nl/results/week42.md"
-    }
-  ]
-}
-```
-
-`defaultRoute` controls which subpage will be displayed by default (typically when the results page is opened). Route name will be appended at the end of the url for the results page container, so there is no need to write the full url here.
-
-`pages` is the list of available sub-pages. To add a new page, three an object with three attributes needs to be added to the list:
-
-- `linkName`: text that will be displayed in the link (navigation right bottom) - ideally a short human readable text / title of the page.
-- `route`: selector that will be used in the url to navigate to the page.
-- `markdown`: path where the markdown definition for the page can be found.
-
-### Markdown for the results page
-
-Content for the subpages of the result container is defined through markdown files.
-Beside the typical markdown structures, e.g., headings, paragraphs and lists, the following content type is supported:
-- **vega**: To display a figure defined by vega specification.
-- **mapchart:<url-to-map-json>**: map based visualisation.
-- **images**: Images from URL and with caption.
-
-Example markdown content:
-```markdown
-This is a [link](https://www.rivm.nl/infectie-radar/resultaten) pointing to an external page's url.
-
-## Example title
-You can add vega spec files like this:
-
-[vega]: content/nl/results/week42-map.json
-
-Images with titles:
-
-![Alternative text for accesibility](content/nl/results/week42-symptomen.png "Caption of the image")
-```
-
+3. Run the web ui by entering ```yarn start```
 ## Available Scripts
 
 In the project directory, you can run:
