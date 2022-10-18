@@ -1,0 +1,24 @@
+const { createProxyMiddleware } = require('http-proxy-middleware');
+// Load CSP policy built by csp script from the .env files
+const csp = require('../build/csp');
+
+// Host to proxy API request to e.g. https://my.influezanet.com/
+const apiHost = '';
+
+const prodProxy = createProxyMiddleware({ target: apiHost, changeOrigin: true, logLevel: "debug"});
+
+const proxiedPath = [
+  '/api',
+  '/postalcodes',
+];
+
+module.exports = function(app) {
+  app.use(proxiedPath, prodProxy);
+
+  // Setup up the CSP header to be able to test it
+  app.use(function (req, res, next) {
+    res.setHeader("Content-Security-Policy", csp.csp_header);
+    next();
+  });
+
+};

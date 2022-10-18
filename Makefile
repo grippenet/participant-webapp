@@ -1,5 +1,5 @@
 DOCKER_OPTS ?= --rm
-DOCKER_ENV ?= env.default
+DOCKER_ENV ?= .env.local
 DOCKER_TAG ?= github.com/influenzanet/web-app
 # TEST_ARGS = -v | grep -c RUN
 GIT_VERSION := $(shell git describe --tags --abbrev=0)
