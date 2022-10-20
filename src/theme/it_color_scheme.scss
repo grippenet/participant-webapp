@@ -1,0 +1,39 @@
+// ---------------------------------------------
+// Colors:
+// ---------------------------------------------
+/* $primary: #990011FF;
+$secondary: rgb(248, 228, 225); */
+
+$primary: #870A30;//modifié
+$secondary: #ffebeb;//modifié
+$success: #39870C;//modifié
+$warning: #EEA230;//modifié
+$danger: #D92321;//modifié
+$info: #CCE0F1;//modifié
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary":  $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+);
+
+$custom-colors: (
+    "grey-1": #f3f3f3, //modifié
+    "grey-2": #D2D8E1, // identique
+    "grey-3": #B6BECB,// identique
+    "grey-4": #99A4B5,// identique
+    "grey-5": #6E7D93,// identique
+    "grey-6": #606E82,// identique
+    "grey-7": #4F5A6B,// identique
+    "lightest": #fff,// identique
+    "danger-light": #FCCFD9,// identique
+    "warning-light": #FFEDBD,// identique
+    "success-light": #B6F1CA,// identique
+);
+
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);

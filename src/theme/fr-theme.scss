@@ -1,0 +1,47 @@
+@import './selected_color_scheme';
+@import '~case-web-ui/build/scss/helpers/spacing.scss';
+@import '~case-web-ui/build/scss/helpers/forms.scss';
+@import '~case-web-ui/build/scss/helpers/custom_range.scss';
+@import '~case-web-ui/build/scss/helpers/navbar.scss';
+@import '~case-web-ui/build/scss/helpers/borders.scss';
+@import '~case-web-ui/build/scss/helpers/date_input.scss';
+@import '~case-web-ui/build/scss/helpers//typography.scss';
+@import '~case-web-ui/build/scss/helpers/utilities.scss';
+
+// ---------------------------------------------
+// file derived from it-theme.scss which is derived from ~case-web-ui/build/scss/theme-default.scss
+// "@import './selected_color_scheme'; " replace and modify "@import '~case-web-ui/build/scss/helpers/colors.scss';"
+// selected_color_scheme is the theme chosen among files "sampleX.scss"
+// ---------------------------------------------
+
+@include datepicker_classes($theme-colors);
+
+// ---------------------------------------------
+// Other:
+// ---------------------------------------------
+$enable-rounded: false !default;
+
+.captcha-badge-alt {
+  color: map-get($theme-colors, "grey-7");
+  & a {
+    color: #000;
+  }
+}
+
+.grecaptcha-badge { visibility: hidden; }
+
+.min-h-478 {
+  @media (min-width: 768px) {
+    min-height: 478px
+  }
+}
+
+.chart-center {
+  @media (min-width: 990px) {
+    margin-left: 22.5%
+  }
+}
+
+
+@import '~case-web-ui/build/scss/iconfonts';
+@import '~bootstrap/scss/bootstrap.scss';

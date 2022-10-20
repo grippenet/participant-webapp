@@ -29,9 +29,9 @@
     "actionLabel": "Inscrivez-vous"
   },
   "aboutCard": {
-    "imageAlt": "À propos d'Grippenet.fr image",
-    "title": "À propos d'Infectieradar",
-    "body": "GrippeNet.fr est un l’un des outils qui permet à l’équipe de chercheurs de suivre la propagation des symptômes, ainsi que du virus dans toute la France.",
+    "imageAlt": "À propos de Grippenet.fr image",
+    "title": "À propos de Grippenet",
+    "body": "GrippeNet.fr est l’un des outils qui permet à l’équipe de chercheurs de suivre la propagation des symptômes, ainsi que du virus dans toute la France.",
     "actionLabel": "En savoir plus"
   },
   "video": {

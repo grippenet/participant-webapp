@@ -1,0 +1,41 @@
+// ---------------------------------------------
+// Colors:
+// ---------------------------------------------
+$primary: #3464D5;
+$secondary: #EDEFF4;
+$success: #00A733;
+$warning: #FD9644;
+$danger: #DA3659;
+$info: #BCE0FA;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary":  $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+);
+
+$custom-colors: (
+    "grey-1": #EDEFF4,
+    "grey-2": #D2D8E1,
+    "grey-3": #B6BECB,
+    "grey-4": #99A4B5,
+    "grey-5": #6E7D93,
+    "grey-6": #606E82,
+    "grey-7": #4F5A6B,
+    "lightest": #fff,
+    "danger-light": #FCCFD9,
+    "warning-light": #FFEDBD,
+    "success-light": #B6F1CA,
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+// Additional colors:
+.report-card-subtitle {
+  color: map-get($theme-colors, "grey-7");
+}

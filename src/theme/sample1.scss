@@ -1,0 +1,58 @@
+// ---------------------------------------------
+// Colors:
+// ---------------------------------------------
+/* $primary: #990011FF;
+$secondary: rgb(248, 228, 225); */
+
+/*
+Depuis grippenet :
+orange : F58220
+bleu : 007AB8
+vert : 7AB800
+gris : 8EA59E
+orange éclairci : FFE0C6 => saumon moche !!!
+orange éclairci 2 : fff8e8
+*/
+
+$primary: #007AB8;
+//$primary: #F58220; // orange
+//$secondary: #8EA59E;
+$secondary: #fff8e8; // orange éclairci 
+//$secondary: #edeff4; // gris original
+$success: #39870C; // it
+$warning: #EEA230;// it
+$danger: #D92321;// it
+$info: #CCE0F1;// it
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary":  $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+);
+
+$custom-colors: (
+    "grey-1": #f3f3f3,// it
+    "grey-2": #D2D8E1,// original
+    "grey-3": #B6BECB,// original
+    "grey-4": #99A4B5,// original
+    "grey-5": #6E7D93,// original
+    "grey-6": #606E82,// original
+    "grey-7": #4F5A6B,// original
+    "lightest": #fff,// original
+    "danger-light": #FCCFD9,// original
+    "warning-light": #FFEDBD,// original
+    "success-light": #B6F1CA,// original
+);
+
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+// Additional colors:
+.report-card-subtitle {
+    color: map-get($theme-colors, "grey-7");
+  }
