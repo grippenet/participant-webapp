@@ -29,7 +29,13 @@ jobs:
       run: echo "REPO_VERSION=${{github.ref_name}}" >> $GITHUB_ENV
       if: ${{ github.event_name == 'push' }}
     - name: create .env.local
-      run: "touch .env.local"
+      env:
+        GIT_COMMIT:
+      run: |
+        touch .env.local
+        echo "REACT_APP_VERSION=$REPO_VERSION" >> .env.local
+        echo "REACT_APP_COMMIT=${{github.sha}}" >> .env.local
+        cat .env.local
     - name: docker login
       env:
         DOCKER_USER: ${{secrets.DOCKER_USER}}
