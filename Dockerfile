@@ -3,6 +3,8 @@ FROM node:16-slim as build
 
 # default env_file
 ARG ENV_FILE=".env.local"
+ARG TAG = "none"
+ARG COMMIT = "none"
 WORKDIR /app
 COPY package.json /app
 COPY yarn.lock /app
@@ -13,6 +15,8 @@ RUN yarn build
 
 ## production environment
 FROM nginx:stable-alpine
+LABEL fr.grippenet.webapp.tag="${TAG}"
+LABEL fr.grippenet.webapp.commit="${COMMIT}"
 COPY --from=build /app/build /usr/share/nginx/html
 COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 # Install include file (csp header configuration)
