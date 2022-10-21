@@ -3,8 +3,8 @@ FROM node:16-slim as build
 
 # default env_file
 ARG ENV_FILE=".env.local"
-ARG TAG = "none"
-ARG COMMIT = "none"
+ARG TAG="none"
+ARG COMMIT="none"
 WORKDIR /app
 COPY package.json /app
 COPY yarn.lock /app
