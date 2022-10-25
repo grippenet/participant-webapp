@@ -1,5 +1,5 @@
 {
-  "title": "Grippenet.fr",
+  "title": "GrippeNet.fr",
   "topImage": {
     "title": "Test teaser image",
     "content": "Une étude dans le cadre de la lutte contre les épidémies"
@@ -17,10 +17,10 @@
     "signupBtn": "Vous n'avez pas encore de compte ? Inscrivez-vous ici."
   },
   "currentResultCard": {
-    "imageAlt": "Les résultats actuels image",
-    "title": "Les résultats actuels",
-    "body": "découvrez les résultats Grippenet.fr.",
-    "actionLabel": "Les résultats actuels"
+    "imageAlt": "Les résultats image",
+    "title": "Les résultats",
+    "body": "découvrez les résultats GrippeNet.fr.",
+    "actionLabel": "Les résultats"
   },
   "signupCard": {
     "imageAlt": "Participer image",
@@ -29,8 +29,8 @@
     "actionLabel": "Inscrivez-vous"
   },
   "aboutCard": {
-    "imageAlt": "À propos de Grippenet.fr image",
-    "title": "À propos de Grippenet",
+    "imageAlt": "À propos de GrippeNet.fr image",
+    "title": "À propos de GrippeNet.fr",
     "body": "GrippeNet.fr est l’un des outils qui permet à l’équipe de chercheurs de suivre la propagation des symptômes, ainsi que du virus dans toute la France.",
     "actionLabel": "En savoir plus"
   },
@@ -49,7 +49,7 @@
   },
   "settingsReferences": {
     "title": "Paramètres",
-    "profileSettings": "Profils",
+    "profileSettings": "Gérer mes participants",
     "communicationSettings": "E-mail de rappel",
     "languageSettings": "Langues"
   },

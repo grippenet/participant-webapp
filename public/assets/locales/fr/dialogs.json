@@ -68,8 +68,11 @@
     "resendVerificationEmailBtn": "Envoyer à nouveau un courrier électronique de confirmation",
     "wrongEmailBtn": "Avez-vous utilisé une mauvaise adresse électronique ? Si tel est le cas, vous pouvez la modifier ici.",
     "errors": {
-      "unknown": "Une erreur s’est produite."
-    }
+      "unknown": "Une erreur s’est produite.",
+      "verifyEmailFirst": "Votre adresse e-mail n'a pas encore été confirmée, merci de consulter vos mail et de cliquer sur le lien de confirmation."
+    },
+    "msgForVerifiedAccount": "Si vous avez confirmé votre adresse électronique, cliquez ci-dessous",
+    "reloadUser": "Recharchez le compte"
   },
   "passwordForgotten": {
     "title": "Modifier votre mot de passe",

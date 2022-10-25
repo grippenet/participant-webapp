@@ -358,7 +358,7 @@
         {
           "key": "content",
           "fullWidth": false,
-          "className": "my-3 min-vh-60",
+          "className": "py-3 min-vh-60",
           "columns": [
             {
               "key": "mainCol",
