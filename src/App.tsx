@@ -9,7 +9,16 @@ import { FooterConfig } from 'case-web-app-core/build/types/footerConfig';
 import { HeaderConfig } from 'case-web-app-core/build/types/headerConfig';
 import { NavbarConfig } from 'case-web-app-core/build/types/navbarConfig';
 import { PagesConfig } from 'case-web-app-core/build/types/pagesConfig';
+import { LookupResponseComponent, registerLookupService } from 'grippenet-web-ui';
 
+registerLookupService('postalcodes', process.env.REACT_APP_POSTALCODES_URL ?? '');
+
+export const customSurveyResponseComponents = [
+  {
+    name: ':postalCodeLookup',
+    component: LookupResponseComponent
+  }
+];
 
 async function fetchAllData(): Promise<ConfigData> {
   const m = await import('./config');
@@ -56,6 +65,7 @@ const App: React.FC = () => {
         navbarConfig={navbarConfig}
         pagesConfig={pagesConfig}
         footerConfig={footerConfig}
+        customSurveyResponseComponents={customSurveyResponseComponents}
       />
     </Provider>
   );
