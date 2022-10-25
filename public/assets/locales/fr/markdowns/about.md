@@ -1,6 +1,10 @@
+
+
+
+
 # Qu'est ce que GrippeNet.fr/COVIDnet.fr
 
-GrippeNet.fr/COVIDnet.fr est un projet de recherche né de la volonté d’adapter GrippeNet.fr au contexte actuel d’épidémie de COVID-19.
+GrippeNet.fr/COVIDnet.fr est un projet de recherche né de la volonté d’adapter GrippeNet.fr au contexte actuel d’épidémie de COVID-19. 
 
 L'étude GrippeNet.fr a été mise en place en janvier 2012 par le réseau Sentinelles (Inserm – Sorbonne Université) et Santé publique France (anciennement Institut de Veille Sanitaire). Le 30 mars 2020, GrippeNet.fr est devenu COVIDnet.fr. Ce projet de surveillance et de recherche a pour objectif de recueillir directement auprès de la population des données épidémiologiques sur la grippe et la COVID-19, par Internet et de façon anonyme. Le projet GrippeNet.fr/COVIDnet.fr est financé par Santé publique France. Il ne reçoit aucun financement privé.
 

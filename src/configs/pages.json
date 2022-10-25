@@ -64,12 +64,26 @@
                   "className": "h-100",
                   "config": {
                     "type": "imageCard",
-                    "showActionBtn": true,
+                    "showActionBtn": false,
                     "action": {
-                      "type": "navigate",
-                      "value": "/results"
+                      "type": "external",
+                      "value": "https://www.covidnet.fr/fr/resultats/"
                     },
                     "imageSrc": "/images/results.jpg"
+                  }
+                }
+              ]
+            },
+            {
+              "key": "cardResultslinkCol",
+              "className": "col-12 col-md-6 col-lg-4 mt-3",
+              "items": [
+                {
+                  "itemKey": "ResultsLinkCard",
+                  "className": "h-100",
+                  "config": {
+                    "type": "markdown",
+                    "markdownUrl": "/markdowns/results-link.md"
                   }
                 }
               ]
@@ -174,19 +188,6 @@
                         "linkKey": "languageSettings",
                         "type": "dialog",
                         "value": "changeLanguage"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "itemKey": "supportReferences",
-                  "config": {
-                    "type": "linkList",
-                    "links": [
-                      {
-                        "linkKey": "supportLink",
-                        "type": "external",
-                        "value": "https://sorbonne-universite.fr"
                       }
                     ]
                   }
