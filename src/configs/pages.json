@@ -16,6 +16,39 @@
           "className": "py-3 min-vh-60",
           "columns": [
             {
+              "key": "welcomeCol",
+              "className": "col-12",
+              "items": [
+                {
+                  "itemKey": "welcomeCard",
+                  "className": "h-100 mb-3 mt-2 text-center",
+                  "config": {
+                    "type": "extension",
+                    "config": {
+                        "type": "externalLinkCard",
+                        "classBodyText": "",
+                        "classTitle": "background-orange"
+                    },
+                    "showInfoText": false
+                  }
+                }
+              ]
+            },
+            {
+              "key": "loginCardCol",
+              "className": "col-12 col-lg-4 mb-lg-0",
+              "items": [
+                {
+                  "itemKey": "loginCard",
+                  "className": "h-100",
+                  "config": {
+                    "type": "loginCard",
+                    "showInfoText": false
+                  }
+                }
+              ]
+            },
+            {
               "key": "videoCol",
               "className": "col-12 col-lg-8",
               "items": [
@@ -38,7 +71,7 @@
             },
             {
               "key": "aboutCardCol",
-              "className": "col-12 col-lg-4 mt-3 mt-lg-0",
+              "className": "h-100 col-12 col-lg-4 mt-3 mt-3 mb-3",
               "items": [
                 {
                   "itemKey": "aboutCard",
@@ -56,41 +89,28 @@
               ]
             },
             {
-              "key": "cardResultsCol",
-              "className": "col-12 col-md-6 col-lg-4 mt-3",
+              "key": "externalResultCol",
+              "className": "col-12 col-lg-4 mb-lg-0 mt-3 mb-3",
               "items": [
                 {
-                  "itemKey": "currentResultCard",
-                  "className": "h-100",
+                  "itemKey": "externalResultCard",
+                  "className": "h-100 card-transform",
                   "config": {
-                    "type": "imageCard",
-                    "showActionBtn": false,
-                    "action": {
-                      "type": "external",
-                      "value": "https://www.covidnet.fr/fr/resultats/"
-                    },
-                    "imageSrc": "/images/results.jpg"
-                  }
-                }
-              ]
-            },
-            {
-              "key": "cardResultslinkCol",
-              "className": "col-12 col-md-6 col-lg-4 mt-3",
-              "items": [
-                {
-                  "itemKey": "ResultsLinkCard",
-                  "className": "h-100",
-                  "config": {
-                    "type": "markdown",
-                    "markdownUrl": "/markdowns/results-link.md"
+                    "type": "extension",
+                    "config": {
+                        "type": "externalLinkCard",
+                        "externalLink": "https://www.covidnet.fr/fr/resultats/",
+                        "imageSrc": "/images/results.jpg",
+                        "markdownUrl": "/markdowns/external-results.md",
+                        "displayActionText": false
+                    }
                   }
                 }
               ]
             },
             {
               "key": "cardSignupCol",
-              "className": "col-12 col-md-6 col-lg-4 mt-3",
+              "className": "col-12 col-md-6 col-lg-4 mt-3 mb-3",
               "items": [
                 {
                   "itemKey": "signupCard",
@@ -103,20 +123,6 @@
                       "value": "signup"
                     },
                     "imageSrc": "/images/participate.jpg"
-                  }
-                }
-              ]
-            },
-            {
-              "key": "loginCardCol",
-              "className": "col-12 col-lg-4 mb-lg-0 mt-3",
-              "items": [
-                {
-                  "itemKey": "loginCard",
-                  "className": "h-100",
-                  "config": {
-                    "type": "loginCard",
-                    "showInfoText": false
                   }
                 }
               ]
@@ -363,7 +369,7 @@
           "columns": [
             {
               "key": "mainCol",
-              "className": "col-12 col-lg-8",
+              "className": "col-12 col-lg-8 mt-3",
               "items": [
                 {
                   "itemKey": "aboutPolicy",
@@ -410,7 +416,7 @@
                 {
                   "itemKey": "surveyCard",
                   "hideWhen": "unauth",
-                  "className": "",
+                  "className": " mt-3",
                   "config": {
                     "type": "imageCard",
                     "action": {

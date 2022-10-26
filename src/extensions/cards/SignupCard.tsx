@@ -1,8 +1,7 @@
-import clsx from 'clsx';
 import React, { useEffect, useState } from 'react';
 //import AlertBox from '../displays/AlertBox';
 //import TextField from '../inputs/TextField';
-import { AlertBox, TextField, ConsentDialog, Checkbox, DialogBtn } from 'case-web-ui';
+import { AlertBox, TextField, ConsentDialog, DialogBtn } from 'case-web-ui';
 
 import { Trans, useTranslation } from 'react-i18next';
 
@@ -54,7 +53,7 @@ const SignupCard: React.FC<SignupCardProps> = (props) => {
   const marginBottomClass = "mb-2";
 
   // use Translation
-  const { t, i18n } = useTranslation([props.pageKey, 'global']);
+  const { t } = useTranslation([props.pageKey, 'global']);
   const ctxT = (key : string) => {return t(`${props.itemKey}.${key}`)}
 
   const [signupData, setSignupData] = useState({
@@ -65,37 +64,39 @@ const SignupCard: React.FC<SignupCardProps> = (props) => {
   });
   
   const privacyConsentText = useTranslatedMarkdown('consent/privacy.md');
-  const recaptchaConsentText = useTranslatedMarkdown('consent/recaptcha.md');
+  // const recaptchaConsentText = useTranslatedMarkdown('consent/recaptcha.md');
 
   const [openPrivacyConsent, setOpenPrivacyConsent] = useState(false);
   const [openRecaptchaConsent, setOpenRecaptchaConsent] = useState(false);
+  // const [openRecaptchaConsent, setOpenRecaptchaConsent] = useState(false);
 
   const [acceptedPrivacyPolicy, setAcceptedPrivacyPolicy] = useState(false);
-  const [reCaptchaAccepted, setReCaptchaAccepted] = useState(false);
+  // const [reCaptchaAccepted] = useState(false);
+  // const [reCaptchaAccepted, setReCaptchaAccepted] = useState(false);
 
-  const [showEmailError, setShowEmailError] = useState(false);
-  const [showPasswordError, setShowPasswordError] = useState(false);
-  const [showConfirmPasswordError, setShowConfirmPasswordError] = useState(false);
+  // const [showEmailError, setShowEmailError] = useState(false);
+  // const [showPasswordError, setShowPasswordError] = useState(false);
+  // const [showConfirmPasswordError, setShowConfirmPasswordError] = useState(false);
 
-  const reCaptchaSiteKey = process.env.REACT_APP_RECAPTCHA_SITEKEY ? process.env.REACT_APP_RECAPTCHA_SITEKEY : '';
-  const useRecaptcha = process.env.REACT_APP_USE_RECAPTCHA === 'false';
+  // const reCaptchaSiteKey = process.env.REACT_APP_RECAPTCHA_SITEKEY ? process.env.REACT_APP_RECAPTCHA_SITEKEY : '';
+  const useRecaptcha = process.env.REACT_APP_USE_RECAPTCHA === 'true';
   //const recaptchaRef = useRef<ReCAPTCHA>(null);
 
   
-  const isDisabled = (): boolean => {
-    const emailOk = checkEmailFormat(signupData.email);
-    const passwordRuleOk = checkPasswordRules(signupData.password);
-    return !(!props.isLoading && (!useRecaptcha || reCaptchaAccepted) && acceptedPrivacyPolicy && emailOk && passwordRuleOk && passwordsMatch());
-  }
+  // const isDisabled = (): boolean => {
+  //   const emailOk = checkEmailFormat(signupData.email);
+  //   const passwordRuleOk = checkPasswordRules(signupData.password);
+  //   return !(!props.isLoading && (!useRecaptcha || reCaptchaAccepted) && acceptedPrivacyPolicy && emailOk && passwordRuleOk && passwordsMatch());
+  // }
   const submitIsDisabled = (): boolean => {
     const emailOk = checkEmailFormat(signupData.email);
     const passwordRuleOk = checkPasswordRules(signupData.password);
     return !(emailOk && passwordRuleOk && acceptedPrivacyPolicy);
   }
   
-  const passwordsMatch = () => {
-    return signupData.password === signupData.confirmPassword;
-  }
+  // const passwordsMatch = () => {
+  //   return signupData.password === signupData.confirmPassword;
+  // }
   
 
   const submit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -107,7 +108,7 @@ const SignupCard: React.FC<SignupCardProps> = (props) => {
     }
 
     try {
-      let reCaptchaToken = '';
+      // let reCaptchaToken = '';
       if (useRecaptcha) {
         // recaptchaRef.current?.reset();
         // const captchaResponse = await recaptchaRef.current?.executeAsync();
@@ -270,3 +271,40 @@ const SignupCard: React.FC<SignupCardProps> = (props) => {
 };
 
 export default SignupCard;
+
+// pour voir dans pages.json
+            // ,
+            // {
+            //   "key": "customSignupCardCol",
+            //   "className": "col-12 col-lg-4 mb-lg-0 mt-3",
+            //   "items": [
+            //     {
+            //       "itemKey": "customSignupCard",
+            //       "className": "h-100",
+            //       "config": {
+            //         "type": "extension",
+            //         "config": {
+            //             "type": "customSignupCard"
+            //         },
+            //         "showInfoText": false
+            //       }
+            //     }
+            //   ]
+            // }
+
+// traductions associées landing.json : 
+
+// "customSignupCard": {
+//   "title": "Inscrivez-vous",
+//   "info": "",
+//   "emailInputLabel": "E-mail",
+//   "emailInputPlaceholder": "E-mail",
+//   "passwordInputLabel": "Mot de passe",
+//   "passwordInputPlaceholder": "Mot de passe",
+//   "passwordConfirmInputLabel": "Confirmer le Mot de passe",
+//   "passwordConfirmInputPlaceholder": "Confirmer le Mot de passe",
+//   "signupBtn": "S'enregistrer",
+//   "consentBtn": "Consentement",
+//   "privacyConsentTitle": "Déclaration de consentement",
+//   "privacyConsentLink": " Accéder à la <1>déclaration de consentement</1>.*"
+// },

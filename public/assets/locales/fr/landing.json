@@ -23,10 +23,22 @@
     "actionLabel": "Les résultats"
   },
   "signupCard": {
-    "imageAlt": "Participer image",
     "title": "Participer",
+    "imageAlt": "Participer image",
     "body": "Devenez acteur de la surveillance de la grippe et de la COVID-19",
     "actionLabel": "Inscrivez-vous"
+  },
+  "welcomeCard": {
+    "title": "Bienvenue sur le site de participation aux enquêtes",
+    "bodyText": "",
+    "info": ""
+  },
+  "externalResultCard": {
+    "imageAlt": "Les résultats image",
+    "title": "Voir les résultats",
+    "bodyText": "découvrez les résultats GrippeNet.fr.",
+    "openActionText": "Voir sur le site public",
+    "info": ""
   },
   "aboutCard": {
     "imageAlt": "À propos de GrippeNet.fr image",
