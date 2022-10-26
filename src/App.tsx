@@ -11,6 +11,8 @@ import { NavbarConfig } from 'case-web-app-core/build/types/navbarConfig';
 import { PagesConfig } from 'case-web-app-core/build/types/pagesConfig';
 import { LookupResponseComponent, registerLookupService } from 'grippenet-web-ui';
 
+import CustomSignupCard from './extensions/cards/SignupCard';
+
 registerLookupService('postalcodes', process.env.REACT_APP_POSTALCODES_URL ?? '');
 
 export const customSurveyResponseComponents = [
@@ -19,6 +21,14 @@ export const customSurveyResponseComponents = [
     component: LookupResponseComponent
   }
 ];
+
+const extensions = [
+  {
+    name: 'customSignupCard',
+    component : CustomSignupCard
+  }
+];
+
 
 async function fetchAllData(): Promise<ConfigData> {
   const m = await import('./config');
@@ -66,6 +76,7 @@ const App: React.FC = () => {
         pagesConfig={pagesConfig}
         footerConfig={footerConfig}
         customSurveyResponseComponents={customSurveyResponseComponents}
+        extensions={extensions}
       />
     </Provider>
   );
