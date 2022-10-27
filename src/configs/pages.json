@@ -27,7 +27,8 @@
                     "config": {
                         "type": "externalLinkCard",
                         "classBodyText": "",
-                        "classTitle": "background-orange"
+                        "customClassTitle": "background-orange",
+                        "variantTitle": "h2"
                     },
                     "showInfoText": false
                   }
@@ -77,20 +78,20 @@
                   "itemKey": "aboutCard",
                   "className": "h-100",
                   "config": {
-                    "type": "imageCard",
-                    "showActionBtn": true,
-                    "action": {
-                      "type": "navigate",
-                      "value": "/about"
-                    },
-                    "imageSrc": "/images/about.jpg"
+                    "type": "extension",
+                    "config": {
+                        "type": "externalLinkCard",
+                        "externalLink": "https://www.grippenet.fr/fr/covidnet/",
+                        "imageSrc": "/images/about.jpg",
+                        "showActionBtn": true
+                    }
                   }
                 }
               ]
             },
             {
               "key": "externalResultCol",
-              "className": "col-12 col-lg-4 mb-lg-0 mt-3 mb-3",
+              "className": "col-12 col-lg-4 mt-3 mb-3",
               "items": [
                 {
                   "itemKey": "externalResultCard",
@@ -99,10 +100,10 @@
                     "type": "extension",
                     "config": {
                         "type": "externalLinkCard",
-                        "externalLink": "https://www.covidnet.fr/fr/resultats/",
+                        "externalLink": "https://www.grippenet.fr/fr/resultats/",
                         "imageSrc": "/images/results.jpg",
                         "markdownUrl": "/markdowns/external-results.md",
-                        "displayActionText": false
+                        "showActionBtn": true
                     }
                   }
                 }
@@ -473,7 +474,7 @@
           "columns": [
             {
               "key": "pCol",
-              "className": "col-12 col-sm-10 col-md-8",
+              "className": "col-12 col-sm-10 col-md-8 my-5",
               "items": [
                 {
                   "itemKey": "contact",
@@ -499,7 +500,7 @@
           "columns": [
             {
               "key": "pCol",
-              "className": "col-12 col-sm-10 col-md-8",
+              "className": "col-12 col-sm-10 col-md-8 my-3",
               "items": [
                 {
                   "itemKey": "privacyPolicy",
@@ -525,7 +526,7 @@
           "columns": [
             {
               "key": "pCol",
-              "className": "col-12 col-sm-10 col-md-8",
+              "className": "col-12 col-sm-10 col-md-8 my-5",
               "items": [
                 {
                   "itemKey": "accessibility",
@@ -551,7 +552,7 @@
           "columns": [
             {
               "key": "pCol",
-              "className": "col-12 col-sm-10 col-md-8",
+              "className": "col-12 col-sm-10 col-md-8 my-3",
               "items": [
                 {
                   "itemKey": "disclaimer",

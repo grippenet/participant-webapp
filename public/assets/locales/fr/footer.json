@@ -4,7 +4,8 @@
     "agenda": "Agenda",
     "follow": "Suivez-nous",
     "twitter": "Suivez-nous sur Twitter",
-    "contact": "Contactez Grippenet.fr"
+    "contact": "Contactez Grippenet.fr",
+    "facebook": "Suivez-nous sur facebook"
   },
   "about": {
     "title": "À propos de ce site",
@@ -15,5 +16,8 @@
   "languages": {
     "title": "Langues",
     "fr": "Français"
+  },
+  "empty": {
+    "title": "\u202F"
   }
 }

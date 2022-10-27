@@ -10,6 +10,7 @@ import { getTranslatedMarkdownPath } from '../copied_tools/useTranslatedMarkdown
 
 
 interface ExternalLinkCardProps {
+    // given for all custom componenents
     key: string;
     pageKey: string; ///////////
     itemKey: string;
@@ -24,16 +25,16 @@ interface ExternalLinkCardProps {
     variantTitle?: 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 
     //from ImageCard
-    imageSrc?: string,
-    imageAlt?: string,
-    openActionText?: string
+    imageSrc?: string;
+    imageAlt?: string;
+    openActionText?: string;
+    showActionBtn?: string;
 
     // new
-    containerClass?:string,
-    externalLink?: string,
-    externalLinkTarget?: string,
-    displayActionText?: string,
-    classTitle?: string
+    containerClass?:string;
+    externalLink?: string;
+    externalLinkTarget?: string;
+    customClassTitle?: string;
   }
   
 const renderBodyText = (bodyText : string, openActionText : string) => {
@@ -63,13 +64,13 @@ const ExternalLinkCard: React.FC<ExternalLinkCardProps> = (props) => {
     const ctxT = (key : string) => {return t(`${props.itemKey}.${key}`)};
 
     const link = props.externalLink ? getExternalOrLocalContentURL(props.externalLink) : '';
-    const VariantTitle = props.variantTitle ? props.variantTitle : 'h6';
+    const VariantTitle = props.variantTitle || 'h6';
 
-    const classTitle = props.classTitle ? props.classTitle : "";
+    const customClassTitle = props.customClassTitle ? props.customClassTitle : "";
 
     const title = ctxT('title');
     const bodyText = ctxT('bodyText');
-    const openActionText = props.displayActionText ? ctxT('openActionText') : '';
+    const openActionText = props.showActionBtn ? ctxT('openActionText') : '';
     const classBodyText = "";
     
     const markdownUrl = props.markdownUrl ? getTranslatedMarkdownPath(props.markdownUrl, i18n.language) : '';
@@ -89,9 +90,9 @@ const ExternalLinkCard: React.FC<ExternalLinkCardProps> = (props) => {
       {props.imageSrc ? <img className="w-100" src={getExternalOrLocalContentURL(props.imageSrc)} alt={props.imageAlt} /> : undefined}
       {title ? 
         <VariantTitle className={clsx(
-          'card-title px-2 py-1a text-white m-0 card_title',
+          'px-2 py-1a text-white m-0',
           'fw-bold fs-btn',
-          classTitle ? styles[classTitle] : 'bg-primary',
+          customClassTitle ? styles[customClassTitle] : 'bg-primary',
         )}>{title}</VariantTitle>
         : null}
 
@@ -101,7 +102,7 @@ const ExternalLinkCard: React.FC<ExternalLinkCardProps> = (props) => {
               markdownUrl={markdownUrl}
           /> 
           : null}
-      {bodyText ? renderBodyText(bodyText, props.displayActionText ? openActionText : '') : ''}
+      {bodyText ? renderBodyText(bodyText, props.showActionBtn ? openActionText : '') : ''}
     </div>
     );
 }
