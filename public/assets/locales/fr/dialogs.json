@@ -63,8 +63,8 @@
   },
   "signupSuccess": {
     "title": "Bienvenue !",
-    "successMsg_bak": "Votre inscription sur le site Grippenet.fr est presque terminée ! \n Tout d'abord, veuillez confirmer votre adresse électronique en cliquant sur le lien figurant dans le courrier électronique de confirmation que nous vous avons envoyé. \n Si vous ne trouvez pas le courrier électronique en question, vérifiez d'abord votre dossier des courriers indésirables. Vous pouvez également demander un nouveau courrier électronique ci-dessous.",
-    "successMsg": "Merci pour votre inscription au projet GrippeNet.fr/COVIDnet.fr. Pour valider votre adresse, merci de cliquer sur le lien contenu dans l’email qui vous a étéde vous être envoyé à votre adresse électronique. Ce lien est valable pendant xx jours. Si vous ne trouvez pas l’emaille courrier électronique en question, veuillez vérifier votre dossier des courriers indésirables (spams). Vous pouvez également demander l’envoi d’un nouvel emailau courrier électronique en cliquant sur le bouton ci-dessous.",
+    "successMsg_bak": "Votre inscription sur le site Grippenet.fr/COVIDnet.fr est presque terminée ! \n Tout d'abord, veuillez confirmer votre adresse électronique en cliquant sur le lien figurant dans le courrier électronique de confirmation que nous vous avons envoyé. \n Si vous ne trouvez pas le courrier électronique en question, vérifiez d'abord votre dossier des courriers indésirables. Vous pouvez également demander un nouveau courrier électronique ci-dessous.",
+    "successMsg": "Merci pour votre inscription au projet GrippeNet.fr/COVIDnet.fr. Pour valider votre adresse, merci de cliquer sur le lien contenu dans l’email qui vous a été envoyé. Ce lien est valable pendant xx jours. Si vous ne trouvez pas l’email en question, veuillez vérifier votre dossier des courriers indésirables (spams). \nVous pouvez également demander l’envoi d’un nouvel email en cliquant sur le bouton ci-dessous.",
     "emailSentMsg": "Un courrier électronique a été envoyé.",
     "resendVerificationEmailBtn": "Envoyer à nouveau un courrier électronique de confirmation",
     "wrongEmailBtn": "Avez-vous utilisé une mauvaise adresse électronique ? Si tel est le cas, vous pouvez la modifier ici.",
@@ -73,7 +73,7 @@
       "verifyEmailFirst": "Votre adresse e-mail n'a pas encore été confirmée, merci de consulter vos mail et de cliquer sur le lien de confirmation."
     },
     "msgForVerifiedAccount": "Si vous avez confirmé votre adresse électronique, cliquez ci-dessous",
-    "reloadUser": "Recharchez le compte"
+    "reloadUser": "Rechargez le compte"
   },
   "passwordForgotten": {
     "title": "Modifier votre mot de passe",
@@ -93,7 +93,7 @@
     "emailInputPlaceholder": "Nouvelle adresse électronique",
     "passwordInputLabel": "Mot de passe",
     "passwordInputPlaceholder": "Mot de passe",
-    "info": "Souhaitez-vous utiliser une autre adresse électronique ? Modifiez votre adresse électronique en cliquant sur le bouton ci-dessous. Veuillez noter que vous ne pouvez vous connecter à Grippenet.fr qu'après confirmation de votre adresse électronique.",
+    "info": "Souhaitez-vous utiliser une autre adresse électronique ? Modifiez votre adresse électronique en cliquant sur le bouton ci-dessous. Veuillez noter que vous ne pouvez vous connecter à GrippeNet.fr/COVIDnet.fr qu'après confirmation de votre adresse électronique.",
     "cancelBtn": "Annuler",
     "confirmBtn": "Modifier l’adresse e-mail",
     "errors": {
@@ -103,7 +103,7 @@
     },
     "warningDialog": {
       "title": "Confirmez la nouvelle adresse électronique.",
-      "content": "Attention : vous ne pourrez vous reconnecter à Grippenet.fr qu'après confirmation de votre nouvelle adresse électronique par le biais du lien figurant dans le courrier électronique de confirmation que nous vous avons envoyé.",
+      "content": "Attention : vous ne pourrez vous reconnecter à GrippeNet.fr/COVIDnet.fr qu'après confirmation de votre nouvelle adresse électronique par le biais du lien figurant dans le courrier électronique de confirmation que nous vous avons envoyé.",
       "cancelBtn": "Annuler",
       "confirmBtn": "Modifier l’adresse e-mail"
     },

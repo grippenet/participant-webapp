@@ -1,4 +1,4 @@
-En cliquant sur le bouton « Je marque mon accord », vous acceptez de participer à l'étude proposée par le site Grippenet.fr. Par ailleurs, vous acceptez que les chercheurs traitent vos données dans le cadre de la présente étude. 
+En cliquant sur le bouton « Je marque mon accord », vous acceptez de participer à l'étude proposée par le site GrippeNet.fr/COVIDnet.fr. Par ailleurs, vous acceptez que les chercheurs traitent vos données dans le cadre de la présente étude. 
 
 Cette étude vise à identifier les plaintes / symptômes qui pourraient être le signe de maladies infectieuses, telles que le nouveau coronavirus. Cette étude est importante afin d'examiner si le nombre de personnes présentant des plaintes ou des symptômes augmente ou diminue. Vous trouverez de plus amples informations relatives à l'objectif de l'étude, ainsi qu’à vos droits au niveau de la [déclaration de confidentialité](https://survey.Grippenet.fr/privacy).
 
@@ -18,7 +18,7 @@ Cette étude vise à identifier les plaintes / symptômes qui pourraient être l
 
 &ndash; Je comprends qu'il peut être mis fin à ma participation à l’étude sans mon consentement.
 
-&ndash; Je déclare avoir 18 ans ou plus, et je suis conscient(e) du fait qu’Grippenet.fr n'est pas un site Internet médical. Ainsi, en cas de questions et de plaintes d'ordre médical, je consulterai toujours d'abord un médecin généraliste.
+&ndash; Je déclare avoir 18 ans ou plus, et je suis conscient(e) du fait que GrippeNet.fr/COVIDnet.fr n'est pas un site Internet médical. Ainsi, en cas de questions et de plaintes d'ordre médical, je consulterai toujours d'abord un médecin généraliste.
 
 &ndash; Outre les conditions susmentionnées, les dispositions suivantes s'appliquent à l'autorisation accordée au nom d'un enfant mineur :
 	 

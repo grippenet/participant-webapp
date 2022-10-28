@@ -1,5 +1,5 @@
 # Mentions légales
-GrippeNet.fr est un projet de recherche sur la grippe mis en place par l’Inserm, Sorbonne Université et Santé publique France. Il permet de compléter les données des systèmes de surveillance traditionnels de la grippe issues des cabinets de médecins libéraux et des hôpitaux, avec des données collectées directement auprès de la population. Depuis le 30 mars 2020, des adaptations ont été mises en place pour suivre également l’épidémie de Coronavirus COVID-19, ce qui a donné lieu à l'évolution de l’appellation pour devenir GrippeNet.fr/COVIDnet.fr. Le site est géré et hébergé par l'Unité Mixte de Recherche en Santé 1136.
+GrippeNet.fr/COVIDnet.fr est un projet de recherche sur la grippe mis en place par l’Inserm, Sorbonne Université et Santé publique France. Il permet de compléter les données des systèmes de surveillance traditionnels de la grippe issues des cabinets de médecins libéraux et des hôpitaux, avec des données collectées directement auprès de la population. Depuis le 30 mars 2020, des adaptations ont été mises en place pour suivre également l’épidémie de Coronavirus COVID-19, ce qui a donné lieu à l'évolution de l’appellation pour devenir GrippeNet.fr/COVIDnet.fr. Le site est géré et hébergé par l'Unité Mixte de Recherche en Santé 1136.
 
 La maintenance technique et les mises à jour du site sont assurées par le webmestre : webmaster@covidnet.fr
 
@@ -25,7 +25,7 @@ La mise en ligne de ces informations est validée par un Comité éditorial cons
 
 - Charly Kengne Kuetche, animatrice du réseau GrippeNet.fr/COVIDnet.fr, épidémiologiste
 
-- Thomas Hanslik, responsable du réseau Sentinelles, Médecin spécialiste en Médecine Interne, Professeur des Universités - Praticien Hospitalier
+- Olivier Steichen, responsable du réseau Sentinelles, Médecin spécialiste en Médecine Interne, Professeur des Universités - Praticien Hospitalier
 
 - Clément Turbelin, responsable du Pôle "Système d'information et biostatistique" du réseau Sentinelles, Médecin Généraliste
 

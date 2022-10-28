@@ -4,7 +4,7 @@
     "title": "Paramètres du compte",
     "email": {
       "title": "Adresse électronique",
-      "info": "Souhaitez-vous utiliser une autre adresse électronique ? Modifiez votre adresse électronique en cliquant sur le bouton ci-dessous. Veuillez noter que vous ne pouvez vous connecter à Grippenet.fr qu'après confirmation de votre adresse électronique."
+      "info": "Souhaitez-vous utiliser une autre adresse électronique ? Modifiez votre adresse électronique en cliquant sur le bouton ci-dessous. Veuillez noter que vous ne pouvez vous connecter à GrippeNet.fr/COVIDnet.fr qu'après confirmation de votre adresse électronique."
     },
     "password": {
       "title": "Mot de passe",
@@ -33,20 +33,20 @@
     }
   },
   "deletion": {
-    "title": "Se désabonner du site Grippenet.fr / retirer son consentement",
-    "warning": "Se désabonner du site Grippenet.fr / retirer son consentement implique la suppression des informations de votre compte. \n Au terme de la suppression de votre compte, nous ne serons plus en mesure d’associer les informations que vous nous avez fournies (comme votre âge et vos plaintes / symptômes) à votre compte.",
+    "title": "Se désabonner du site GrippeNet.fr/COVIDnet.fr / retirer son consentement",
+    "warning": "Se désabonner du site GrippeNet.fr/COVIDnet.fr / retirer son consentement implique la suppression des informations de votre compte. \n Au terme de la suppression de votre compte, nous ne serons plus en mesure d’associer les informations que vous nous avez fournies (comme votre âge et vos plaintes / symptômes) à votre compte.",
     "deleteBtn": "Se désabonner"
   },
   "references": {
     "title": "Besoin d’aide ?",
     "faqLink": "Questions Fréquentes",
     "privacyStatementLink": "Déclaration de confidentialité",
-    "contactLink": "Contact Grippenet.fr"
+    "contactLink": "Contact GrippeNet.fr/COVIDnet.fr"
   },
   "systemInfo": {
     "title": "Informations relatives au système",
     "appNameLabel": "Nom de l’application",
-    "appName": "Grippenet.fr",
+    "appName": "GrippeNet.fr/COVIDnet.fr",
     "versionLabel": "Version",
     "browserNameLabel": "Nom du navigateur",
     "browserVersionLabel": "Version du navigateur"

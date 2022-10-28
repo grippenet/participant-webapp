@@ -1,8 +1,8 @@
 {
-  "title": "Grippenet.fr",
+  "title": "GrippeNet.fr/COVIDnet.fr",
   "topImage": {
     "title": "",
-    "content": "En répondant aux questionnaires proposés sur le site Grippenet.fr, vous aidez à identifier la propagation des maladies infectieuses, ce qui nous permet de disposer rapidement d’une vue d'ensemble de la situation actuelle en France métropolitaine."
+    "content": "En répondant aux questionnaires proposés sur le site GrippeNet.fr/COVIDnet.fr, vous aidez à identifier la propagation des maladies infectieuses, ce qui nous permet de disposer rapidement d’une vue d'ensemble de la situation actuelle en France métropolitaine."
   },
   "requiredSurveys": {
     "title": "Questionnaires à compléter",
@@ -19,7 +19,7 @@
     "title": "Voir aussi",
     "faqLink": "Questions et réponses",
     "resultsLink": "Les résultats actuels",
-    "aboutLink": "À propos de GrippeNet.fr"
+    "aboutLink": "À propos de GrippeNet.fr/COVIDnet.fr"
   },
   "quickSettingsBox": {
     "title": "Paramètres",

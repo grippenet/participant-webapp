@@ -378,7 +378,7 @@
           "columns": [
             {
               "key": "mainCol",
-              "className": "col-12 col-lg-8 mt-3",
+              "className": "col-12 col-lg-8",
               "items": [
                 {
                   "itemKey": "aboutPolicy",
