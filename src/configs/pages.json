@@ -88,6 +88,7 @@
                     "config": {
                         "type": "externalLinkCard",
                         "externalLink": "https://www.grippenet.fr/fr/covidnet/",
+                        "externalLinkTarget": "_self",
                         "imageSrc": "/images/about.jpg",
                         "showActionBtn": true
                     }
@@ -107,6 +108,7 @@
                     "config": {
                         "type": "externalLinkCard",
                         "externalLink": "https://www.grippenet.fr/fr/resultats/",
+                        "externalLinkTarget": "_self",
                         "imageSrc": "/images/results.jpg",
                         "markdownUrl": "/markdowns/external-results.md",
                         "showActionBtn": true
@@ -145,7 +147,7 @@
       "rows": [
         {
           "key": "main",
-          "containerClassName": "min-vh-60",
+          "containerClassName": "py-3 min-vh-60",
           "columns": [
             {
               "key": "surveyCol",

@@ -2,11 +2,13 @@ import React from 'react';
 
 import styles from './ExternalLinkCard.module.scss';
 import clsx from 'clsx';
-import { getExternalOrLocalContentURL, MarkdownLoader } from 'case-web-ui';
+import { getExternalOrLocalContentURL, LoginCard, MarkdownLoader } from 'case-web-ui';
 
 
 import { useTranslation } from 'react-i18next';
 import { getTranslatedMarkdownPath } from '../copied_tools/useTranslatedMarkdown';
+import { getOpenExternalPageHandler } from '../utils/routeUtils';
+import { PageItem } from 'case-web-app-core/build/types/pagesConfig';
 
 
 interface ExternalLinkCardProps {
@@ -14,7 +16,7 @@ interface ExternalLinkCardProps {
     key: string;
     pageKey: string; ///////////
     itemKey: string;
-    //renderGenericItemFunc: object; // la fonction render !
+    renderGenericItemFunc: (item: PageItem) => React.ReactElement | null; // la fonction render elle-même!
     //onNavigate: // fonction de base onNavigate (push dans l'history)
 
     // from SimpleCard
@@ -33,12 +35,19 @@ interface ExternalLinkCardProps {
     // new
     containerClass?:string;
     externalLink?: string;
-    externalLinkTarget?: string;
+    externalLinkTarget?: '_blank' | '_self';
+    // class must exist in ExternallLinkCard
     customClassTitle?: string;
+    customClassBodyText?: string;
+    // experimental
+    subItems?: Array<PageItem>;
+
   }
   
-const renderBodyText = (bodyText : string, openActionText : string) => {
-    return <div className="card-body px-2 py-1a bg-secondary d-flex flex-column">
+const renderBodyText = (bodyText : string, openActionText : string, classBodyText: string) => {
+    return <div className={clsx(
+      "card-body px-2 py-1a d-flex flex-column",
+      classBodyText ? styles[classBodyText] : 'bg-secondary' )}>
     <p className="card-text fst-italic flex-grow-1">
       {bodyText}
     </p>
@@ -64,6 +73,8 @@ const ExternalLinkCard: React.FC<ExternalLinkCardProps> = (props) => {
     const ctxT = (key : string) => {return t(`${props.itemKey}.${key}`)};
 
     const link = props.externalLink ? getExternalOrLocalContentURL(props.externalLink) : '';
+    const targetLink = props.externalLinkTarget || '_blank';
+
     const VariantTitle = props.variantTitle || 'h6';
 
     const customClassTitle = props.customClassTitle ? props.customClassTitle : "";
@@ -71,11 +82,13 @@ const ExternalLinkCard: React.FC<ExternalLinkCardProps> = (props) => {
     const title = ctxT('title');
     const bodyText = ctxT('bodyText');
     const openActionText = props.showActionBtn ? ctxT('openActionText') : '';
-    const classBodyText = "";
+    const customClassBodyText = props.customClassBodyText || "";
     
     const markdownUrl = props.markdownUrl ? getTranslatedMarkdownPath(props.markdownUrl, i18n.language) : '';
 
     const hasLink:boolean = !!props.externalLink;
+
+    const subItems = props.subItems || [];
 
     return (
     <div 
@@ -85,9 +98,10 @@ const ExternalLinkCard: React.FC<ExternalLinkCardProps> = (props) => {
         props.className,
         hasLink ? styles.has_link : ''
       )}
-      onClick={link ? () => {document.location.href = `${link}`} :  () => {}}
+      onClick={getOpenExternalPageHandler(link, targetLink)}
     >
       {props.imageSrc ? <img className="w-100" src={getExternalOrLocalContentURL(props.imageSrc)} alt={props.imageAlt} /> : undefined}
+      
       {title ? 
         <VariantTitle className={clsx(
           'px-2 py-1a text-white m-0',
@@ -102,7 +116,9 @@ const ExternalLinkCard: React.FC<ExternalLinkCardProps> = (props) => {
               markdownUrl={markdownUrl}
           /> 
           : null}
-      {bodyText ? renderBodyText(bodyText, props.showActionBtn ? openActionText : '') : ''}
+      {bodyText ? renderBodyText(bodyText, props.showActionBtn ? openActionText : '', customClassBodyText) : ''}
+
+      {subItems.map(subItem => props.renderGenericItemFunc(subItem))}
     </div>
     );
 }
