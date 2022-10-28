@@ -39,6 +39,7 @@ interface ExternalLinkCardProps {
     // class must exist in ExternallLinkCard
     customClassTitle?: string;
     customClassBodyText?: string;
+    customClassMarkdown?: string;
     // experimental
     subItems?: Array<PageItem>;
 
@@ -85,6 +86,8 @@ const ExternalLinkCard: React.FC<ExternalLinkCardProps> = (props) => {
     const customClassBodyText = props.customClassBodyText || "";
     
     const markdownUrl = props.markdownUrl ? getTranslatedMarkdownPath(props.markdownUrl, i18n.language) : '';
+    const customClassMarkdown = props.customClassMarkdown || "";
+    
 
     const hasLink:boolean = !!props.externalLink;
 
@@ -113,11 +116,15 @@ const ExternalLinkCard: React.FC<ExternalLinkCardProps> = (props) => {
 
       {props.markdownUrl ? 
           <MarkdownLoader
-              className={clsx('p-2 bg-secondary', 'w-100') }
+              className={clsx(
+                'w-100',
+                customClassMarkdown || 'p-2 bg-secondary'
+                ) }
               markdownUrl={markdownUrl}
           /> 
           : null}
-      {bodyText ? renderBodyText(bodyText, props.showActionBtn ? openActionText : '', customClassBodyText) : ''}
+
+      {bodyText ? renderBodyText(bodyText, props.showActionBtn ? openActionText : '', customClassBodyText) : null}
 
       {subItems.map(subItem => props.renderGenericItemFunc(subItem))}
     </div>

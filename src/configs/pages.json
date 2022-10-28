@@ -440,30 +440,9 @@
                   "itemKey": "logoCredits",
                   "className": "",
                   "config": {
-                    "type": "logoCredits",
-                    "useTitle": true,
-                    "className": "mb-2",
-                    "images": [
-                      {
-                        "key": "inserm",
-                        "altKey": "insermLogoo",
-                        "url": "images/l/inserm.svg",
-                        "width": 130
-                      },
-                      {
-                        "key": "su",
-                        "altKey": "suLogo",
-                        "url": "images/l/suniv-h.svg",
-                        "className": "",
-                        "width": 130
-                      },
-                      {
-                        "key": "spf",
-                        "altKey": "spfLogo",
-                        "url": "images/l/spf.svg",
-                        "width": 100
-                      }
-                    ]
+                    "type": "markdown",
+                    "markdownUrl": "markdowns/sponsors.md",
+                    "flavor": "chart-renderer"
                   }
                 }
               ]
