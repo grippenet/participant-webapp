@@ -12,16 +12,16 @@
       "hideWhen": "auth",
       "rows": [
         {
-          "key": "content",
-          "className": "py-3 min-vh-60",
+          "key": "teaserImage",
+          "fullWidth": true,
           "columns": [
             {
               "key": "welcomeCol",
-              "className": "col-12",
+              "className": "w-100 p-0",
               "items": [
                 {
                   "itemKey": "welcomeCard",
-                  "className": "h-100 mb-3 mt-2 text-center",
+                  "className": "h-100 mb-3 mt-0 text-center",
                   "config": {
                     "type": "extension",
                     "config": {
@@ -34,7 +34,13 @@
                   }
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "key": "content",
+          "containerClassName": "min-vh-60",
+          "columns": [
             {
               "key": "loginCardCol",
               "className": "col-12 col-lg-4 mb-lg-0",
@@ -139,7 +145,7 @@
       "rows": [
         {
           "key": "main",
-          "className": "py-3 min-vh-60",
+          "containerClassName": "min-vh-60",
           "columns": [
             {
               "key": "surveyCol",
@@ -212,7 +218,7 @@
       "rows": [
         {
           "key": "mainRow",
-          "className": "my-3 min-vh-60",
+          "containerClassName": "my-3 min-vh-60",
           "columns": [
             {
               "key": "settingsCol",
@@ -288,7 +294,7 @@
         {
           "key": "content",
           "fullWidth": false,
-          "className": "my-3 min-vh-60",
+          "containerClassName": "my-3 min-vh-60",
           "columns": [
             {
               "key": "mainCol",
@@ -470,11 +476,11 @@
       "rows": [
         {
           "key": "content",
-          "className": "my-3 min-vh-60",
+          "containerClassName": "my-3 min-vh-60",
           "columns": [
             {
               "key": "pCol",
-              "className": "col-12 col-sm-10 col-md-8 my-5",
+              "className": "col-12 col-sm-10 col-md-8",
               "items": [
                 {
                   "itemKey": "contact",
@@ -496,7 +502,7 @@
       "rows": [
         {
           "key": "content",
-          "className": "my-3 min-vh-60",
+          "containerClassName": "my-3 min-vh-60",
           "columns": [
             {
               "key": "pCol",
@@ -522,11 +528,11 @@
       "rows": [
         {
           "key": "content",
-          "className": "my-3 min-vh-60",
+          "containerClassName": "my-3 min-vh-60",
           "columns": [
             {
               "key": "pCol",
-              "className": "col-12 col-sm-10 col-md-8 my-5",
+              "className": "col-12 col-sm-10 col-md-8",
               "items": [
                 {
                   "itemKey": "accessibility",
@@ -548,7 +554,7 @@
       "rows": [
         {
           "key": "content",
-          "className": "my-3 min-vh-60",
+          "containerClassName": "my-3 min-vh-60",
           "columns": [
             {
               "key": "pCol",
