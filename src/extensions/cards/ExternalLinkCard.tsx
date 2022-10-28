@@ -4,11 +4,11 @@ import styles from './ExternalLinkCard.module.scss';
 import clsx from 'clsx';
 import { getExternalOrLocalContentURL, LoginCard, MarkdownLoader } from 'case-web-ui';
 
-
 import { useTranslation } from 'react-i18next';
 import { getTranslatedMarkdownPath } from '../copied_tools/useTranslatedMarkdown';
 import { getOpenExternalPageHandler } from '../utils/routeUtils';
 import { PageItem } from 'case-web-app-core/build/types/pagesConfig';
+import { useDispatch } from 'react-redux';
 
 
 interface ExternalLinkCardProps {
@@ -89,6 +89,7 @@ const ExternalLinkCard: React.FC<ExternalLinkCardProps> = (props) => {
     const hasLink:boolean = !!props.externalLink;
 
     const subItems = props.subItems || [];
+    
 
     return (
     <div 
@@ -101,7 +102,7 @@ const ExternalLinkCard: React.FC<ExternalLinkCardProps> = (props) => {
       onClick={getOpenExternalPageHandler(link, targetLink)}
     >
       {props.imageSrc ? <img className="w-100" src={getExternalOrLocalContentURL(props.imageSrc)} alt={props.imageAlt} /> : undefined}
-      
+
       {title ? 
         <VariantTitle className={clsx(
           'px-2 py-1a text-white m-0',

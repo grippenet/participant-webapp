@@ -11,7 +11,6 @@ import { NavbarConfig } from 'case-web-app-core/build/types/navbarConfig';
 import { PagesConfig } from 'case-web-app-core/build/types/pagesConfig';
 import { LookupResponseComponent, registerLookupService } from 'grippenet-web-ui';
 
-import CustomSignupCard from './extensions/cards/SignupCard';
 import ExternalLinkCard from './extensions/cards/ExternalLinkCard';
 
 registerLookupService('postalcodes', process.env.REACT_APP_POSTALCODES_URL ?? '');
@@ -24,10 +23,6 @@ export const customSurveyResponseComponents = [
 ];
 
 const extensions = [
-  {
-    name: 'customSignupCard',
-    component : CustomSignupCard
-  },
   {
     name: 'externalLinkCard',
     component : ExternalLinkCard

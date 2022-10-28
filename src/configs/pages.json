@@ -354,7 +354,7 @@
           "columns": [
             {
               "key": "ti",
-              "className": "p-0",
+              "className": "p-0 my-3",
               "items": [
                 {
                   "itemKey": "topImage",
