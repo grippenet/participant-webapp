@@ -208,19 +208,6 @@
                       }
                     ]
                   }
-                },
-                {
-                  "itemKey": "supportReferences",
-                  "config": {
-                    "type": "linkList",
-                    "links": [
-                      {
-                        "linkKey": "supportLink",
-                        "type": "external",
-                        "value": "https://www.uhasselt.be/UH/Onze-fondsen/56179-Onze-fondsen/Fonds-infectieradar"
-                      }
-                    ]
-                  }
                 }
               ]
             }

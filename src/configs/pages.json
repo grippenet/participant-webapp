@@ -12,9 +12,49 @@
       "hideWhen": "auth",
       "rows": [
         {
-          "key": "content",
-          "className": "py-3 min-vh-60",
+          "key": "teaserImage",
+          "fullWidth": true,
           "columns": [
+            {
+              "key": "welcomeCol",
+              "className": "w-100 p-0",
+              "items": [
+                {
+                  "itemKey": "welcomeCard",
+                  "className": "h-100 mb-3 mt-0 text-center",
+                  "config": {
+                    "type": "extension",
+                    "config": {
+                        "type": "externalLinkCard",
+                        "classBodyText": "",
+                        "customClassTitle": "background-orange",
+                        "variantTitle": "h2"
+                    },
+                    "showInfoText": false
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "content",
+          "containerClassName": "min-vh-60",
+          "columns": [
+            {
+              "key": "loginCardCol",
+              "className": "col-12 col-lg-4 mb-lg-0",
+              "items": [
+                {
+                  "itemKey": "loginCard",
+                  "className": "h-100",
+                  "config": {
+                    "type": "loginCard",
+                    "showInfoText": false
+                  }
+                }
+              ]
+            },
             {
               "key": "videoCol",
               "className": "col-12 col-lg-8",
@@ -38,45 +78,48 @@
             },
             {
               "key": "aboutCardCol",
-              "className": "col-12 col-lg-4 mt-3 mt-lg-0",
+              "className": "h-100 col-12 col-lg-4 mt-3 mt-3 mb-3",
               "items": [
                 {
                   "itemKey": "aboutCard",
                   "className": "h-100",
                   "config": {
-                    "type": "imageCard",
-                    "showActionBtn": true,
-                    "action": {
-                      "type": "navigate",
-                      "value": "/about"
-                    },
-                    "imageSrc": "/images/about.jpg"
+                    "type": "extension",
+                    "config": {
+                        "type": "externalLinkCard",
+                        "externalLink": "https://www.grippenet.fr/fr/covidnet/",
+                        "externalLinkTarget": "_self",
+                        "imageSrc": "/images/about.jpg",
+                        "showActionBtn": true
+                    }
                   }
                 }
               ]
             },
             {
-              "key": "cardResultsCol",
-              "className": "col-12 col-md-6 col-lg-4 mt-3",
+              "key": "externalResultCol",
+              "className": "col-12 col-lg-4 mt-3 mb-3",
               "items": [
                 {
-                  "itemKey": "currentResultCard",
-                  "className": "h-100",
+                  "itemKey": "externalResultCard",
+                  "className": "h-100 card-transform",
                   "config": {
-                    "type": "imageCard",
-                    "showActionBtn": true,
-                    "action": {
-                      "type": "navigate",
-                      "value": "/results"
-                    },
-                    "imageSrc": "/images/results.jpg"
+                    "type": "extension",
+                    "config": {
+                        "type": "externalLinkCard",
+                        "externalLink": "https://www.grippenet.fr/fr/resultats/",
+                        "externalLinkTarget": "_self",
+                        "imageSrc": "/images/results.jpg",
+                        "markdownUrl": "/markdowns/external-results.md",
+                        "showActionBtn": true
+                    }
                   }
                 }
               ]
             },
             {
               "key": "cardSignupCol",
-              "className": "col-12 col-md-6 col-lg-4 mt-3",
+              "className": "col-12 col-md-6 col-lg-4 mt-3 mb-3",
               "items": [
                 {
                   "itemKey": "signupCard",
@@ -92,20 +135,6 @@
                   }
                 }
               ]
-            },
-            {
-              "key": "loginCardCol",
-              "className": "col-12 col-lg-4 mb-lg-0 mt-3",
-              "items": [
-                {
-                  "itemKey": "loginCard",
-                  "className": "h-100",
-                  "config": {
-                    "type": "loginCard",
-                    "showInfoText": false
-                  }
-                }
-              ]
             }
           ]
         }
@@ -118,7 +147,7 @@
       "rows": [
         {
           "key": "main",
-          "className": "py-3 min-vh-60",
+          "containerClassName": "py-3 min-vh-60",
           "columns": [
             {
               "key": "surveyCol",
@@ -177,19 +206,6 @@
                       }
                     ]
                   }
-                },
-                {
-                  "itemKey": "supportReferences",
-                  "config": {
-                    "type": "linkList",
-                    "links": [
-                      {
-                        "linkKey": "supportLink",
-                        "type": "external",
-                        "value": "https://sorbonne-universite.fr"
-                      }
-                    ]
-                  }
                 }
               ]
             }
@@ -204,7 +220,7 @@
       "rows": [
         {
           "key": "mainRow",
-          "className": "my-3 min-vh-60",
+          "containerClassName": "my-3 min-vh-60",
           "columns": [
             {
               "key": "settingsCol",
@@ -280,7 +296,7 @@
         {
           "key": "content",
           "fullWidth": false,
-          "className": "my-3 min-vh-60",
+          "containerClassName": "my-3 min-vh-60",
           "columns": [
             {
               "key": "mainCol",
@@ -338,7 +354,7 @@
           "columns": [
             {
               "key": "ti",
-              "className": "p-0",
+              "className": "p-0 my-3",
               "items": [
                 {
                   "itemKey": "topImage",
@@ -409,7 +425,7 @@
                 {
                   "itemKey": "surveyCard",
                   "hideWhen": "unauth",
-                  "className": "",
+                  "className": " mt-3",
                   "config": {
                     "type": "imageCard",
                     "action": {
@@ -424,30 +440,9 @@
                   "itemKey": "logoCredits",
                   "className": "",
                   "config": {
-                    "type": "logoCredits",
-                    "useTitle": true,
-                    "className": "mb-2",
-                    "images": [
-                      {
-                        "key": "inserm",
-                        "altKey": "insermLogoo",
-                        "url": "images/l/inserm.svg",
-                        "width": 130
-                      },
-                      {
-                        "key": "su",
-                        "altKey": "suLogo",
-                        "url": "images/l/suniv-h.svg",
-                        "className": "",
-                        "width": 130
-                      },
-                      {
-                        "key": "spf",
-                        "altKey": "spfLogo",
-                        "url": "images/l/spf.svg",
-                        "width": 100
-                      }
-                    ]
+                    "type": "markdown",
+                    "markdownUrl": "markdowns/sponsors.md",
+                    "flavor": "chart-renderer"
                   }
                 }
               ]
@@ -462,7 +457,7 @@
       "rows": [
         {
           "key": "content",
-          "className": "my-3 min-vh-60",
+          "containerClassName": "my-3 min-vh-60",
           "columns": [
             {
               "key": "pCol",
@@ -488,11 +483,11 @@
       "rows": [
         {
           "key": "content",
-          "className": "my-3 min-vh-60",
+          "containerClassName": "my-3 min-vh-60",
           "columns": [
             {
               "key": "pCol",
-              "className": "col-12 col-sm-10 col-md-8",
+              "className": "col-12 col-sm-10 col-md-8 my-3",
               "items": [
                 {
                   "itemKey": "privacyPolicy",
@@ -514,7 +509,7 @@
       "rows": [
         {
           "key": "content",
-          "className": "my-3 min-vh-60",
+          "containerClassName": "my-3 min-vh-60",
           "columns": [
             {
               "key": "pCol",
@@ -540,11 +535,11 @@
       "rows": [
         {
           "key": "content",
-          "className": "my-3 min-vh-60",
+          "containerClassName": "my-3 min-vh-60",
           "columns": [
             {
               "key": "pCol",
-              "className": "col-12 col-sm-10 col-md-8",
+              "className": "col-12 col-sm-10 col-md-8 my-3",
               "items": [
                 {
                   "itemKey": "disclaimer",

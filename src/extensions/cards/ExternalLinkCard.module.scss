@@ -1,0 +1,36 @@
+.card.has_link {
+  transition: transform 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.card button {
+  text-decoration: none;
+}
+
+.card.has_link:hover {
+    // text-decoration: underline;
+    transform: scale(1.025);
+}
+
+.card.has_link:hover button {
+  text-decoration: underline;
+}
+.card.has_link:hover p {
+  text-decoration: underline;
+}
+
+.icon {
+  font-size: 1.25rem;
+}
+
+.background-orange {
+  background-color: #F58220;
+}
+
+.background-green {
+  background-color: #7AB800;
+}
+
+.text-black {
+  color: #000;
+}

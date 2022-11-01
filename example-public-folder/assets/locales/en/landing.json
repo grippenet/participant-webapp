@@ -53,10 +53,6 @@
     "communicationSettings": "Email Reminders",
     "languageSettings": "Languages"
   },
-  "supportReferences": {
-    "title": "Support us",
-    "supportLink": "Information"
-  },
   "surveyList": {
     "requiredSurveys": {
       "title": "Questionnaires to be completed",

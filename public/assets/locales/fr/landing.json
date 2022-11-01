@@ -1,5 +1,5 @@
 {
-  "title": "GrippeNet.fr",
+  "title": "GrippeNet.fr/COVIDnet.fr",
   "topImage": {
     "title": "Test teaser image",
     "content": "Une étude dans le cadre de la lutte contre les épidémies"
@@ -13,26 +13,38 @@
     "passwordInputPlaceholder": "Mot de passe",
     "rememberMeLabel": "Mémoriser les données",
     "btn": "Se connecter",
-    "passwordForgottenBtn": "Vous avez oublié votre mot de passe ?",
-    "signupBtn": "Vous n'avez pas encore de compte ? Inscrivez-vous ici."
+    "passwordForgottenBtn": "Vous avez oublié votre mot de passe\u202F?",
+    "signupBtn": "Vous n'avez pas encore de compte\u202F? Inscrivez-vous ici."
   },
   "currentResultCard": {
     "imageAlt": "Les résultats image",
     "title": "Les résultats",
-    "body": "découvrez les résultats GrippeNet.fr.",
+    "body": "Découvrez les résultats GrippeNet.fr/COVIDnet.fr.",
     "actionLabel": "Les résultats"
   },
   "signupCard": {
+    "title": "S'inscrire",
     "imageAlt": "Participer image",
-    "title": "Participer",
     "body": "Devenez acteur de la surveillance de la grippe et de la COVID-19",
     "actionLabel": "Inscrivez-vous"
   },
+  "welcomeCard": {
+    "title": "Bienvenue sur le site participant de GrippeNet/COVIDnet.fr",
+    "bodyText": "",
+    "info": ""
+  },
+  "externalResultCard": {
+    "imageAlt": "Les résultats image",
+    "title": "Voir les résultats",
+    "bodyText": "Découvrez les résultats De l'étude GrippeNet.fr/COVIDnet.fr.",
+    "openActionText": "Voir sur le site public",
+    "info": ""
+  },
   "aboutCard": {
-    "imageAlt": "À propos de GrippeNet.fr image",
-    "title": "À propos de GrippeNet.fr",
-    "body": "GrippeNet.fr est l’un des outils qui permet à l’équipe de chercheurs de suivre la propagation des symptômes, ainsi que du virus dans toute la France.",
-    "actionLabel": "En savoir plus"
+    "imageAlt": "À propos de GrippeNet.fr/COVIDnet.fr image",
+    "title": "À propos de GrippeNet.fr/COVIDnet.fr",
+    "bodyText": "Ce projet de surveillance et de recherche a pour objectif de recueillir directement auprès de la population des données épidémiologiques sur la grippe et la Covid-19, par Internet et de façon anonyme.",
+    "openActionText": "Voir sur le site public"
   },
   "video": {
     "poster": "",
@@ -43,7 +55,7 @@
   },
   "references": {
     "title": "En savoir plus",
-    "faqLink": "Foire aux questions",
+    "faqLink": "Questions Fréquentes",
     "aboutLink": "À propos de GrippeNet",
     "resultsLink": "Les résultats actuels"
   },

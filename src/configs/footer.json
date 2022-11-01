@@ -13,7 +13,18 @@
           "itemKey": "twitter",
           "value": "https://twitter.com/grippenet",
           "iconClass": "fab fa-twitter"
+        },
+        {
+          "type": "external",
+          "itemKey": "facebook",
+          "value": "https://www.facebook.com/profile.php?id=100083712810122",
+          "iconClass": "fab fa-facebook"
         }
+      ]
+    },
+    {
+      "columnKey": "empty",
+      "items": [
       ]
     },
     {
@@ -33,16 +44,6 @@
           "type": "internal",
           "itemKey": "accessibility",
           "value": "/accessibility"
-        }
-      ]
-    },
-    {
-      "columnKey": "languages",
-      "items": [
-        {
-          "type": "language",
-          "itemKey": "fr",
-          "value": "fr"
         }
       ]
     }
