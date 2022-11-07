@@ -15,8 +15,6 @@ La mise en ligne de ces informations est validée par un Comité éditorial cons
 
 - Thierry Blanchon, responsable adjoint du réseau Sentinelles, Médecin spécialiste de Santé Publique
 
-- Isabelle Bonmarin, épidémiologiste au Département des maladies infectieuses de Santé publique France, Médecin spécialiste en Santé Publique
-
 - Vittoria Colizza, chercheuse en épidémiologie des maladies infectieuses et modélisation à l'UMR S 1136, Docteur en Sciences
 
 - Marion Debin, animatrice du réseau GrippeNet.fr/COVIDnet.fr, épidémiologiste

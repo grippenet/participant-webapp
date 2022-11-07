@@ -56,13 +56,16 @@
   "references": {
     "title": "En savoir plus",
     "faqLink": "Questions Fréquentes",
+    "newsLink": "Actualités",
     "aboutLink": "À propos de GrippeNet",
-    "resultsLink": "Les résultats actuels"
+    "resultsLink": "Les résultats"
   },
   "settingsReferences": {
     "title": "Paramètres",
     "profileSettings": "Gérer mes participants",
     "communicationSettings": "E-mail de rappel",
+    "passwordSettings": "Changer son mot de passe",
+    "otherSettings": "Tous les paramètres",
     "languageSettings": "Langues"
   },
   "surveyList": {

@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { AppCore } from 'case-web-app-core';
 import { useTranslation } from 'react-i18next';
 import { ConfigData } from './types';
-import { store } from 'case-web-app-core';
-import { Provider } from 'react-redux';
 import { AppConfig } from 'case-web-app-core/build/types/appConfig';
 import { FooterConfig } from 'case-web-app-core/build/types/footerConfig';
 import { HeaderConfig } from 'case-web-app-core/build/types/headerConfig';
@@ -68,7 +66,7 @@ const App: React.FC = () => {
 
 
   return (
-    <Provider store={store}>
+    <React.Fragment>
       <AppCore
         appConfig={appConfig}
         headerConfig={headerConfig}
@@ -78,7 +76,7 @@ const App: React.FC = () => {
         customSurveyResponseComponents={customSurveyResponseComponents}
         extensions={extensions}
       />
-    </Provider>
+    </React.Fragment>
   );
 };
 

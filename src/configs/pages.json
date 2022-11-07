@@ -119,7 +119,7 @@
             },
             {
               "key": "cardSignupCol",
-              "className": "col-12 col-md-6 col-lg-4 mt-3 mb-3",
+              "className": "col-12 col-lg-4 mt-3 mb-3",
               "items": [
                 {
                   "itemKey": "signupCard",
@@ -132,6 +132,27 @@
                       "value": "signup"
                     },
                     "imageSrc": "/images/participate.jpg"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "logoCreditsRow",
+          "containerClassName": "min-vh-60",
+          "columns": [
+            {
+              "key": "cardLogoCredits",
+              "className": "col-xs-12",
+              "items": [
+                {
+                  "itemKey": "logoCredits",
+                  "className": "",
+                  "config": {
+                    "type": "markdown",
+                    "markdownUrl": "markdowns/sponsors.md",
+                    "flavor": "chart-renderer"
                   }
                 }
               ]
@@ -172,14 +193,19 @@
                     "type": "linkList",
                     "links": [
                       {
-                        "linkKey": "aboutLink",
-                        "type": "internal",
-                        "value": "/about"
+                        "linkKey": "newsLink",
+                        "type": "external",
+                        "value": "https://www.grippenet.fr/fr/nouveaute/"
                       },
                       {
                         "linkKey": "faqLink",
                         "type": "internal",
                         "value": "/faq"
+                      },
+                      {
+                        "linkKey": "resultsLink",
+                        "type": "external",
+                        "value": "https://www.grippenet.fr/fr/resultats/"
                       }
                     ]
                   }
@@ -200,9 +226,14 @@
                         "value": "changeNotifications"
                       },
                       {
-                        "linkKey": "languageSettings",
+                        "linkKey": "passwordSettings",
                         "type": "dialog",
-                        "value": "changeLanguage"
+                        "value": "changePassword"
+                      },
+                      {
+                        "linkKey": "otherSettings",
+                        "type": "internal",
+                        "value": "/settings"
                       }
                     ]
                   }

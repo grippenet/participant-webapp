@@ -2,17 +2,16 @@ import React from 'react';
 
 import styles from './ExternalLinkCard.module.scss';
 import clsx from 'clsx';
-import { getExternalOrLocalContentURL, LoginCard, MarkdownLoader } from 'case-web-ui';
+import { getExternalOrLocalContentURL, MarkdownLoader } from 'case-web-ui';
 
 import { useTranslation } from 'react-i18next';
 import { getTranslatedMarkdownPath } from '../copied_tools/useTranslatedMarkdown';
 import { getOpenExternalPageHandler } from '../utils/routeUtils';
 import { PageItem } from 'case-web-app-core/build/types/pagesConfig';
-import { useDispatch } from 'react-redux';
 
 
 interface ExternalLinkCardProps {
-    // given for all custom componenents
+    // given for all custom components
     key: string;
     pageKey: string; ///////////
     itemKey: string;
@@ -36,7 +35,7 @@ interface ExternalLinkCardProps {
     containerClass?:string;
     externalLink?: string;
     externalLinkTarget?: '_blank' | '_self';
-    // class must exist in ExternallLinkCard
+    // class must exist in ExternallLinkCard.module.scss
     customClassTitle?: string;
     customClassBodyText?: string;
     customClassMarkdown?: string;
