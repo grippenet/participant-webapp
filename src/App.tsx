@@ -10,6 +10,7 @@ import { PagesConfig } from 'case-web-app-core/build/types/pagesConfig';
 import { LookupResponseComponent, registerLookupService } from 'grippenet-web-ui';
 
 import ExternalLinkCard from './extensions/cards/ExternalLinkCard';
+import YoutubeCard from './extensions/cards/YoutubeCard';
 
 registerLookupService('postalcodes', process.env.REACT_APP_POSTALCODES_URL ?? '');
 
@@ -24,6 +25,10 @@ const extensions = [
   {
     name: 'externalLinkCard',
     component : ExternalLinkCard
+  },
+  {
+    name: 'youtubeCard',
+    component: YoutubeCard
   }
 ];
 

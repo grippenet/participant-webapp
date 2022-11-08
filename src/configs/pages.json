@@ -56,22 +56,17 @@
               ]
             },
             {
-              "key": "videoCol",
+              "key": "youtube",
               "className": "col-12 col-lg-8",
               "items": [
                 {
-                  "itemKey": "video",
-                  "className": "bg-secondary h-100 w-100 text-light justify-content-center text-center d-flex align-items-center",
+                  "itemKey": "youtubeCard",
                   "config": {
-                    "type": "video",
-                    "posterUrlKey": "poster",
-                    "fallbackTextKey": "fallbackText",
-                    "videoSources": [
-                      {
-                        "type": "video/mp4",
-                        "urlKey": "mp4"
-                      }
-                    ]
+                    "type": "extension",
+                    "config": {
+                        "type": "youtubeCard",
+                        "embedId": "r3p5ggRqmz4"
+                    }
                   }
                 }
               ]
@@ -140,7 +135,7 @@
         },
         {
           "key": "logoCreditsRow",
-          "containerClassName": "min-vh-60",
+          "containerClassName": "",
           "columns": [
             {
               "key": "cardLogoCredits",
