@@ -53,7 +53,7 @@
   },
   "privacyConsent": {
     "title": "Déclaration de consentement",
-    "acceptBtn": "Je consent",
+    "acceptBtn": "Je consens",
     "cancelBtn": "Je ne marque pas mon accord"
   },
   "recaptchaConsent": {
