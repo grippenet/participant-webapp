@@ -17,11 +17,6 @@
     },
     {
       "type": "internal",
-      "itemKey": "about",
-      "url": "/about"
-    },
-    {
-      "type": "internal",
       "hideWhen": "unauth",
       "itemKey": "faq",
       "url": "/faq"
