@@ -1,0 +1,83 @@
+{
+  "path": "/home",
+  "hideWhen": "unauth",
+  "pageKey": "landing",
+  "rows": [
+    {
+      "key": "main",
+      "containerClassName": "py-3 min-vh-60",
+      "columns": [
+        {
+          "key": "surveyCol",
+          "className": "col-12 col-lg-8",
+          "items": [
+            {
+              "itemKey": "surveyList",
+              "className": "",
+              "config": {
+                "type": "surveyList"
+              }
+            }
+          ]
+        },
+        {
+          "key": "sideCol",
+          "className": "col-12 col-lg-4 mt-3 mt-lg-0",
+          "items": [
+            {
+              "itemKey": "references",
+              "config": {
+                "type": "linkList",
+                "links": [
+                  {
+                    "linkKey": "newsLink",
+                    "type": "external",
+                    "value": "https://www.grippenet.fr/fr/nouveaute/"
+                  },
+                  {
+                    "linkKey": "faqLink",
+                    "type": "internal",
+                    "value": "/faq"
+                  },
+                  {
+                    "linkKey": "resultsLink",
+                    "type": "external",
+                    "value": "https://www.grippenet.fr/fr/resultats/"
+                  }
+                ]
+              }
+            },
+            {
+              "itemKey": "settingsReferences",
+              "config": {
+                "type": "linkList",
+                "links": [
+                  {
+                    "linkKey": "profileSettings",
+                    "type": "dialog",
+                    "value": "manageProfiles"
+                  },
+                  {
+                    "linkKey": "communicationSettings",
+                    "type": "dialog",
+                    "value": "changeNotifications"
+                  },
+                  {
+                    "linkKey": "passwordSettings",
+                    "type": "dialog",
+                    "value": "changePassword"
+                  },
+                  {
+                    "linkKey": "otherSettings",
+                    "type": "internal",
+                    "value": "/settings"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

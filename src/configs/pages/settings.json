@@ -1,0 +1,76 @@
+{
+  "path": "/settings",
+  "hideWhen": "unauth",
+  "pageKey": "settings",
+  "rows": [
+    {
+      "key": "mainRow",
+      "containerClassName": "my-3 min-vh-60",
+      "columns": [
+        {
+          "key": "settingsCol",
+          "className": "col-12 col-lg-8",
+          "items": [
+            {
+              "itemKey": "account",
+              "config": {
+                "type": "accountSettings",
+                "allowProfileSettings": true
+              }
+            },
+            {
+              "itemKey": "communication",
+              "config": {
+                "type": "communicationSettings",
+                "hideLanguageSelector": true
+              }
+            },
+            {
+              "itemKey": "deletion",
+              "className": "",
+              "config": {
+                "type": "deleteAccount"
+              }
+            }
+          ]
+        },
+        {
+          "key": "helpCol",
+          "className": "col-12 col-lg-4 mt-3 mt-lg-0",
+          "items": [
+            {
+              "itemKey": "references",
+              "config": {
+                "type": "linkList",
+                "links": [
+                  {
+                    "linkKey": "faqLink",
+                    "type": "internal",
+                    "value": "/faq"
+                  },
+                  {
+                    "linkKey": "privacyStatementLink",
+                    "type": "internal",
+                    "value": "/privacy"
+                  },
+                  {
+                    "linkKey": "contactLink",
+                    "type": "internal",
+                    "value": "/contact"
+                  }
+                ]
+              }
+            },
+            {
+              "itemKey": "systemInfo",
+              "config": {
+                "type": "systemInfo",
+                "showBrowserInfo": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
