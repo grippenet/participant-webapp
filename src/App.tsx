@@ -20,7 +20,7 @@ export const dateLocales = [
 
 export const customSurveyResponseComponents = [
   {
-    name: ':postalCodeLookup',
+    name: 'input:postalCodeLookup',
     component: LookupResponseComponent
   }
 ];
