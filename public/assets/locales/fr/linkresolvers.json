@@ -51,7 +51,7 @@
       "informedConsentCheckbox": "Accéder à la <1>déclaration de consentement</1>.*",
       "btn": "Confirmer le mot de passe",
       "restartBtn": "Recommencer",
-      "successMsg": "Votre mot de passe a été confirmée",
+      "successMsg": "Votre mot de passe a bien été confirmé",
       "successBtn": "Se connecter"
     },
     "privacyConsent": {
