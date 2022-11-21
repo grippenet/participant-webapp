@@ -84,6 +84,7 @@ const App: React.FC = () => {
         footerConfig={footerConfig}
         customSurveyResponseComponents={customSurveyResponseComponents}
         extensions={extensions}
+        dateLocales={dateLocales}
       />
     </React.Fragment>
   );
