@@ -11,7 +11,7 @@
     "@types/react-dom": "^18.0.3",
     "@types/react-redux": "^7.1.24",
     "bootstrap": "^5.2.2",
-    "case-web-app-core": "^2.5.0",
+    "case-web-app-core": "^2.6.0",
     "case-web-ui": "^1.14.0",
     "clsx": "^1.2.1",
     "encoding": "^0.1.13",
