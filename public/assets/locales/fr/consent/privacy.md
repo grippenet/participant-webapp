@@ -4,6 +4,8 @@
 
 Version N°**3.0** du **09/11/2021**
 
+<a href="https://grippenet.fr/documents/Notice_Information_2021-11-09.pdf" target="_blank"> Télécharger au format pdf ce document</a>
+
 ### INFORMATION A L'ATTENTION DU PARTICIPANT
 
 Madame, Monsieur,
