@@ -48,17 +48,15 @@
           ]
         },
         {
-          "key": "youtube",
+          "key": "instructionsText",
           "className": "col-12 col-lg-8",
           "items": [
             {
-              "itemKey": "youtubeCard",
+              "itemKey": "instructionsCard",
+              "className": "",
               "config": {
-                "type": "extension",
-                "config": {
-                    "type": "youtubeCard",
-                    "embedId": "r3p5ggRqmz4"
-                }
+                "type": "markdown",
+                "markdownUrl": "/markdowns/instructions.md"
               }
             }
           ]

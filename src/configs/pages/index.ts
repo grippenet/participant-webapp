@@ -9,6 +9,7 @@ import contacts from "./contact";
 import privacy from "./privacy";
 import accessibility from "./accessibility";
 import disclaimer from "./disclaimer";
+import cookies from "./cookies";
 
 
 export const pages: PageConfig[] = [
@@ -19,5 +20,6 @@ export const pages: PageConfig[] = [
   contacts,
   privacy,
   accessibility,
-  disclaimer
+  disclaimer,
+  cookies
 ];

@@ -14,12 +14,6 @@
       "itemKey": "authhome",
       "url": "/home",
       "iconClass": "fas fa-home"
-    },
-    {
-      "type": "internal",
-      "hideWhen": "unauth",
-      "itemKey": "faq",
-      "url": "/faq"
     }
   ],
   "rightItems": [

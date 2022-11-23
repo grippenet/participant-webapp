@@ -8,7 +8,7 @@
       "emailInputPlaceholder": "E-mail",
       "passwordInputLabel": "Mot de passe",
       "passwordInputPlaceholder": "Mot de passe",
-      "rememberMeLabel": "Se souvenir de moi",
+      "rememberMeLabel": "Rester connecté(e)",
       "btn": "Se connecter",
       "passwordForgottenBtn": "Vous avez oublié votre mot de passe ?",
       "signupBtn": "Vous n'avez pas encore de compte ? Enregistrez-vous ici."
@@ -22,15 +22,15 @@
       "resendBtn": "Demander un nouveau code"
     },
     "errors": {
-      "accountOrPassword": "Une erreur s’est produite. Veuillez vérifier votre adresse électronique et votre mot de passe.",
-      "wrongCode": "Code erroné. Vérifiez le code que nous vous avons envoyé par courrier électronique.",
-      "newCodeSent": "Code erroné. Nous vous avons envoyé un nouveau code par courrier électronique.",
+      "accountOrPassword": "Une erreur s’est produite. Veuillez vérifier votre adresse e-mail et votre mot de passe.",
+      "wrongCode": "Code erroné. Vérifiez le code que nous vous avons envoyé par e-mail.",
+      "newCodeSent": "Code erroné. Nous vous avons envoyé un nouveau code par e-mail.",
       "rateLimit": "Vous devez attendre un certain temps avant de pouvoir demander un nouveau code.",
       "unknown": "Une erreur s’est produite. Veuillez vérifier vos informations, ou réessayer plus tard."
     }
   },
   "signup": {
-    "title": "Inscrivez-vous",
+    "title": "S'inscrire",
     "info": "Inscrivez-vous et participez à la surveillance des infections respiratoires aigües.",
     "emailInputLabel": "E-mail",
     "emailInputPlaceholder": "E-mail",
@@ -40,13 +40,13 @@
     "confirmPasswordInputPlaceholder": "Confirmez le mot de passe",
     "informedConsentCheckbox": "Accéder à la <1>déclaration de consentement</1>.*",
     "reCaptchaCookieCheckbox": "Accéder à la <1>déclaration reCAPTCHA</1>.*",
-    "signupBtn": "Inscrivez-vous",
+    "signupBtn": "S'inscrire",
     "loginLink": "Avez-vous déjà un compte ? Connectez-vous ici.",
     "reCaptchaLinks": "Ce site utilise reCAPTCHA. Par ailleurs, la déclaration en matière de <1>confidentialité</1> de Google et ses <3>conditions</3> sont d’application.",
     "errors": {
       "passwordRules": "Votre mot de passe doit comporter au moins 8 caractères, et contenir 3 des 4 éléments suivants : une minuscule, une majuscule, un chiffre, un signe de ponctuation.",
       "passwordMatch": "Les mots de passe ne sont pas les mêmes",
-      "invalidEmail": "Votre adresse électronique semble incorrecte",
+      "invalidEmail": "Votre adresse e-mail semble incorrecte",
       "userCreationFailed": "Une erreur s’est produite.",
       "unknown": "Une erreur s’est produite."
     }
@@ -64,51 +64,51 @@
   "signupSuccess": {
     "title": "Bienvenue !",
     "successMsg": "Merci pour votre inscription au projet GrippeNet.fr/COVIDnet.fr. Pour valider votre adresse, merci de cliquer sur le lien contenu dans l’email qui vous a été envoyé. Ce lien est valable pendant xx jours. Si vous ne trouvez pas l’email en question, veuillez vérifier votre dossier des courriers indésirables (spams). \nVous pouvez également demander l’envoi d’un nouvel email en cliquant sur le bouton ci-dessous.",
-    "emailSentMsg": "Un courrier électronique a été envoyé.",
-    "resendVerificationEmailBtn": "Envoyer à nouveau un courrier électronique de confirmation",
-    "wrongEmailBtn": "Avez-vous utilisé une mauvaise adresse électronique ? Si tel est le cas, vous pouvez la modifier ici.",
+    "emailSentMsg": "Un e-mail a été envoyé.",
+    "resendVerificationEmailBtn": "Envoyer à nouveau un e-mail de confirmation",
+    "wrongEmailBtn": "Avez-vous utilisé une mauvaise adresse e-mail ? Si tel est le cas, vous pouvez la modifier ici.",
     "errors": {
       "unknown": "Une erreur s’est produite.",
       "verifyEmailFirst": "Votre adresse e-mail n'a pas encore été confirmée, merci de consulter vos mail et de cliquer sur le lien de confirmation."
     },
-    "msgForVerifiedAccount": "Si vous avez confirmé votre adresse électronique, cliquez ci-dessous",
+    "msgForVerifiedAccount": "Si vous avez confirmé votre adresse e-mail, cliquez ci-dessous",
     "reloadUser": "Rechargez le compte"
   },
   "passwordForgotten": {
     "title": "Modifier votre mot de passe",
-    "info": "Saisissez l'adresse électronique de votre compte.",
-    "successMessage": "Suivez le lien qui figure dans le courrier électronique que nous vous avons envoyé à l’adresse ci-dessous. \n Si vous n'avez pas reçu de courrier électronique, veuillez vérifier votre dossier de courriers indésirables ou réessayer ultérieurement lorsque c’est à nouveau possible.",
+    "info": "Saisissez l’adresse e-mail associée à votre compte.",
+    "successMessage": "Suivez le lien qui figure dans l'e-mail que nous vous avons envoyé à l’adresse ci-dessous. \n Si vous n'avez pas reçu d'e-mail, veuillez vérifier votre dossier de courriers indésirables ou réessayer ultérieurement lorsque c’est à nouveau possible.",
     "emailInputLabel": "E-mail",
     "emailInputPlaceholder": "E-mail",
     "submitBtn": "Modifier le mot de passe",
     "errors": {
-      "invalidId": "Une erreur s’est produite. Vérifiez votre adresse électronique ou votre connexion. Vous pouvez réessayer lorsque le bouton est à nouveau visible.",
+      "invalidId": "Une erreur s’est produite. Vérifiez votre adresse e-mail ou votre connexion. Vous pouvez réessayer lorsque le bouton est à nouveau visible.",
       "unknown": "Une erreur s’est produite. Veuillez vérifier vos informations, ou réessayer plus tard."
     }
   },
   "changeEmail": {
     "title": "Modifier l’adresse e-mail",
-    "emailInputLabel": "Nouvelle adresse électronique",
-    "emailInputPlaceholder": "Nouvelle adresse électronique",
+    "emailInputLabel": "Nouvelle adresse e-mail",
+    "emailInputPlaceholder": "Nouvelle adresse e-mail",
     "passwordInputLabel": "Mot de passe",
     "passwordInputPlaceholder": "Mot de passe",
-    "info": "Souhaitez-vous utiliser une autre adresse électronique ? Modifiez votre adresse électronique en cliquant sur le bouton ci-dessous. Veuillez noter que vous ne pouvez vous connecter à GrippeNet.fr/COVIDnet.fr qu'après confirmation de votre adresse électronique.",
+    "info": "Souhaitez-vous utiliser une autre adresse e-mail ? Modifiez votre adresse e-mail en cliquant sur le bouton ci-dessous. Veuillez noter que vous ne pouvez vous connecter à GrippeNet.fr/COVIDnet.fr qu'après confirmation de votre adresse e-mail.",
     "cancelBtn": "Annuler",
     "confirmBtn": "Modifier l’adresse e-mail",
     "errors": {
-      "wrongPasswordOrAccountId": "Une erreur s’est produite. Veuillez vérifier vos informations (l'adresse électronique ou le mot de passe peuvent être incorrects).",
-      "wrongEmailFormat": "Adresse électronique non valide.",
+      "wrongPasswordOrAccountId": "Une erreur s’est produite. Veuillez vérifier vos informations (l'adresse e-mail ou le mot de passe peuvent être incorrects).",
+      "wrongEmailFormat": "Adresse e-mail non valide.",
       "unknown": "Une erreur s’est produite. Veuillez vérifier vos informations, ou réessayer plus tard."
     },
     "warningDialog": {
-      "title": "Confirmez la nouvelle adresse électronique.",
-      "content": "Attention : vous ne pourrez vous reconnecter à GrippeNet.fr/COVIDnet.fr qu'après confirmation de votre nouvelle adresse électronique par le biais du lien figurant dans le courrier électronique de confirmation que nous vous avons envoyé.",
+      "title": "Confirmez la nouvelle adresse e-mail.",
+      "content": "Attention : vous ne pourrez vous reconnecter à GrippeNet.fr/COVIDnet.fr qu'après confirmation de votre nouvelle adresse e-mail par le biais du lien figurant dans l'e-mail de confirmation que nous vous avons envoyé.",
       "cancelBtn": "Annuler",
       "confirmBtn": "Modifier l’adresse e-mail"
     },
     "successDialog": {
-      "title": "Adresse électronique modifiée",
-      "content": "Réussi ! Votre adresse électronique a été modifiée.",
+      "title": "Adresse e-mail modifiée",
+      "content": "Réussi ! Votre adresse e-mail a été modifiée.",
       "btn": "Ok"
     }
   },
@@ -139,7 +139,7 @@
     "title": "Gérer mes participants",
     "mainProfileLabel": "Moi",
     "cancelBtn": "Annuler",
-    "newProfileBtn": "Nouveau profil",
+    "newProfileBtn": "Ajouter un membre de mon foyer",
     "warningDialog": {
       "title": "Suppression du profil",
       "content": "La suppression du profil {{ alias}} ne peut être annulée",
@@ -151,7 +151,7 @@
     "new": {
       "title": "Nouveau profil",
       "cancelBtn": "Annuler",
-      "submitBtn": "Créez un profil pour votre enfant"
+      "submitBtn": "Ajouter ce membre de mon foyer"
     },
     "edit": {
       "title": "Modifier le profil",
@@ -161,7 +161,7 @@
     "aliasInputLabel": "Surnom",
     "aliasInputPlaceholder": "Surnom",
     "consentCheckboxLabel": "Autorisation",
-    "consentCheckboxText": "Vous ne pouvez créer un profil et remplir les questionnaires que pour vous-même, ou en tant que parent ou représentant légal de votre enfant qui n'a pas encore atteint l'âge de 18 ans.",
+    "consentCheckboxText": "Vous ne pouvez créer un profil et remplir les questionnaires que pour vous-même, un membre de votre foyer qui vous en a donné l’autorisation, ou en tant que parent ou représentant légal de votre enfant qui n'a pas encore atteint l'âge de 18 ans.",
     "avatarSelectorLabel": "Veuillez choisir une figurine"
   },
   "changeLanguage": {
@@ -183,23 +183,23 @@
     }
   },
   "changeNotifications": {
-    "title": "Paramètres courrier électronique",
-    "info": "Vous pouvez désactiver la réception du courriel de rappel hebdomadaire ou de la lettre d'information.",
+    "title": "Options de contact",
+    "info": "Vous pouvez désactiver la réception de l'e-mail de rappel hebdomadaire ou de la lettre d'information.",
     "weeklyReminder": {
-      "label": "Courriel de rappel hebdomadaire",
-      "on": "Oui, je souhaite recevoir le courriel de rappel hebdomadaire.",
-      "off": "Non, je ne souhaite pas recevoir le courriel de rappel hebdomadaire."
+      "label": "E-mail de rappel hebdomadaire",
+      "on": "Oui, je souhaite recevoir l'e-mail de rappel hebdomadaire.",
+      "off": "Non, je ne souhaite pas recevoir l'e-mail de rappel hebdomadaire."
     },
     "newsletter": {
-      "label": "Courrier électronique à l’attention de tous les participants. Il sera parfois nécessaire d'envoyer un courrier électronique à tous les participants en vue de leur communiquer des informations relatives à l'étude.",
-      "on": "Oui, je souhaite recevoir ces courriers électroniques à l’attention de tous les participants.",
-      "off": "Non, je ne souhaite pas recevoir ces courriers électroniques à l’attention de tous les participants."
+      "label": "E-mail à l’attention de tous les participants. Il sera parfois nécessaire d'envoyer un e-mail à tous les participants en vue de leur communiquer des informations relatives à l'étude.",
+      "on": "Oui, je souhaite recevoir ces e-mails à l’attention de tous les participants.",
+      "off": "Non, je ne souhaite pas recevoir ces e-mails à l’attention de tous les participants."
     },
     "cancelBtn": "Annuler",
     "submitBtn": "Enregistrer les modifications",
     "successDialog": {
       "title": "Les paramètres ont été modifiés.",
-      "content": "Réussi ! Vos paramètres en matière de courriers électroniques ont été modifiés.",
+      "content": "Réussi ! Vos paramètres en matière d'e-mails ont été modifiés.",
       "btn": "Ok"
     }
   },

@@ -3,7 +3,7 @@
     "title": "E-mail vérification",
     "content": {
       "info": "",
-      "success": "Vous avez réussi ! Votre adresse électronique a été confirmée. \n\n À présent, vous pouvez vous connecter.",
+      "success": "Vous avez réussi ! Votre adresse e-mail a été confirmée. \n\n À présent, vous pouvez vous connecter.",
       "btn": {
         "successWithAuth": "Ok",
         "successWithoutAuth": "Aller à la page de connexion.",
@@ -12,7 +12,7 @@
       }
     },
     "errors": {
-      "wrongToken": "Une erreur s’est produite. Assurez-vous d’utiliser le bon lien, ou de ne pas avoir essayé ce lien auparavant. Veuillez demander un nouveau courrier électronique, le cas échéant.",
+      "wrongToken": "Une erreur s’est produite. Assurez-vous d’utiliser le bon lien, ou de ne pas avoir essayé ce lien auparavant. Veuillez demander un nouvel e-mail, le cas échéant.",
       "unknown": "Une erreur s’est produite. Veuillez vérifier vos informations, ou réessayer plus tard."
     }
   },
@@ -34,7 +34,7 @@
     "errors": {
       "passwordRules": "Votre mot de passe doit comporter au moins 8 caractères, et contenir 3 des 4 éléments suivants : une minuscule, une majuscule, un chiffre, un signe de ponctuation.",
       "passwordMatch": "Les mots de passe ne sont pas les mêmes.",
-      "wrongToken": "Une erreur s’est produite. Assurez-vous d’utiliser le bon lien, ou de ne pas avoir essayé ce lien auparavant. Veuillez demander un nouveau courrier électronique, le cas échéant.",
+      "wrongToken": "Une erreur s’est produite. Assurez-vous d’utiliser le bon lien, ou de ne pas avoir essayé ce lien auparavant. Veuillez demander un nouvel e-mail, le cas échéant.",
       "unknown": "Une erreur s’est produite. Veuillez vérifier vos informations, ou réessayer plus tard."
     }
   },
@@ -62,7 +62,7 @@
     "errors": {
       "passwordRules": "Votre mot de passe doit comporter au moins 8 caractères, et contenir 3 des 4 éléments suivants : une minuscule, une majuscule, un chiffre, un signe de ponctuation.",
       "passwordMatch": "Les mots de passe ne sont pas les mêmes.",
-      "wrongToken": "Une erreur s’est produite. Assurez-vous d’utiliser le bon lien, ou de ne pas avoir essayé ce lien auparavant. Veuillez demander un nouveau courrier électronique, le cas échéant.",
+      "wrongToken": "Une erreur s’est produite. Assurez-vous d’utiliser le bon lien, ou de ne pas avoir essayé ce lien auparavant. Veuillez demander un nouvel e-mail, le cas échéant.",
       "unknown": "Une erreur s’est produite. Veuillez vérifier vos informations, ou réessayer plus tard."
     }
   },

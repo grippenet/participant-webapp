@@ -11,7 +11,7 @@
   },
   "optionalSurveys": {
     "title": "Modifier les informations de profil",
-    "info": "En cas de modification de votre situation, vous pouvez à nouveau compléter le(s) questionnaire(s) de profil ci-dessous. Malheureusement, nous ne pouvons pas vous montrer ce que vous avez complété la dernière fois, ni vous permettre de modifier uniquement des questions spécifiques.",
+    "info": "En cas de modification de votre situation, vous pouvez à nouveau compléter le(s) questionnaire(s) de profil ci-dessous.",
     "showBtn": "Vos informations de profil ont-elles changé ?",
     "hideBtn": "Cacher"
   },

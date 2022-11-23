@@ -11,10 +11,13 @@
     "emailInputPlaceholder": "E-mail",
     "passwordInputLabel": "Mot de passe",
     "passwordInputPlaceholder": "Mot de passe",
-    "rememberMeLabel": "Mémoriser les données",
+    "rememberMeLabel": "Rester connecté(e)",
     "btn": "Se connecter",
     "passwordForgottenBtn": "Vous avez oublié votre mot de passe\u202F?",
     "signupBtn": "Vous n'avez pas encore de compte\u202F? Inscrivez-vous ici."
+  },
+  "instructionsCard": {
+    "title": "Se connecter"
   },
   "currentResultCard": {
     "imageAlt": "Les résultats image",
@@ -26,7 +29,7 @@
     "title": "S'inscrire",
     "imageAlt": "Participer image",
     "body": "Devenez acteur de la surveillance de la grippe et de la COVID-19",
-    "actionLabel": "Inscrivez-vous"
+    "actionLabel": "S'inscrire"
   },
   "welcomeCard": {
     "title": "Bienvenue sur le site participant de GrippeNet.fr/COVIDnet.fr",
@@ -36,15 +39,15 @@
   "externalResultCard": {
     "imageAlt": "Les résultats image",
     "title": "Voir les résultats",
-    "bodyText": "Découvrez les résultats De l'étude GrippeNet.fr/COVIDnet.fr.",
-    "openActionText": "Voir sur le site public",
+    "bodyText": "Découvrez les résultats de l'étude GrippeNet.fr/COVIDnet.fr.",
+    "openActionText": "Voir sur le site grand public",
     "info": ""
   },
   "aboutCard": {
     "imageAlt": "À propos de GrippeNet.fr/COVIDnet.fr image",
     "title": "À propos de GrippeNet.fr/COVIDnet.fr",
-    "bodyText": "Ce projet de surveillance et de recherche a pour objectif de recueillir directement auprès de la population des données épidémiologiques sur la grippe et la Covid-19, par Internet et de façon anonyme.",
-    "openActionText": "Voir sur le site public"
+    "bodyText": "Ce projet de surveillance et de recherche a pour objectif de recueillir directement auprès de la population des données épidémiologiques sur la grippe et la COVID-19, par Internet et de façon anonyme.",
+    "openActionText": "Voir sur le site grand public"
   },
   "video": {
     "poster": "",
@@ -55,7 +58,7 @@
   },
   "references": {
     "title": "En savoir plus",
-    "faqLink": "Questions Fréquentes",
+    "faqLink": "FAQ",
     "newsLink": "Actualités",
     "aboutLink": "À propos de GrippeNet",
     "resultsLink": "Les résultats"
@@ -76,7 +79,7 @@
     },
     "optionalSurveys": {
       "title": "Modifier les informations de profil",
-      "info": "En cas de modification de votre situation, vous pouvez à nouveau compléter le(s) questionnaire(s) de profil ci-dessous. Malheureusement, nous ne pouvons pas vous montrer ce que vous avez complété la dernière fois, ni vous permettre de modifier uniquement des questions spécifiques.",
+      "info": "En cas de modification de votre situation, vous pouvez à nouveau compléter le(s) questionnaire(s) de profil ci-dessous.",
       "hideBtn": "Fermer",
       "showBtn": "Vos informations de profil ont-elles changé ?"
     }

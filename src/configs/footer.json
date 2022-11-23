@@ -44,6 +44,11 @@
           "type": "internal",
           "itemKey": "accessibility",
           "value": "/accessibility"
+        },
+        {
+          "type": "internal",
+          "itemKey": "cookies",
+          "value": "/cookies"
         }
       ]
     }

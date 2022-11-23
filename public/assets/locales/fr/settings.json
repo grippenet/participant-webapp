@@ -3,8 +3,8 @@
   "account": {
     "title": "Paramètres du compte",
     "email": {
-      "title": "Adresse électronique",
-      "info": "Souhaitez-vous utiliser une autre adresse électronique ? Modifiez votre adresse électronique en cliquant sur le bouton ci-dessous. Veuillez noter que vous ne pouvez vous connecter à GrippeNet.fr/COVIDnet.fr qu'après confirmation de votre adresse électronique."
+      "title": "Adresse e-mail",
+      "info": "Souhaitez-vous utiliser une autre adresse e-mail ? Modifiez votre adresse e-mail en cliquant sur le bouton ci-dessous. Veuillez noter que vous ne pouvez vous connecter à GrippeNet.fr/COVIDnet.fr qu'après confirmation de votre adresse e-mail."
     },
     "password": {
       "title": "Mot de passe",
@@ -12,7 +12,7 @@
     },
     "profiles": {
       "title": "Profils",
-      "info": "Modifiez votre propre profil, ou ajoutez un profil de vos enfants âgés au maximum de 17 ans, et ce, en votre qualité de parent ou de représentant légal.",
+      "info": "Modifiez votre propre profil, ou ajoutez un membre de votre foyer.",
       "btn": "{{count}} profil",
       "btn_plural": "{{count}} profils"
     }
@@ -20,8 +20,8 @@
   "communication": {
     "title": "Paramètres de communication",
     "emailReminders": {
-      "title": "Courrier électronique hebdomadaire et bulletin d'information",
-      "info": "Vous pouvez désactiver la réception du courriel de rappel hebdomadaire ou de la lettre d'information.",
+      "title": "E-mail hebdomadaire et bulletin d'information",
+      "info": "Vous pouvez désactiver la réception de l'e-mail de rappel hebdomadaire ou de la lettre d'information.",
       "btnManageNotifications": "Modifier les paramètres"
     },
     "defaultLanguage": {
@@ -39,7 +39,7 @@
   },
   "references": {
     "title": "Besoin d’aide ?",
-    "faqLink": "Questions Fréquentes",
+    "faqLink": "FAQ",
     "privacyStatementLink": "Déclaration de confidentialité",
     "contactLink": "Contact GrippeNet.fr/COVIDnet.fr"
   },
