@@ -4,7 +4,7 @@
 
 Version N°**3.0** du **09/11/2021**
 
-<a href="https://grippenet.fr/documents/Notice_Information_2021-11-09.pdf" target="_blank"> Télécharger au format pdf ce document</a>
+<a href="https://grippenet.fr/media/uploads/Notice_Information_2021-11-09.pdf" target="_blank"> Télécharger au format pdf ce document</a>
 
 ### INFORMATION A L'ATTENTION DU PARTICIPANT
 
@@ -125,7 +125,7 @@ Conformément aux dispositions de la CNIL (loi relative à l'informatique, aux f
 
 
 
-<a href="/documents/Notice_Information_2021-11-09.pdf" target="_blank"> Télécharger au format pdf ce document</a>
+<a href="https://grippenet.fr/media/uploads/Notice_Information_2021-11-09.pdf" target="_blank"> Télécharger au format pdf ce document</a>
 </div>
 
 
