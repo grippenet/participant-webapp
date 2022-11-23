@@ -1,4 +1,37 @@
 
-A PROPOS DES COOKIES :
+### Qu'est-ce qu'un cookie ?
+Un cookie est une information transmise par un site internet et stockée sur votre ordinateur pour une durée variable (chaque cookie possède une durée de vie qui peut être aller de la fermeture de votre navigateur à quelques jours voir ne jamais expirer). Le site internet ayant transmis le cookie peut retrouver cette information à chaque visite sur ce site (jusqu'à la date d'expiration du cookie)
 
-TEXTE A INSERER
+### A quoi servent les cookies ?
+Les cookies sont utilisés sur les sites internet afin de pouvoir garder des informations sur un visiteur sans avoir à lui redemander à chaque page. C'est par exemple grâce aux cookies, qu'un site ne vous redemande pas votre login et mot de passe lors de chaque changement de page, ou que les sites commerciaux gardent en mémoire votre panier d'achat.
+
+Les cookies sont égalements utilisés pour identifier un visiteur sur différents sites afin de mesurer l'audience des sites internet. Des outils comme Google Analytics permettent aux éditeurs des sites Internet de mesurer l'audience et de suivre l'évolution de la fréquentation de leurs sites Internet.
+
+Les cookies peuvent également être utilisés pour suivre un même utilisateur à travers de nombreux sites internet, notamment dans des objectifs commerciaux.
+
+Retrouvez plus d'information sur les cookies sur le site de la CNIL
+
+### Notre politique vis-à-vis des Cookies
+Certains cookies sont nécessaires au fonctionnement de GrippeNet.fr/CovidNet.fr. Ils permettent d'assurer la sécurité de nos formulaires internet et d'accéder aux pages de votre espace personnel. Ces cookies sont anonymes (les informations contenues sur votre ordinateur ne contiennent pas d'information identifiante comme votre nom ou un email, il s'agit de suite de chiffres et de lettres aléatoires).
+
+Lors de votre première visite à notre site Internet, une barre de consentement s'affiche en haut du site. Cette barre vise à recueillir votre consentement sur l'usage des cookies. Le bouton "Détails" vous permet d'afficher les types de cookies que nous utilisons et de ne consentir qu'à l'usage de certains types de cookies (les cookies "essentiels" au fonctionnement de GrippeNet.fr/CovidNet.fr ne peuvent pas être désactivés). Le bouton "Je refuse", désactivera tous les cookies non essentiels. Dans ce cas, certaines fonctionnalités du site seront désactivées (les boutons de partage, le bouton "J'aime" de Facebook et le bouton "Nous suivre sur Twitter").
+
+Si vous avez déjà répondu, vous pouvez retrouver cette page (et actualiser votre réponse) : Revoir la barre de consentement
+
+Conformément aux dispositions de la CNIL, cette mesure requiert votre consentement, il vous est possible de le désactiver, soit en refusant tous les cookies (non essentiels), soit en décochant les cookies de type "analyses d'audience" après avoir cliqué sur "Détails" de la barre de consentement.
+
+Nous utilisons un outil de mesure d'audience de ce site conforme aux exigences de la CNIL : Matomo
+
+Ce système de mesure est hébergé dans notre Institut, l'adresse IP est anonymisée et les données collectées sont à l'usage exclusif de notre équipe, elles ne seront jamais cédées à des tiers. Elles ont pour objectif de mesurer le nombre de visites aux pages de notre site et d'en améliorer la navigation et le contenu. Les données d'audience concernant vos visites à ce site ne seront pas utilisées à d'autres fins ni transmises à des tiers.
+
+Cette solution ne requiert pas de consentement a priori, mais vous avez un droit d'opposition à l'utilisation de ce système pour suivre vos visites sur notre site : 
+
+### Des outils pour protéger votre vie privée
+
+**[uBlock](https://ublockorigin.com/fr)**
+
+uBlock est une extension de navigateur qui détecte et bloque beaucoup de traceurs utilisés sur les sites Internet pour le suivi des utilisateurs et les publicités. Il est configurable par site (vous pouvez autoriser ou désactiver les cookies traceurs sur un site particulier ou les bloquer sur tous les sites).
+
+**[AdBlock](https://adblockplus.org/fr/), surfez sans publicité**
+
+AdBlock plus, bloque la plupart des images et bannières publicitaires rencontrées sur les sites Internet. Il est disponible comme extension de plusieurs navigateurs comme Firefox, Chrome, Safari ou Opéra et sur Internet Explorer.
