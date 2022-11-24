@@ -10,8 +10,8 @@
       "passwordInputPlaceholder": "Mot de passe",
       "rememberMeLabel": "Rester connecté(e)",
       "btn": "Se connecter",
-      "passwordForgottenBtn": "Vous avez oublié votre mot de passe ?",
-      "signupBtn": "Vous n'avez pas encore de compte ? Enregistrez-vous ici."
+      "passwordForgottenBtn": "Mot de passe oublié ?",
+      "signupBtn": "Vous n'avez pas encore de compte ? Inscrivez-vous ici."
     },
     "verificationCode": {
       "title": "Code de vérification à 6 chiffres",
@@ -41,7 +41,7 @@
     "informedConsentCheckbox": "Accéder à la <1>déclaration de consentement</1>.*",
     "reCaptchaCookieCheckbox": "Accéder à la <1>déclaration reCAPTCHA</1>.*",
     "signupBtn": "S'inscrire",
-    "loginLink": "Avez-vous déjà un compte ? Connectez-vous ici.",
+    "loginLink": "Vous avez déjà un compte ? Connectez-vous ici.",
     "reCaptchaLinks": "Ce site utilise reCAPTCHA. Par ailleurs, la déclaration en matière de <1>confidentialité</1> de Google et ses <3>conditions</3> sont d’application.",
     "errors": {
       "passwordRules": "Votre mot de passe doit comporter au moins 8 caractères, et contenir 3 des 4 éléments suivants : une minuscule, une majuscule, un chiffre, un signe de ponctuation.",

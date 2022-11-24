@@ -77,7 +77,7 @@
       "passwordInputPlaceholder": "Mot de passe",
       "rememberMeLabel": "Mémoriser les données",
       "btn": "Se connecter",
-      "passwordForgottenBtn": "Vous avez oublié votre mot de passe ?",
+      "passwordForgottenBtn": "Mot de passe oublié ?",
       "signupBtn": "Vous n'avez pas encore de compte ? Connectez-vous ici."
     }
   }

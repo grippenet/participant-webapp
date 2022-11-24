@@ -13,8 +13,8 @@
     "passwordInputPlaceholder": "Mot de passe",
     "rememberMeLabel": "Rester connecté(e)",
     "btn": "Se connecter",
-    "passwordForgottenBtn": "Vous avez oublié votre mot de passe\u202F?",
-    "signupBtn": "Vous n'avez pas encore de compte\u202F? Inscrivez-vous ici."
+    "passwordForgottenBtn": "Mot de passe oublié\u202F?",
+    "signupBtn": "Vous n'avez pas encore de compte\u202F? Inscrivez-vous\u202Fici."
   },
   "instructionsCard": {
     "title": "Se connecter"
