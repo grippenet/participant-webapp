@@ -2,7 +2,7 @@
 ### Qu'est-ce qu'un cookie ?
 
 <div class="py-2" style="text-align: justify;text-justify: inter-word;">
-Un cookie est une information transmise par un site Internet et stockée sur votre ordinateur pour une durée variable (chaque cookie possède une durée de vie qui peut être aller de la fermeture de votre navigateur à quelques jours voir ne jamais expirer). Le site Internet ayant transmis le cookie peut retrouver cette information à chaque visite sur ce site (jusqu'à la date d'expiration du cookie)
+Un cookie est une information transmise par un site Internet et stockée sur votre ordinateur pour une durée variable (chaque cookie possède une durée de vie qui peut être aller de la fermeture de votre navigateur à quelques jours voire ne jamais expirer). Le site Internet ayant transmis le cookie peut retrouver cette information à chaque visite sur ce site (jusqu'à la date d'expiration du cookie)
 </div>
 
 ### A quoi servent les cookies ?
