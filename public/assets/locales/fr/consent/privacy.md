@@ -11,6 +11,7 @@ Version N°**3.0** du **09/11/2021**
 Madame, Monsieur,
 
 <div class="mb-2" style="text-align: justify;text-justify: inter-word;">
+
 Vous avez émis le souhait de participer à une recherche impliquant la personne humaine dont l'Institut National de la Santé et de la Recherche Médicale (*Inserm - Pôle Recherche Clinique - Biopark, Bâtiment A 8 rue de la Croix Jarry 75013 Paris*) est le promoteur.
 
 Cette recherche intitulée **Grippenet.fr, surveillance épidémiologique en population générale (GrippeNet.fr/COVIDnet.fr) a été mise en place en 2012 par le réseau Sentinelles (Inserm - Sorbonne Université)** en collaboration avec Santé publique France et est dirigée par le Pr Hanslik Thomas (*Faculté de médecine Sorbonne Université, site Saint Antoine, 27 rue Chaligny, 75571 Paris cedex 2, 01 44 73 84 35*, contact@grippenet.fr) en tant qu'investigateur principal.
@@ -50,6 +51,7 @@ Toute personne résidant en France métropolitaine peut participer à GrippeNet.
 #### 4. DEROULEMENT DE LA RECHERCHE
 
 <div class="mb-2" style="text-align: justify;text-justify: inter-word;">
+
 **La participation à cette étude se déroule selon les étapes suivantes :**
 
 1.  Après avoir lu cette notice de non-opposition, cocher les deux cases situées sous le texte et cliquer sur « Valider votre accord ». Enregistrer votre compte en remplissant le formulaire dans la page suivante. Renseignez une adresse email valide et choisissez un mot de passe (constitué d’au moins 8 caractères, contenant 3 des 4 éléments suivants : une minuscule, une majuscule, un chiffre, un signe de ponctuation) et un nom d'utilisateur (constitué de chiffres, lettres et/ou caractères @, +, ., -, _). Ne pas utiliser de caractères avec accents ou d'espace.

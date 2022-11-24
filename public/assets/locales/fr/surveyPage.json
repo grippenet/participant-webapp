@@ -8,7 +8,7 @@
   "submitSuccessDialog": {
     "title": "Info",
     "content": "Votre réponse a bien été enregistrée",
-    "btn": "Merci !"
+    "btn": "Retourner à votre espace personnel"
   },
   "noSurveyLoaded": "Erreur. Actualiser cette page",
   "submittingSurveyResponsesMsg": "Soumettre le questionnaire",
