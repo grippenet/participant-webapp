@@ -70,7 +70,7 @@ Tous les contenus présents sur le site de GrippeNet.fr/COVIDnet.fr sont couvert
 
 Les demandes d'autorisation de reproduction d'un contenu doivent être adressées au webmestre du site. La demande devra préciser le contenu visé ainsi que le site sur lequel ce dernier figurera. Une fois cette autorisation obtenue, la reproduction d'un contenu doit être assortie de :
 
-- l'ajout de la mention : "... paru sur le site www.GrippeNet.fr". Cette mention pointera grâce à un lien hypertexte directement sur le contenu ;
+- l'ajout de la mention : "... paru sur le site www.grippenet.fr". Cette mention pointera grâce à un lien hypertexte directement sur le contenu ;
 - l'ajout en bas de chaque contenu de la mention "Droits réservés".
 En outre, les informations utilisées ne doivent l'être qu'à des fins personnelles, associatives ou professionnelles, toute diffusion ou utilisation à des fins commerciales ou publicitaires étant exclues.
 </div>
