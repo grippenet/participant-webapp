@@ -45,8 +45,8 @@
                 "links": [
                   {
                     "linkKey": "faqLink",
-                    "type": "internal",
-                    "value": "/faq"
+                    "type": "external",
+                    "value": "https://www.grippenet.fr/fr/faq/"
                   },
                   {
                     "linkKey": "privacyStatementLink",
