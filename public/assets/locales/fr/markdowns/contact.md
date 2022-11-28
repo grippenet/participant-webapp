@@ -4,4 +4,4 @@ Pour des questions et des commentaires, vous pouvez envoyer un e-mail à [contac
 Pour plus d'informations de contact, cliquez [ici](https://www.grippenet.fr/fr/grippenet/contact/).
 
 
-Vous pouvez également consulter notre « [FAQ](https://www.grippenet.fr/faq/) ».
+Vous pouvez également consulter nos réponses aux « [Questions fréquentes (FAQ)](https://www.grippenet.fr/faq/) ».
