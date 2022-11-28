@@ -3,19 +3,9 @@
   "name": "GrippeNet",
   "icons": [
     {
-      "src": "assets/static/images/favicon/favicon.ico",
+      "src": "/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
-    },
-    {
-      "src": "assets/static/images/favicon/logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "assets/static/images/favicon/logo270.png",
-      "type": "image/png",
-      "sizes": "270x270"
     }
   ],
   "start_url": ".",
