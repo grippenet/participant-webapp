@@ -63,7 +63,7 @@
   },
   "signupSuccess": {
     "title": "Bienvenue !",
-    "successMsg": "Merci pour votre inscription au projet GrippeNet.fr/COVIDnet.fr. Pour valider votre adresse, merci de cliquer sur le lien contenu dans l’email qui vous a été envoyé. Ce lien est valable pendant xx jours. Si vous ne trouvez pas l’email en question, veuillez vérifier votre dossier des courriers indésirables (spams). \nVous pouvez également demander l’envoi d’un nouvel email en cliquant sur le bouton ci-dessous.",
+    "successMsg": "Merci pour votre inscription au projet GrippeNet.fr/COVIDnet.fr. Pour valider votre adresse, merci de cliquer sur le lien contenu dans l’email qui vous a été envoyé. Ce lien est valable pendant 30 jours. Si vous ne trouvez pas l’email en question, veuillez vérifier votre dossier des courriers indésirables (spams). \nVous pouvez également demander l’envoi d’un nouvel email en cliquant sur le bouton ci-dessous.",
     "emailSentMsg": "Un e-mail a été envoyé.",
     "resendVerificationEmailBtn": "Envoyer à nouveau un e-mail de confirmation",
     "wrongEmailBtn": "Avez-vous utilisé une mauvaise adresse e-mail ? Si tel est le cas, vous pouvez la modifier ici.",
