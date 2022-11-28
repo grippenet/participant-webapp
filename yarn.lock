@@ -5847,10 +5847,10 @@ graceful-fs@^4.2.6, graceful-fs@^4.2.9:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.9.tgz#041b05df45755e587a24942279b9d113146e1c96"
   integrity sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==
 
-grippenet-web-ui@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/grippenet-web-ui/-/grippenet-web-ui-1.0.1.tgz#1dfedb089ba03a1fd05c94888ea165066a819794"
-  integrity sha512-pPN58FzL3ykBLRJI+X5fHdQl8XW/V+L18Z350ptU/+NB6xX+0NWqYG4i3a9dORma01usMFJNJNq7qoia5iflDA==
+grippenet-web-ui@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/grippenet-web-ui/-/grippenet-web-ui-1.1.1.tgz#5796022fee5825cd2fe097870cc6046e8c469bd6"
+  integrity sha512-RuKThzuTCr6vjXojl75ABw48E2q2mgxugjQCmT/YIVivdMTpiKOIuFIteOxdfPl4xPoQmYVrmmwTrzuzlkftPQ==
 
 gzip-size@^6.0.0:
   version "6.0.0"
