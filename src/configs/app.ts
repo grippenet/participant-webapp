@@ -16,7 +16,7 @@ export const appConfig : AppConfig = {
     { avatarId: '04', url: '/avatars/man_torso.svg' },
     { avatarId: '05', url: '/avatars/zakenman.svg' },
     { avatarId: '06', url: '/avatars/vrouw_torso.svg' },
-    { avatarId: '07', url: '/avatars/vrouw_met_hoofddoek.svg' },
+    { avatarId: '07', url: '/avatars/genderneutraal.svg' },
     { avatarId: '08', url: '/avatars/zakenvrouw.svg' },
     { avatarId: '09', url: '/avatars/baby_torso.svg' },
     { avatarId: '10', url: '/avatars/oude_vrouw_torso.svg' },
