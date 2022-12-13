@@ -3999,10 +3999,10 @@ case-web-app-core@^2.6.0:
   resolved "https://registry.yarnpkg.com/case-web-app-core/-/case-web-app-core-2.6.0.tgz#cc8a0ab75e933fdfdcc6816d94cd093636d47d5f"
   integrity sha512-vnzksswtnBPEX1zyb45lvli741bxnP7UtA727G5/d7wodcJH7FjEqYZFVAC70B/jQtkrz3Lz0KNhEgTCy8kJgw==
 
-case-web-ui@^1.14.0:
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/case-web-ui/-/case-web-ui-1.14.0.tgz#5cf3305868f194c74bd9a815b1ec8cbe1109097b"
-  integrity sha512-Qbn52iGOdco4DFbcHplrqGYr7t3T1VkTkb68ykWlZ/p9LU5R82rmcYgffcbiSPwE9SriJhwv06Ynhbxli101vQ==
+case-web-ui@^1.14.2:
+  version "1.14.2"
+  resolved "https://registry.yarnpkg.com/case-web-ui/-/case-web-ui-1.14.2.tgz#ff79a30a822f7ee8e4c555f9036a950a874b6b78"
+  integrity sha512-UEIJ5wnx7qOFHn1prKlxO5ujaOzcGTbYuU5QbcU7B6wLiAuhrDw2ud6T8cjdnl8OWGseEHTlITyvO6gpb8WSmA==
   dependencies:
     "@fortawesome/fontawesome-free" "^5.15.4"
 
@@ -5847,10 +5847,10 @@ graceful-fs@^4.2.6, graceful-fs@^4.2.9:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.9.tgz#041b05df45755e587a24942279b9d113146e1c96"
   integrity sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==
 
-grippenet-web-ui@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/grippenet-web-ui/-/grippenet-web-ui-1.1.1.tgz#5796022fee5825cd2fe097870cc6046e8c469bd6"
-  integrity sha512-RuKThzuTCr6vjXojl75ABw48E2q2mgxugjQCmT/YIVivdMTpiKOIuFIteOxdfPl4xPoQmYVrmmwTrzuzlkftPQ==
+grippenet-web-ui@1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/grippenet-web-ui/-/grippenet-web-ui-1.1.3.tgz#c1f05c0900acd54ebdff34640c117fa42297043f"
+  integrity sha512-sNeNSn70c3d+CtEb6v/MgSjn0aWYpMe9QuxV9PYqkvSXmFMLC5WjQZGt9adQ85uDpqKG/0OZ5UWRnDrKfgtbSA==
 
 gzip-size@^6.0.0:
   version "6.0.0"
