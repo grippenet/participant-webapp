@@ -1,6 +1,5 @@
 
 <div class="row my-3">
-    <h5 class="d-flex justify-content-center col-12">En collaboration avec</h2>
     <a class="d-flex justify-content-center col-4" href="https://www.inserm.fr/" target="_blank">
         <img class="" border="0" src="/assets/images/l/inserm.svg" alt="Image" title="Image" style="max-width: 100%;" width="143"/>
     </a>

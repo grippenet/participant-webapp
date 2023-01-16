@@ -177,8 +177,8 @@
       "unknown": "Une erreur s’est produite. Veuillez vérifier vos informations, ou réessayer plus tard."
     },
     "successDialog": {
-      "title": "Langue par défaut a été modifié",
-      "content": "Réussi ! Langue par défaut a été modifié.",
+      "title": "La langue par défaut a été modifiée",
+      "content": "Succès ! La langue par défaut a été modifiée.",
       "btn": "Ok"
     }
   },
@@ -199,7 +199,7 @@
     "submitBtn": "Enregistrer les modifications",
     "successDialog": {
       "title": "Les paramètres ont été modifiés.",
-      "content": "Réussi ! Vos paramètres en matière d'e-mails ont été modifiés.",
+      "content": "Succès ! Vos paramètres en matière d'e-mails ont été modifiés.",
       "btn": "Ok"
     }
   },
@@ -210,7 +210,7 @@
     "confirmBtn": "Se désabonner",
     "successDialog": {
       "title": "Compte supprimé",
-      "content": "Réussi ! Votre compte a été supprimé. Nous vous remercions pour votre contribution. Vous pouvez toujours vous réinscrire et participer à nouveau à cette étude en créant un nouveau compte.",
+      "content": "Succès ! Votre compte a été supprimé. Nous vous remercions pour votre contribution. Vous pouvez toujours vous réinscrire et participer à nouveau à cette étude en créant un nouveau compte.",
       "btn": "Ok"
     }
   }
