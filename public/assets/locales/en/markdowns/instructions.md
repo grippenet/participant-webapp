@@ -10,6 +10,6 @@ Bienvenue sur le site participant de GrippeNet.fr/COVIDnet.fr !
 </p>
 
 <p class="mt-1">
-Si vous n’êtes pas encore inscrit(e), vous pouvez vous inscrire pour participer à la prochaine saison de surveillance de l’étude GrippeNet.fr/COVIDnet.fr en cliquant sur un des liens « S’inscrire » de cette page. Si vous souhaitez plus d’informations sur le projet, vous pouvez vous rendre sur le site grand public de l’étude (www.grippenet.fr), ou cliquer sur les liens de rubrique ci-dessous. N’hésitez pas à devenir vous aussi acteur de la surveillance des infections respiratoires aiguës !
+Si vous n’êtes pas encore inscrit(e), vous pouvez vous inscrire pour participer à la prochaine saison de surveillance de l’étude GrippeNet.fr/COVIDnet.fr en cliquant sur un des liens « S’inscrire » de cette page. Si vous souhaitez plus d’informations sur le projet, vous pouvez vous rendre sur le site grand public de l’étude (<a href="https://www.grippenet.fr">www.grippenet.fr</a>), ou cliquer sur les liens de rubrique ci-dessous. N’hésitez pas à devenir vous aussi acteur de la surveillance des infections respiratoires aiguës !
 </p>
 </div>
