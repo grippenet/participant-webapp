@@ -95,3 +95,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# Specific to Grippenet :
+
+to start deployment, after having pushed modifications to the repository, we have to create a tag and push it :
+
+```
+git tag v1.2.3
+git push origin v1.2.3
+```
+

@@ -42,6 +42,18 @@ $enable-rounded: false !default;
   }
 }
 
-
 @import '~case-web-ui/build/scss/iconfonts';
 @import '~bootstrap/scss/bootstrap.scss';
+
+
+.justify-p p {
+  text-align: justify;
+}
+
+.blue-titles blockquote h4 {
+    background-color: map-get($theme-colors, "primary");;
+    margin-bottom: 1rem;
+    color: white;
+    padding: 1.25rem 1.875rem ;
+}
+

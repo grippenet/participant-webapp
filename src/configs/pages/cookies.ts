@@ -10,11 +10,11 @@ const cookies : PageConfig = {
       "columns": [
         {
           "key": "pCol",
-          "className": "col-12 col-sm-10 col-md-8",
+          "className": "col-12 offset-sm-1 col-sm-10 offset-md-2 col-md-8 my-3",
           "items": [
             {
               "itemKey": "contact",
-              "className": "",
+              "className": "justify-p",
               "config": {
                 "type": "markdown",
                 "markdownUrl": "/markdowns/cookies.md"
