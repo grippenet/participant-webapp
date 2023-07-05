@@ -10,6 +10,17 @@
     "content": "Votre réponse a bien été enregistrée",
     "btn": "Retourner à votre espace personnel"
   },
+  "loginRequiredDialog": {
+    "title": "Identification requise",
+    "info": "L'identification de votre compte est requise pour afficher cette page",
+    "loginBtn":"Se connecter",
+    "registerBtn":"Créer un compte"
+  },
+  "profileSelectionDialog": {
+    "title":"Sélectionnez un participant",
+    "info":"Sélectionnez le participant pour lequel vous souhaitez répondre au questionnaire",
+    "manageProfilesBtn":"Gérer les profiles"
+  },
   "noSurveyLoaded": "Erreur. Actualiser cette page",
   "submittingSurveyResponsesMsg": "Soumettre le questionnaire",
   "notValidQuestion": "Choisissez une réponse valable pour toutes les questions",
