@@ -53,14 +53,6 @@ const App: React.FC = () => {
   const [footerConfig, setFooterConfig] = useState<FooterConfig>();
   const { i18n } = useTranslation();
 
-  // TODO : delete this useEffect ? see commit "remove unnecessary language effect"
-  // https://github.com/influenzanet/participant-webapp/commit/970e90a781068b653b593ed1d33fd5adaf329f36
-  useEffect(() => {
-    if (!i18n.language) {
-      i18n.changeLanguage(`${process.env.REACT_APP_DEFAULT_LANGUAGE}`);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [i18n.language]);
 
   useEffect(() => {
 
