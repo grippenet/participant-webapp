@@ -7,7 +7,7 @@ import { FooterConfig } from 'case-web-app-core/build/types/footerConfig';
 import { HeaderConfig } from 'case-web-app-core/build/types/headerConfig';
 import { NavbarConfig } from 'case-web-app-core/build/types/navbarConfig';
 import { PagesConfig } from 'case-web-app-core/build/types/pagesConfig';
-import { LookupResponseComponent, registerLookupService } from 'grippenet-web-ui';
+import { LookupResponseComponent, registerLookupService, BMIResponseComponent } from 'grippenet-web-ui';
 import { fr } from "date-fns/locale";
 import ExternalLinkCard from './extensions/cards/ExternalLinkCard';
 import YoutubeCard from './extensions/cards/YoutubeCard';
@@ -22,6 +22,10 @@ export const customSurveyResponseComponents = [
   {
     name: 'input:postalCodeLookup',
     component: LookupResponseComponent
+  },
+  {
+    name: 'input:bmi',
+    component: BMIResponseComponent
   }
 ];
 
