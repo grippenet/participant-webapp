@@ -15,7 +15,7 @@
     "case-web-ui": "^1.14.7",
     "clsx": "^1.2.1",
     "encoding": "^0.1.13",
-    "grippenet-web-ui": "1.2.5",
+    "grippenet-web-ui": "1.2.6",
     "i18next": "^22.0.2",
     "react": "^18.1.0",
     "react-bootstrap": "^2.7.0",
