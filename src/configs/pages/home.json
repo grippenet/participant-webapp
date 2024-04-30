@@ -71,6 +71,11 @@
                     "linkKey": "otherSettings",
                     "type": "internal",
                     "value": "/settings"
+                  },
+                  {
+                    "linkKey": "downloadDiploma",
+                    "type": "external",
+                    "value": "/assets/images/Diplome_participation_GN_2023-2024.pdf"
                   }
                 ]
               }
