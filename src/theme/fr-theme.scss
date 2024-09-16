@@ -43,6 +43,20 @@ $enable-rounded: false !default;
 }
 
 @import '~case-web-ui/build/scss/iconfonts';
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+$font-family-base: 'Noto', Serif !default;
+body {
+  font-family: 'Noto', Serif !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Poppins", sans-serif;
+  // font-weight: bold
+}
 @import '~bootstrap/scss/bootstrap.scss';
 
 
@@ -57,3 +71,16 @@ $enable-rounded: false !default;
     padding: 1.25rem 1.875rem ;
 }
 
+.orange-titles blockquote h4 {
+  background-color: map-get($theme-colors, "orangegn");
+  margin-bottom: 1rem;
+  color: white;
+  padding: 1.25rem 1.875rem ;
+}
+
+.green-titles blockquote h4 {
+  background-color: map-get($theme-colors, "greengn");
+  margin-bottom: 1rem;
+  color: white;
+  padding: 1.25rem 1.875rem ;
+}

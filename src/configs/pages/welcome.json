@@ -19,7 +19,7 @@
                 "config": {
                     "type": "externalLinkCard",
                     "classBodyText": "",
-                    "customClassTitle": "background-orange",
+                    "customClassTitle": "background-green",
                     "variantTitle": "h2"
                 },
                 "showInfoText": false
@@ -53,7 +53,7 @@
           "items": [
             {
               "itemKey": "instructionsCard",
-              "className": "justify-p blue-titles",
+              "className": "justify-p orange-titles",
               "config": {
                 "type": "markdown",
                 "markdownUrl": "/markdowns/instructions.md"

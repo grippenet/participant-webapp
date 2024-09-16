@@ -14,20 +14,35 @@ orange éclairci : FFE0C6 => saumon moche !!!
 orange éclairci 2 : fff8e8
 */
 
-$primary: #007AB8;
+/* 
+Modification 2024
+
+orange : E56B00
+bleu : 005265
+vert : 409E80
+gris : D7EBED
+// orange éclairci : FFE0C6 => saumon moche !!!
+// orange éclairci 2 : fff8e8
+*/
+
+// $primary: #007AB8; //2023
+$primary: #005265; // 2024
 //$primary: #F58220; // orange
 //$secondary: #8EA59E;
 //$secondary: #fff8e8; // orange éclairci 
-$secondary: #edeff4; // gris original
-$success: #39870C; // it
-$warning: #EEA230;// it
-$danger: #D92321;// it
+// $secondary: #edeff4; // gris original 2023
+$secondary: #D7EBED; // gris original
+// $success: #00A733; // original
+$success: #39870C; // 2023 
+// $success: #409E80; // 2024 voir ExternalLinkCarde.module.scss + green-title
+$warning: #FD9644; // original
+// $warning: #EEA230; // 2023
+// $warning: #E56B00; // grippenet 2024 voir ExternalLinkCarde.module.scss
+// $danger: #DA3659; // original
+$danger: #D92321; // it
+// $info: #BCE0FA; // original
 // $info: #CCE0F1;// it
 $info: #8EA59E; // Grippenet
-// $success: #00A733; // original
-// $warning: #FD9644; // original
-// $danger: #DA3659; // original
-// $info: #BCE0FA; // original
 
 $theme-colors: (
   "primary": $primary,
@@ -50,6 +65,8 @@ $custom-colors: (
     "danger-light": #FCCFD9,// original
     "warning-light": #FFEDBD,// original
     "success-light": #B6F1CA,// original
+    "greengn": #409E80,
+    "orangegn": #E56B00,
 );
 
 
