@@ -5,14 +5,9 @@
   "dependencies": {
     "@fontsource/open-sans": "^4.5.14",
     "@popperjs/core": "^2.11.5",
-    "@types/jest": "^27.4.1",
-    "@types/node": "^16.11.12",
-    "@types/react": "^18.0.8",
-    "@types/react-dom": "^18.0.3",
-    "@types/react-redux": "^7.1.24",
+    "@influenzanet/case-web-app-core": "^2.7.7",
+    "@influenzanet/case-web-ui": "1.15.0",
     "bootstrap": "^5.2.3",
-    "case-web-app-core": "^2.7.2",
-    "case-web-ui": "^1.14.7",
     "clsx": "^1.2.1",
     "encoding": "^0.1.13",
     "grippenet-web-ui": "1.2.6",
@@ -24,10 +19,22 @@
     "react-redux": "^8.0.1",
     "react-scripts": "5.0.1",
     "redux": "^4.2.0",
-    "sass": "^1.52.3",
-    "survey-engine": "^1.2.1",
+    "survey-engine": "^1.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-syntax-flow": "^7.14.5",
+    "@babel/plugin-transform-react-jsx": "^7.14.9",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^16.11.12",
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.3",
+    "@types/react-redux": "^7.1.24",
+    "sass": "1.77.6",
     "typescript": "^4.5.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    
+    "http-proxy-middleware": "^2.0.6"
   },
   "scripts": {
     "prestart": "node scripts/csp.js development",
@@ -51,8 +58,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "http-proxy-middleware": "^2.0.6"
   }
 }

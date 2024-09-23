@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { AppCore } from 'case-web-app-core';
+import { AppCore } from '@influenzanet/case-web-app-core';
 import { useTranslation } from 'react-i18next';
 import { ConfigData } from './types';
-import { AppConfig } from 'case-web-app-core/build/types/appConfig';
-import { FooterConfig } from 'case-web-app-core/build/types/footerConfig';
-import { HeaderConfig } from 'case-web-app-core/build/types/headerConfig';
-import { NavbarConfig } from 'case-web-app-core/build/types/navbarConfig';
-import { PagesConfig } from 'case-web-app-core/build/types/pagesConfig';
+import { AppConfig } from '@influenzanet/case-web-app-core/build/types/appConfig';
+import { FooterConfig } from '@influenzanet/case-web-app-core/build/types/footerConfig';
+import { HeaderConfig } from '@influenzanet/case-web-app-core/build/types/headerConfig';
+import { NavbarConfig } from '@influenzanet/case-web-app-core/build/types/navbarConfig';
+import { PagesConfig } from '@influenzanet/case-web-app-core/build/types/pagesConfig';
 import { LookupResponseComponent, registerLookupService, BMIResponseComponent } from 'grippenet-web-ui';
 import { fr } from "date-fns/locale";
 import ExternalLinkCard from './extensions/cards/ExternalLinkCard';
@@ -55,7 +55,7 @@ const App: React.FC = () => {
   const [navbarConfig, setNavbarConfig] = useState<NavbarConfig>();
   const [pagesConfig, setPagesConfig] = useState<PagesConfig>();
   const [footerConfig, setFooterConfig] = useState<FooterConfig>();
-  const { i18n } = useTranslation();
+  // const { i18n } = useTranslation();
 
 
   useEffect(() => {

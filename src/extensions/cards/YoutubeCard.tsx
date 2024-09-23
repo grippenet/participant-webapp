@@ -1,8 +1,5 @@
 import React from 'react';
 
-import { useTranslation } from 'react-i18next';
-
-
 interface YoutubeCardProps {
     // given for all custom components
     key: string;

@@ -1,4 +1,4 @@
-import { AppConfig } from "case-web-app-core/build/types/appConfig";
+import { AppConfig } from "@influenzanet/case-web-app-core/build/types/appConfig";
 
 export const appConfig : AppConfig = {
   instanceId: "grippenet",

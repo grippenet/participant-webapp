@@ -1,7 +1,7 @@
-// copied from case-web-app-core/hook/useTranslatedMarkdown.ts
+// copied from @influenzanet/case-web-app-core/hook/useTranslatedMarkdown.ts
 
 
-import { useFetchTextFile } from "case-web-ui";
+import { useFetchTextFile } from "@influenzanet/case-web-ui";
 import { useTranslation } from "react-i18next";
 
 export const getTranslatedMarkdownPath = (markdownName: string, language: string): string => {

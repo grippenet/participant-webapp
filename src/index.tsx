@@ -5,9 +5,9 @@ import { Provider } from 'react-redux';
 import {
   store,
   initI18n,
-} from 'case-web-app-core';
+} from '@influenzanet/case-web-app-core';
 
-import { LoadingPlaceholder } from 'case-web-ui';
+import { LoadingPlaceholder } from '@influenzanet/case-web-ui';
 
 import './index.scss';
 

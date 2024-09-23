@@ -1,4 +1,4 @@
-import {  PageConfig } from "case-web-app-core/build/types/pagesConfig";
+import {  PageConfig } from "@influenzanet/case-web-app-core/build/types/pagesConfig";
 
 const privacy : PageConfig = {
     "path": "/privacy",

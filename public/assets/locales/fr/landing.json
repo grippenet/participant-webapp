@@ -1,5 +1,5 @@
 {
-  "title": "GrippeNet.fr/COVIDnet.fr",
+  "title": "GrippeNet/COVIDnet",
   "topImage": {
     "title": "Test teaser image",
     "content": "Une étude dans le cadre de la lutte contre les épidémies"
@@ -22,7 +22,7 @@
   "currentResultCard": {
     "imageAlt": "Les résultats image",
     "title": "Les résultats",
-    "body": "Découvrez les résultats GrippeNet.fr/COVIDnet.fr.",
+    "body": "Découvrez les résultats GrippeNet/COVIDnet.",
     "actionLabel": "Les résultats"
   },
   "signupCard": {
@@ -32,20 +32,20 @@
     "actionLabel": "S'inscrire"
   },
   "welcomeCard": {
-    "title": "Bienvenue sur le site participant de GrippeNet.fr/COVIDnet.fr",
+    "title": "Bienvenue sur le site participant de GrippeNet/COVIDnet",
     "bodyText": "",
     "info": ""
   },
   "externalResultCard": {
     "imageAlt": "Les résultats image",
     "title": "Voir les résultats",
-    "bodyText": "Découvrez les résultats de l'étude GrippeNet.fr/COVIDnet.fr.",
+    "bodyText": "Découvrez les résultats de l'étude GrippeNet/COVIDnet.",
     "openActionText": "Voir sur le site grand public",
     "info": ""
   },
   "aboutCard": {
-    "imageAlt": "À propos de GrippeNet.fr/COVIDnet.fr image",
-    "title": "À propos de GrippeNet.fr/COVIDnet.fr",
+    "imageAlt": "À propos de GrippeNet/COVIDnet image",
+    "title": "À propos de GrippeNet/COVIDnet",
     "bodyText": "Ce projet de surveillance et de recherche a pour objectif de recueillir directement auprès de la population des données épidémiologiques sur la grippe et la COVID-19, par Internet et de façon anonyme.",
     "openActionText": "Voir sur le site grand public"
   },

@@ -1,12 +1,12 @@
 @import './selected_color_scheme';
-@import '~case-web-ui/build/scss/helpers/spacing.scss';
-@import '~case-web-ui/build/scss/helpers/forms.scss';
-@import '~case-web-ui/build/scss/helpers/custom_range.scss';
-@import '~case-web-ui/build/scss/helpers/navbar.scss';
-@import '~case-web-ui/build/scss/helpers/borders.scss';
-@import '~case-web-ui/build/scss/helpers/date_input.scss';
-@import '~case-web-ui/build/scss/helpers//typography.scss';
-@import '~case-web-ui/build/scss/helpers/utilities.scss';
+@import '@influenzanet/case-web-ui/build/scss/helpers/spacing.scss';
+@import '@influenzanet/case-web-ui/build/scss/helpers/forms.scss';
+@import '@influenzanet/case-web-ui/build/scss/helpers/custom_range.scss';
+@import '@influenzanet/case-web-ui/build/scss/helpers/navbar.scss';
+@import '@influenzanet/case-web-ui/build/scss/helpers/borders.scss';
+@import '@influenzanet/case-web-ui/build/scss/helpers/date_input.scss';
+@import '@influenzanet/case-web-ui/build/scss/helpers//typography.scss';
+@import '@influenzanet/case-web-ui/build/scss/helpers/utilities.scss';
 
 // ---------------------------------------------
 // file derived from it-theme.scss which is derived from ~case-web-ui/build/scss/theme-default.scss
@@ -42,7 +42,7 @@ $enable-rounded: false !default;
   }
 }
 
-@import '~case-web-ui/build/scss/iconfonts';
+@import '@influenzanet/case-web-ui/build/scss/iconfonts';
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 $font-family-base: 'Noto', Serif !default;

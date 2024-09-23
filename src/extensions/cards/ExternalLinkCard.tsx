@@ -2,12 +2,12 @@ import React from 'react';
 
 import styles from './ExternalLinkCard.module.scss';
 import clsx from 'clsx';
-import { getExternalOrLocalContentURL, MarkdownLoader } from 'case-web-ui';
+import { getExternalOrLocalContentURL, MarkdownLoader } from '@influenzanet/case-web-ui';
 
 import { useTranslation } from 'react-i18next';
 import { getTranslatedMarkdownPath } from '../copied_tools/useTranslatedMarkdown';
 import { getOpenExternalPageHandler } from '../utils/routeUtils';
-import { PageItem } from 'case-web-app-core/build/types/pagesConfig';
+import { PageItem } from '@influenzanet/case-web-app-core/build/types/pagesConfig';
 
 
 interface ExternalLinkCardProps {

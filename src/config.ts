@@ -1,8 +1,8 @@
 import { ConfigData } from "./types";
-import { FooterConfig } from 'case-web-app-core/build/types/footerConfig';
-import { HeaderConfig } from 'case-web-app-core/build/types/headerConfig';
-import { NavbarConfig } from 'case-web-app-core/build/types/navbarConfig';
-import { PagesConfig } from 'case-web-app-core/build/types/pagesConfig';
+import { FooterConfig } from '@influenzanet/case-web-app-core/build/types/footerConfig';
+import { HeaderConfig } from '@influenzanet/case-web-app-core/build/types/headerConfig';
+import { NavbarConfig } from '@influenzanet/case-web-app-core/build/types/navbarConfig';
+import { PagesConfig } from '@influenzanet/case-web-app-core/build/types/pagesConfig';
 
 import { appConfig } from "./configs/app";
 import header from "./configs/header.json";
