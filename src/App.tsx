@@ -7,7 +7,7 @@ import { FooterConfig } from '@influenzanet/case-web-app-core/build/types/footer
 import { HeaderConfig } from '@influenzanet/case-web-app-core/build/types/headerConfig';
 import { NavbarConfig } from '@influenzanet/case-web-app-core/build/types/navbarConfig';
 import { PagesConfig } from '@influenzanet/case-web-app-core/build/types/pagesConfig';
-import { LookupResponseComponent, registerLookupService, BMIResponseComponent } from 'grippenet-web-ui';
+import { LookupResponseComponent, registerLookupService, BMIResponseComponent, RandomCodeComponent } from 'grippenet-web-ui';
 import { fr } from "date-fns/locale";
 import ExternalLinkCard from './extensions/cards/ExternalLinkCard';
 import YoutubeCard from './extensions/cards/YoutubeCard';
@@ -28,6 +28,10 @@ export const customSurveyResponseComponents = [
   {
     name: 'input:bmi',
     component: BMIResponseComponent
+  },
+  {
+    name:"input:randomCode",
+    component: RandomCodeComponent
   }
 ];
 
