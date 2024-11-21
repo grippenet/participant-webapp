@@ -1,16 +1,10 @@
 import React from 'react';
+import { GenericPageItemProps } from '@influenzanet/case-web-app-core/build/types/extensionComponents';
 
-interface YoutubeCardProps {
-    // given for all custom components
-    key: string;
-    pageKey: string; ///////////
-    itemKey: string;
-
+interface YoutubeCardProps extends GenericPageItemProps {
     embedId: string;
-    className?: string;
     minHeight?: number;
     fallbackText?: string;
-    
 }
  
 const YoutubeCard: React.FC<YoutubeCardProps> = (props : YoutubeCardProps) => {

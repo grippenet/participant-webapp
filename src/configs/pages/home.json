@@ -8,6 +8,22 @@
       "containerClassName": "py-3 min-vh-60",
       "columns": [
         {
+          "key": "badgeCol",
+          "className": "col-12 col-lg-12 mt-3",
+          "items": [    
+            {
+              "itemKey": "badge",
+              "className": "mb-3 mt-0",
+              "config": {
+                "type": "extension",
+                "config": {
+                    "type": "userBadges"
+                }
+              }
+            }
+          ]
+        },
+        {
           "key": "surveyCol",
           "className": "col-12 col-lg-8",
           "items": [

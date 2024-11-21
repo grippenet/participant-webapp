@@ -7,10 +7,12 @@ import { FooterConfig } from '@influenzanet/case-web-app-core/build/types/footer
 import { HeaderConfig } from '@influenzanet/case-web-app-core/build/types/headerConfig';
 import { NavbarConfig } from '@influenzanet/case-web-app-core/build/types/navbarConfig';
 import { PagesConfig } from '@influenzanet/case-web-app-core/build/types/pagesConfig';
-import { LookupResponseComponent, registerLookupService, BMIResponseComponent, RandomCodeComponent } from 'grippenet-web-ui';
+import { LookupResponseComponent, registerLookupService, BMIResponseComponent } from 'grippenet-web-ui';
 import { fr } from "date-fns/locale";
 import ExternalLinkCard from './extensions/cards/ExternalLinkCard';
 import YoutubeCard from './extensions/cards/YoutubeCard';
+import { createUserBadgesComponent } from './extensions/userBadges/UsersBadges';
+import { badgesDefinition2024 } from './extensions/userBadges/config/BadgesDefinition';
 
 registerLookupService('postalcodes', process.env.REACT_APP_POSTALCODES_URL ?? '');
 
@@ -26,12 +28,17 @@ export const customSurveyResponseComponents = [
   {
     name: 'input:bmi',
     component: BMIResponseComponent
-  },
-  {
-    name:"input:randomCode",
-    component: RandomCodeComponent
   }
 ];
+
+
+const GrippenetUserBadges = createUserBadgesComponent({
+  badgeStudy: "grippenet",
+  typeBadgeReportCode: "badge",
+  startSeasonDate: "2024-06-01",
+  badgesDefinition: badgesDefinition2024,
+  badgesImgRootUrl: "/assets/badges/"
+});
 
 const extensions = [
   {
@@ -41,8 +48,13 @@ const extensions = [
   {
     name: 'youtubeCard',
     component: YoutubeCard
+  },
+  {
+    name: 'userBadges',
+    component: GrippenetUserBadges
   }
 ];
+
 
 
 async function fetchAllData(): Promise<ConfigData> {

@@ -5,21 +5,17 @@ import clsx from 'clsx';
 import { getExternalOrLocalContentURL, MarkdownLoader } from '@influenzanet/case-web-ui';
 
 import { useTranslation } from 'react-i18next';
+
 import { getTranslatedMarkdownPath } from '../copied_tools/useTranslatedMarkdown';
+
 import { getOpenExternalPageHandler } from '../utils/routeUtils';
+
 import { PageItem } from '@influenzanet/case-web-app-core/build/types/pagesConfig';
+import { GenericPageItemProps } from '@influenzanet/case-web-app-core/build/types/extensionComponents';
 
 
-interface ExternalLinkCardProps {
-    // given for all custom components
-    key: string;
-    pageKey: string; ///////////
-    itemKey: string;
-    renderGenericItemFunc: (item: PageItem) => React.ReactElement | null; // la fonction render elle-même!
-    //onNavigate: // fonction de base onNavigate (push dans l'history)
-
+interface ExternalLinkCardProps extends GenericPageItemProps {
     // from SimpleCard
-    className?: string;
     markdownUrl?: string;
     classText?: string;
     contentText?: string;
