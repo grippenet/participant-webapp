@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import { useTranslation } from 'react-i18next';
 
 import { ProfilesBadges, UserBadgesReportReader } from './services/UserBadgesReportReader';
-import { LoadingPlaceholder } from '@influenzanet/case-web-ui';
+import { Dialog, DialogBtn, LoadingPlaceholder } from '@influenzanet/case-web-ui';
 import ProfileBadgesComponent from './ProfileBadgesComponent';
 import { GenericPageItemProps } from '@influenzanet/case-web-app-core/build/types/extensionComponents';
 import { BadgesDefinition } from './config/BadgesDefinition';
@@ -43,7 +43,7 @@ export interface BadgesDisplayOptions {
 
 const defaultDisplayOptions: BadgesDisplayOptions = {
   profileBadgesGridClassName: 'row pb-2 pt-1',
-  badgeClassName: 'col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2',
+  badgeClassName: 'col-3 col-sm-3 col-md-3 col-lg-2 col-xl-2',
   badgeImgClassName: '',
 }
 
@@ -117,31 +117,54 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
       props.className
     )}
   >
-    {title ? 
-      <h5 className={clsx(
-        'px-2 py-1a text-white m-0 fw-bold fs-btn bg-primary',
-      )}  onClick={toggleBadgesDisplay}>
-        <div className='d-inline-block'>{title}</div>
-        <div className='d-inline-block float-end'>
-        {hasNewProfilesBadges 
-          ? <span className='me-1 bg-secondary px-1 text-danger'> Nouveau(x) badge(s) !</span>
-          : '' }
-          <button className='btn btn-xs bg-secondary text-black m-0 p-0 pe-1'>
-            <i className={clsx(
-              'ms-1',
-              show ? 'fas fa-chevron-up': 'fas fa-chevron-down'
-            )}></i>
-          </button>
-        </div>
-      </h5>
-      : null}
-    {badgeReader && show && (
+    <h5 className={clsx(
+      'px-2 py-1a text-whiteXX m-0 fw-bold fs-btn bg-secondary',
+    )}  onClick={toggleBadgesDisplay}>
+      <div className='d-inline-block'>{title}</div>
+      <div className='d-inline-block float-end'>
+      {hasNewProfilesBadges || false
+        ? <span className='me-1 bg-secondary px-1 text-danger'> Nouveau(x) badge(s) !</span>
+        : '' }
+        <button className='btn btn-xs bg-secondary text-black m-0 p-0 pe-1'>
+          <i className="fas ms-1 fa-plus" />
+          {/* <i className={clsx(
+            'ms-1',
+            show ? 'fas fa-chevron-up': 'fas fa-chevron-down'
+          )}></i> */}
+        </button>
+      </div>
+    </h5>
+    {/* {badgeReader && show && (
       <ProfileBadgesComponent 
         className='' 
         profilesBadges={profilesBadges} 
         displayOptions={displayOptions}
         badgesTranslation={t} />
-    )} 
+    )}  */}
+
+    <Dialog
+        open={show}
+        title={title}
+        ariaLabelledBy=""
+        onClose={toggleBadgesDisplay}
+        size="xl"
+      >
+      <ProfileBadgesComponent 
+        className='' 
+        profilesBadges={profilesBadges} 
+        displayOptions={displayOptions}
+        badgesTranslation={t} />
+      {/* <div className="d-flex flex-wrap">
+        <DialogBtn
+          className="mt-2"
+          type="button"
+          color="primary"
+          label={"close"}
+          onClick={toggleBadgesDisplay}
+        />
+      </div> */}
+    </Dialog>
+    
   </div>;
 
     
@@ -151,3 +174,6 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
     ? loadingContent
     : badgeUsersContent;
 }
+
+
+
