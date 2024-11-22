@@ -1,0 +1,97 @@
+{
+    "title": "Vos badges",
+    "noBadgeMessage": "Aucun badge pour le moment !",
+    "newBadgeLabel": "New",
+    "badges": {
+        "beginner": {
+            "label": "C’est parti !",
+            "description": "",
+            "message_new": "Bravo vous venez de gagner le badge « C’est parti ! »"
+        },
+        "starting": {
+            "label": "Prêt au départ",
+            "description": "",
+            "message_new": "Bravo vous avez remporté le badge « Prêt au départ » en complétant vos questionnaires d’inclusion et de vaccination. Vous êtes maintenant prêt pour votre saison de surveillance Grippenet/Covidnet. A vos marques, prêt, partez !"
+        },
+        "loyalty": {
+            "label": "Fidélité",
+            "description": "",
+            "message_new": "Bravo vous venez de gagner le badge « Fidélité » car vous avez répondu à plusieurs questionnaires hebdomadaires consécutifs. Félicitations !"
+        },
+        "regularity": {
+            "label": "Régularité",
+            "description": "",
+            "message_new": "Bravo vous venez de gagner le badge « Engagement » car vous avez répondu à un grand nombre de questionnaires du projet Grippenet/Covidnet cette saison. Félicitations !"
+        },
+        "seasonBronze": {
+            "label": "Participant infaillible bronze",
+            "description": "",
+            "message_new": "Bravo vous venez de gagner le badge « Participant Infaillible bronze » pour votre participation à une troisième saison de Grippenet/Covidnet. Nous sommes heureux de vous retrouver pour une nouvelle saison !"
+        },
+        "seasonArgent": {
+            "label": "Participant infaillible argent",
+            "description": "",
+            "message_new": "Bravo vous venez de gagner le badge « Participant Infaillible argent » pour votre participation à une cinquième saison de Grippenet/Covidnet. Un énorme merci !"
+        },
+        "seasonGold": {
+            "label": "Participant infaillible or",
+            "description": "",
+            "message_new": "Bravo vous venez de gagner le badge « Participant Infaillible or » pour votre participation à une dixième saison de Grippenet/Covidnet. Félicitations pour votre implication !"
+        },
+        "external": {
+            "label": "Diversité",
+            "description": "",
+            "message_new": "Bravo vous venez de gagner le badge « Diversité » car vous avez accepté de participer à une étude ponctuelle. L’équipe Grippenet/Covidnet vous remercie !"
+        },
+        "stop_tobacco": {
+            "label": "Stop au tabac",
+            "description": "",
+            "message_new": "Vous venez de décrocher le badge « Stop au tabac » car vous avez dit avoir arrêté de fumer depuis moins d’un an. Bravo, Grippenet/Covidnet vous soutient !"
+        },
+        "influenza_prev": {
+            "label": "Prévention Grippe",
+            "description": "",
+            "message_new": "Vous venez de décrocher le badge « Prévention Grippe », car vous appartenez à une catégorie de personnes à risque de complications et vous avez indiqué vous être fait vacciner contre la grippe cette année."
+        },
+        "precision": {
+            "label": "Précision",
+            "description": "",
+            "message_new": "Bravo vous venez de gagner le badge « Précision » car vous avez accepté de répondre à des questions supplémentaires. Merci pour votre engagement !"
+        },
+        "return": {
+            "label": "De retour",
+            "description": "",
+            "message_new": "Bravo vous venez de gagner le badge « De retour » pour avoir recommencé à participer à Grippenet/Covidnet après une petite interruption. Nous sommes heureux de vous retrouver !"
+        },
+        "pionneer": {
+            "label": "Pionnier",
+            "description": "",
+            "message_new": "Félicitations ! Vous venez de décrocher le badge « Pionnier » ! Vous êtes le premier participant de votre lieu de résidence à prendre part au projet Grippenet/Covidnet. Bravo et merci !"
+        },
+        "step5": {
+            "label": "5ème étape",
+            "description": "",
+            "message_new": "5ème étape » car vous avez déjà rempli 5 questionnaires du projet Grippenet/Covidnet. Nous vous en remercions !"
+        },
+        "step10": {
+            "label": "10ème étape",
+            "description": "",
+            "message_new": "Bravo vous venez de gagner le badge « 10ème étape » car vous avez déjà rempli 10 questionnaires du projet Grippenet/Covidnet. Un énorme merci !"
+        },
+        "step25": {
+            "label": "25ème étape",
+            "description": "",
+            "message_new": "Bravo vous venez de gagner le badge « 25ème étape » car vous avez déjà rempli 25 questionnaires du projet Grippenet/Covidnet. Quelle implication !"
+        },
+        "step50": {
+            "label": "50ème étape",
+            "description": "",
+            "message_new": "Bravo vous venez de gagner le badge « 50ème étape » car vous avez déjà rempli 50 questionnaires du projet Grippenet/Covidnet. On ne vous arrête pas !"
+        },
+        "step100": {
+            "label": "100ème étape",
+            "description": "",
+            "message_new": "Bravo vous venez de gagner le badge « 100ème étape » car vous avez déjà rempli 100 questionnaires du projet Grippenet/Covidnet. Une contribution exemplaire !"
+        }
+    }
+}

@@ -13,11 +13,12 @@
           "items": [    
             {
               "itemKey": "badge",
-              "className": "mb-3 mt-0",
+              "className": "mb-3",
               "config": {
                 "type": "extension",
                 "config": {
-                    "type": "userBadges"
+                    "type": "userBadges",
+                    "translationPath": "badges/grippenet"
                 }
               }
             }

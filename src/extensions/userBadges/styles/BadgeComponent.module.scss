@@ -1,0 +1,47 @@
+.badge-image {
+    margin-top: 1rem;
+}
+
+
+// icon "NEW"
+.new-badge_wrapper {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 0%;
+    right: 0%;
+}
+
+.new-badge_icon-wrapper {
+    position: absolute;
+    width: 3.3rem;
+    height: 3.3rem;
+}
+
+.new-badge_icon-wrapper .new-badge_icon {
+    font-size: 3.3rem;
+    margin-top: 0;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.new-badge_text-wrapper {
+    justify-self: center;
+    display: grid;
+    position: absolute;
+    width: 3.3rem;
+    height: 3.3rem;
+
+}
+
+.new-badge_text-wrapper .new-badge_text {
+    margin: auto auto;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+
+}

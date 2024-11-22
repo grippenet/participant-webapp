@@ -51,7 +51,7 @@ export class UserBadgesReportReader {
     isFirstFetch: boolean = true;
 
     /**
-     * will be set to true when any reports fetching except the first one, will have got a least one result.
+     * will be set to true when any reports fetching, except the first one, will have got a least one result.
      */
     hasNewBadges = false; 
     

@@ -1,5 +1,7 @@
 {
     "title": "Vos badges",
+    "noBadgeMessage": "Aucun badge pour le moment !",
+    "newBadgeLabel": "New",
     "badges": {
         "beginner": {
             "label": "C’est parti !",

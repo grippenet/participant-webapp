@@ -1,8 +1,8 @@
 import clsx from "clsx";
 import { Badge } from "./services/UserBadgesReportReader";
 import { BadgesDisplayOptions } from "./UsersBadges";
-import { OverlayTrigger, Tooltip, TooltipProps } from "react-bootstrap";
-
+import { OverlayTrigger, Popover, PopoverProps, Tooltip, TooltipProps } from "react-bootstrap";
+import styles from "./styles/BadgeComponent.module.scss"
 
 const translationLabelCode = 'label';
 const translationDescriptionCode = 'message_new';
@@ -10,7 +10,8 @@ const translationDescriptionCode = 'message_new';
 interface BadgeProps {
     className?: string;
     badge: Badge;
-    badgeTranslator: (key: string) => string;
+    badgesTranslation: (key: string) => string;
+    currentBadgeTranslation: (key: string) => string;
     displayOptions?: BadgesDisplayOptions;
 }
 
@@ -21,45 +22,89 @@ interface BadgeProps {
  * @returns 
  */
 const BadgeComponent: React.FC<BadgeProps> = (props) => {
-    // console.log(props.displayOptions)
-    const badge = props.badge;
-    const t = props.badgeTranslator;
-
-    const renderTooltipDescription = (props: TooltipProps) => (
-        <Tooltip {...props}>
-            {t(translationDescriptionCode)}
-        </Tooltip>
-    )
     
-    return (
+    const badge = props.badge;
+    const badgesTranslation = props.badgesTranslation;
+    const currentBadgeTranslation = props.currentBadgeTranslation;
+
+    const renderTooltipDescription = (props: PopoverProps) => (
+        <Popover {...props} className="w-100">
+            {/* <Popover.Header className="bg-primary text-white p-2">
+                {currentBadgeTranslation(translationLabelCode)}
+            </Popover.Header> */}
+            <Popover.Body className="bg-primary text-white p-2">
+            <div>
+                {currentBadgeTranslation(translationDescriptionCode)}
+            </div>
+            </Popover.Body>
+        </Popover>
+    )
+
+    const makeBadgeContent = () => (
         <div className={clsx(
+            "badge-wrapper position-relative flex",
             props.className,
             props.displayOptions?.badgeClassName,
             badge.isNew ? 'border border-1 border-danger' : ''
-          )}>
-            <div className="">
-                <OverlayTrigger overlay={renderTooltipDescription}>
+        )}>
+            {(badge.isNew || false) &&
+                renderNewBadge(badgesTranslation)
+            }
+            {/* badge image */}
+            <div className="text-center w-100">
                     <img className={clsx(
-                        "w-100",
+                        "w-75 justify-self-center",
+                        styles['badge-image'],
                         props.displayOptions?.badgeImgClassName
                         )} 
                         src={badge.imgUrl}>
                     </img>
-                </OverlayTrigger>
             </div>
             <div className={clsx(
-                "text-center fw-bold p-0 m-0",
-                badge.isNew ? 'text-danger' : ''
-                )} data-bs-toggle='tooltip' title={t(translationDescriptionCode)}>
+                "text-center fw-bold p-0 m-0"
+                )}>
                 {badge.gained 
-                    ? t(translationLabelCode)
-                    : 'badge non obtenu ' + badge.keyFlag }
-                    {badge.isNew ? ' nouveau ! ' : ''}
+                    ? currentBadgeTranslation(translationLabelCode)
+                    : '' /* 'badge non obtenu ' + badge.keyFlag */ }
             </div>
             
         </div>
     )
+
+    return (
+        <OverlayTrigger 
+            overlay={renderTooltipDescription} 
+            // trigger="click" 
+            placement="auto"
+        >
+            {makeBadgeContent()}
+        </OverlayTrigger>
+    )
 }
 
-
 export default BadgeComponent;
+
+
+const renderNewBadge = (badgesTranslation: (key: string) => string) => (
+    <div className={clsx(
+            styles['new-badge_wrapper'],
+    )}>
+        <div className={clsx(
+                styles['new-badge_icon-wrapper']
+            )}>
+                <i className={clsx(
+                styles['new-badge_icon'],
+                    "fas fa-certificate",
+                )} ></i>
+        </div>
+        <div className={clsx(
+                styles['new-badge_text-wrapper'],
+            )} 
+        >
+            <span className={clsx(
+                styles['new-badge_text']
+            )}>
+                {badgesTranslation('newBadgeLabel')}
+            </span>
+        </div>
+    </div>)

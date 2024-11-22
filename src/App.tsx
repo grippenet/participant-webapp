@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { AppCore } from '@influenzanet/case-web-app-core';
-import { useTranslation } from 'react-i18next';
 import { ConfigData } from './types';
 import { AppConfig } from '@influenzanet/case-web-app-core/build/types/appConfig';
 import { FooterConfig } from '@influenzanet/case-web-app-core/build/types/footerConfig';

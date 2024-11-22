@@ -8,7 +8,7 @@ import ProfileBadgesComponent from './ProfileBadgesComponent';
 import { GenericPageItemProps } from '@influenzanet/case-web-app-core/build/types/extensionComponents';
 import { BadgesDefinition } from './config/BadgesDefinition';
 
-
+import styles from './styles/UserBadges.module.scss';
 
 // COMPONENT BUILDING SECTION
 /* 
@@ -32,20 +32,24 @@ export const createUserBadgesComponent = (config: UserBadgesConfig) => {
   return UserBadges
 }
 
+/**
+ * to be specified in the src/configs/pages/home.json :
+ */
 export interface BadgesDisplayOptions {
-  ProfileBadgesGridClassName?: string,
+  profileBadgesGridClassName?: string,
   badgeClassName?: string,
   badgeImgClassName?: string,
 }
 
-interface UserBadgesProps extends GenericPageItemProps {
-  displayOptions?: BadgesDisplayOptions
+const defaultDisplayOptions: BadgesDisplayOptions = {
+  profileBadgesGridClassName: 'row pb-2 pt-1',
+  badgeClassName: 'col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2',
+  badgeImgClassName: '',
 }
 
-const defaultDisplayOptions: BadgesDisplayOptions = {
-  ProfileBadgesGridClassName: 'row pb-2',
-  badgeClassName: 'col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2',
-  badgeImgClassName: 'd-inline-block text-body overflow-hidden me-1',
+interface UserBadgesProps extends GenericPageItemProps {
+  displayOptions?: BadgesDisplayOptions,
+  translationPath?: string
 }
 
 
@@ -56,7 +60,7 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
   
   const displayOptions = {...defaultDisplayOptions, ...props.displayOptions ?? {}}
   
-  const { t } = useTranslation(['badges']);
+  const { t } = useTranslation([props.translationPath ?? 'badges/default']);
 
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);
@@ -69,8 +73,6 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
   const isMounted = useRef(true);
 
   const title = t('title');
-
-  let reports;
   
   useEffect(() => {
     
@@ -84,7 +86,6 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
 
         setIsLoading(false);
 
-        // console.log('RESULTS : ', results);
       } catch (error) {
         console.log(error);
         setIsLoading(false);
@@ -97,19 +98,20 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
     return () => {
       isMounted.current = false;
     }
-  }, [reports, isMounted])
+  }, [ isMounted ])
 
+  // always null
   const errorContent = null;
 
   const loadingContent = (
     <LoadingPlaceholder color='secondary' minHeight={200} />
   );
 
-  const displayBadges = () => {
+  const toggleBadgesDisplay = () => {
     setShow(! show);
   }
 
-  const badgeUsersContent = (
+  const badgeUsersContent = 
   <div 
     className={clsx(
       props.className
@@ -118,11 +120,11 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
     {title ? 
       <h5 className={clsx(
         'px-2 py-1a text-white m-0 fw-bold fs-btn bg-primary',
-      )}  onClick={displayBadges}>
+      )}  onClick={toggleBadgesDisplay}>
         <div className='d-inline-block'>{title}</div>
-        <div className='d-inline-block float-end text-danger'>
+        <div className='d-inline-block float-end'>
         {hasNewProfilesBadges 
-          ? <span className='me-1 bg-secondary px-1'> Nouveau(x) badge(s) !</span>
+          ? <span className='me-1 bg-secondary px-1 text-danger'> Nouveau(x) badge(s) !</span>
           : '' }
           <button className='btn btn-xs bg-secondary text-black m-0 p-0 pe-1'>
             <i className={clsx(
@@ -140,8 +142,7 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
         displayOptions={displayOptions}
         badgesTranslation={t} />
     )} 
-  </div>
-  );
+  </div>;
 
     
   return isError

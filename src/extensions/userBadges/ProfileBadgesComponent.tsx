@@ -6,7 +6,6 @@ import { useSelector } from "react-redux";
 import { Profile } from "@influenzanet/case-web-app-core/build/api/types/user";
 import { RootState} from "@influenzanet/case-web-app-core/build/store/rootReducer";
 import { config } from "../../config";
-import { badgesDefinition2024 } from "./config/BadgesDefinition";
 import clsx from "clsx";
 import { BadgesDisplayOptions } from "./UsersBadges";
 
@@ -41,36 +40,44 @@ const ProfileBadgesComponent: React.FC<BadgeProps> = (props) => {
             props.className
           )}>
             {profiles.map((profile, idx) => (
-                <div key={idx} className="row">
-                    <div>
-                        <div className="p-2 fw-bold" style={{
-                                'borderTop': '0.5rem white solid', 
-                                'borderBottom': '1px #005265 solid'
-                            }} >
-                            <img className={"d-inline-block text-body overflow-hidden me-1"} width={24} src={avatarsImgMap[profile.avatarId]}></img>
-                            <span className="fs-5">
-                                {profile.alias} {profile.mainProfile ? ' (Moi)' : ''}
-                            </span>
-                        </div>
-                        <div className={clsx(
-                            'px-2',
-                            props.displayOptions?.ProfileBadgesGridClassName
-                        )}>
-                            { (profilesBadges[profile.id] && profilesBadges[profile.id].length > 0) ? 
-                            '' : <div className="pt-2 fs-5">Aucun badge pour le moment !</div>
-                            }
-                            {profilesBadges[profile.id] && (
-                                profilesBadges[profile.id].map((profileBadge, idx) => 
-                                    profileBadge.gained && (
-                                        <BadgeComponent 
-                                            key={idx} 
-                                            badge={profileBadge} 
-                                            badgeTranslator={makeBadgeTranslator(profileBadge)}
-                                            displayOptions={props.displayOptions}
-                                        ></BadgeComponent>
-                                    )
-                            ))}
-                        </div>
+                <div key={idx} className="">
+                    {/* profile */}
+                    <div className="p-2 fw-bold" style={{
+                            'borderTop': '0.5rem white solid', 
+                            'borderBottom': '1px #005265 solid',
+                        }} >
+                        <img className={"d-inline-block text-body overflow-hidden me-1"} width={24} src={avatarsImgMap[profile.avatarId]}></img>
+                        <span className="fs-5">
+                            {profile.alias} {profile.mainProfile ? ' (Moi)' : ''}
+                        </span>
+                    </div>
+                    {/* badges */}
+                    <div className={clsx(
+                        'px-2',
+                        props.displayOptions?.profileBadgesGridClassName
+                    )}>
+
+                        {/* FOR TESTING NO BADGE */}
+                        {/* <div className="pt-2 fs-5">
+                            <img className="me-1" src="https://img.freepik.com/vecteurs-premium/est-dessin-anime-drole-excrements-caca_53500-4600.jpg" width="130"/>
+                            {t('noBadgeMessage')}
+                        </div> */}
+                        { (profilesBadges[profile.id] && profilesBadges[profile.id].length > 0) ? 
+                        '' : <div className="pt-2 fs-5">{t('noBadgeMessage')}</div>
+                        }
+
+                        {profilesBadges[profile.id] && (
+                            profilesBadges[profile.id].map((profileBadge, idx) => 
+                                profileBadge.gained && (
+                                    <BadgeComponent 
+                                        key={idx} 
+                                        badge={profileBadge} 
+                                        badgesTranslation={t}
+                                        currentBadgeTranslation={makeBadgeTranslator(profileBadge)}
+                                        displayOptions={props.displayOptions}
+                                    ></BadgeComponent>
+                                )
+                        ))}
                     </div>
                 </div>
             ))}
