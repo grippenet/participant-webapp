@@ -3,6 +3,7 @@
     "noBadgeMessage": "Aucun badge pour le moment !",
     "newBadgeMessage": "Nouveau(x) badge(s) !",
     "newBadgeLabel": "New",
+    "badgesExplanations": "Les badges sont des récompenses virtuelles que vous pouvez gagner en remplissant certaines conditions liées à votre participation sur Grippenet/Covidnet. À vous de les collectionner au fil de votre participation : ils apparaîtront sur cette page. Passez votre souris ou cliquez sur chaque badge pour découvrir les critères que vous avez remplis pour le gagner !",
     "badges": {
         "beginner": {
             "label": "C’est parti !",

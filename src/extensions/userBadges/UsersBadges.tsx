@@ -118,16 +118,14 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
     )}
   >
     <h5 className={clsx(
-      'px-2 py-1a text-whiteXX m-0 fw-bold fs-btn bg-secondary',
+      'ps-1 pe-2 py-1a m-0 fw-bold fs-btn bg-secondary',
     )}  onClick={toggleBadgesDisplay}>
-      <div className='d-inline-block'>{title}</div>
+      <div className='d-inline-block'><i className="fas fa-trophy ms-0 me-1 fs-4" style={{color: "#FFD700"}} />{title}</div>
       <div className='d-inline-block float-end'>
       {hasNewProfilesBadges || false
-        ? <span className='me-1 bg-secondary px-1 text-danger'> {t('newBadgeMessage')}</span>
+        ? <span className='me-0 bg-secondary px-1 text-danger'> {t('newBadgeMessage')}</span>
         : '' }
-        <button className='btn btn-xs bg-secondary text-black m-0 p-0 pe-1'>
-          <i className="fas ms-1 fa-plus" />
-        </button>
+          <i className="fas fa-plus ms-0 fs-4" />
       </div>
     </h5>
 
@@ -141,7 +139,7 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
         size="xl"
       >
       <ProfileBadgesComponent 
-        className='' 
+        className='mb-2' 
         profilesBadges={profilesBadges} 
         displayOptions={displayOptions}
         badgesTranslation={t} />

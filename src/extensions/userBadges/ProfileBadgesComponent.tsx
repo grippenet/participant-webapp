@@ -53,7 +53,7 @@ const ProfileBadgesComponent: React.FC<BadgeProps> = (props) => {
                     </div>
                     {/* badges */}
                     <div className={clsx(
-                        'px-2',
+                        'py-2 px-4 ',
                         props.displayOptions?.profileBadgesGridClassName
                     )}>
 
@@ -81,6 +81,12 @@ const ProfileBadgesComponent: React.FC<BadgeProps> = (props) => {
                     </div>
                 </div>
             ))}
+            <div className="py-2 px-4 fs-5" style={{
+                            'borderTop': '0.5rem white solid',
+                        }} >
+                <i className="fas fa-question-circle"></i> {t('badgesExplanations')}
+            
+            </div>
         </div>
     )
 }

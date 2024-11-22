@@ -45,20 +45,19 @@ const BadgeComponent: React.FC<BadgeProps> = (props) => {
             "badge-wrapper position-relative flex",
             props.className,
             props.displayOptions?.badgeClassName,
-            badge.isNew ? 'border border-1 border-danger' : ''
         )}>
             {(badge.isNew || false) &&
                 renderNewBadge(badgesTranslation)
             }
             {/* badge image */}
             <div className="text-center w-100">
-                    <img className={clsx(
-                        "w-75 justify-self-center",
-                        styles['badge-image'],
-                        props.displayOptions?.badgeImgClassName
-                        )} 
-                        src={badge.imgUrl}>
-                    </img>
+                <img className={clsx(
+                    "w-75 justify-self-center",
+                    styles['badge-image'],
+                    props.displayOptions?.badgeImgClassName
+                    )} 
+                    src={badge.imgUrl}>
+                </img>
             </div>
             <div className={clsx(
                 "text-center fw-bold p-0 m-0"
