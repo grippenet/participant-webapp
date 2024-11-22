@@ -5,6 +5,8 @@ GrippeNet/COVIDnet est un projet de recherche sur la grippe mis en place par l�
 La maintenance technique et les mises à jour du site sont assurées par le webmestre : webmaster@covidnet.fr
 
 
+
+
 ## Objectif du site
 
 Ce site est destiné au grand public. Ce site a pour but de recueillir des informations concernant la situation de la grippe et de la COVID-19 en France, et de fournir à la population française des informations concernant ces épidémies.
@@ -60,6 +62,11 @@ Ce site utilise des cookies pour permettre l'utilisation des fonctionnalités li
 Ce site fait également appel à des sites tiers déposant des cookies sur votre ordinateur pour mesurer son audience et afin de permettre l'utilisation des réseaux sociaux : Facebook et Twitter. 
 
 Vous trouverez plus d'information sur ces cookies dans la page « [À propos des Cookies](/cookies) », dont le lien s'affiche également en bas de chaque page de notre site.
+
+
+## Crédits
+
+Les badges ont été créés à partir d'illustrations provenant du site Canva.com (@canvacreativestudio, @canva, @pixabay, @iconsy, @umarhayat00421s-images, @hafizdzakimcd, @tivestudio, @nounproject, @googledesignicons, @flowicon, @geauneau, @mdariful-islams-images, @barudaklier).
 
 
 ## Droit d'auteur et reprise du contenu mis en ligne

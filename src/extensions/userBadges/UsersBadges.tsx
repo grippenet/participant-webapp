@@ -123,29 +123,20 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
       <div className='d-inline-block'>{title}</div>
       <div className='d-inline-block float-end'>
       {hasNewProfilesBadges || false
-        ? <span className='me-1 bg-secondary px-1 text-danger'> Nouveau(x) badge(s) !</span>
+        ? <span className='me-1 bg-secondary px-1 text-danger'> {t('newBadgeMessage')}</span>
         : '' }
         <button className='btn btn-xs bg-secondary text-black m-0 p-0 pe-1'>
           <i className="fas ms-1 fa-plus" />
-          {/* <i className={clsx(
-            'ms-1',
-            show ? 'fas fa-chevron-up': 'fas fa-chevron-down'
-          )}></i> */}
         </button>
       </div>
     </h5>
-    {/* {badgeReader && show && (
-      <ProfileBadgesComponent 
-        className='' 
-        profilesBadges={profilesBadges} 
-        displayOptions={displayOptions}
-        badgesTranslation={t} />
-    )}  */}
+
+    <span id="aria-label-badge-dialog" className='visually-hidden'>Badges</span>
 
     <Dialog
         open={show}
         title={title}
-        ariaLabelledBy=""
+        ariaLabelledBy="aria-label-badge-dialog"
         onClose={toggleBadgesDisplay}
         size="xl"
       >
@@ -154,15 +145,6 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
         profilesBadges={profilesBadges} 
         displayOptions={displayOptions}
         badgesTranslation={t} />
-      {/* <div className="d-flex flex-wrap">
-        <DialogBtn
-          className="mt-2"
-          type="button"
-          color="primary"
-          label={"close"}
-          onClick={toggleBadgesDisplay}
-        />
-      </div> */}
     </Dialog>
     
   </div>;
