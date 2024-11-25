@@ -56,6 +56,7 @@ const BadgeComponent: React.FC<BadgeProps> = (props) => {
                     styles['badge-image'],
                     props.displayOptions?.badgeImgClassName
                     )} 
+                    alt={"badge " + currentBadgeTranslation(translationLabelCode)}
                     src={badge.imgUrl}>
                 </img>
             </div>
@@ -73,7 +74,6 @@ const BadgeComponent: React.FC<BadgeProps> = (props) => {
     return (
         <OverlayTrigger 
             overlay={renderTooltipDescription} 
-            // trigger="click" 
             placement="auto"
         >
             {makeBadgeContent()}

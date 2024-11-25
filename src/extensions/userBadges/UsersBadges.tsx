@@ -120,7 +120,7 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
     <h5 className={clsx(
       'ps-1 pe-2 py-1a m-0 fw-bold fs-btn bg-secondary',
     )}  onClick={toggleBadgesDisplay}>
-      <div className='d-inline-block'><i className="fas fa-trophy ms-0 me-1 fs-4" style={{color: "#FFD700"}} />{title}</div>
+      <div className='d-inline-block'><i className="fas fa-trophy ms-0 me-1 fs-4" style={{color: "#ed9f3f"}} />{title}</div>
       <div className='d-inline-block float-end'>
       {hasNewProfilesBadges || false
         ? <span className='me-0 bg-secondary px-1 text-danger'> {t('newBadgeMessage')}</span>
