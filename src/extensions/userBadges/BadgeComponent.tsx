@@ -47,7 +47,7 @@ const BadgeComponent: React.FC<BadgeProps> = (props) => {
             props.className,
             props.displayOptions?.badgeClassName,
         )}>
-            {(badge.isNew || true) &&
+            {(badge.isNew || false) &&
                 renderNewBadge(badgesTranslation)
             }
             {/* badge image */}
