@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { CSSProperties, useEffect, useRef, useState } from 'react';
 import clsx from 'clsx';
 import { useTranslation } from 'react-i18next';
 
@@ -33,18 +33,21 @@ export const createUserBadgesComponent = (config: UserBadgesConfig) => {
 }
 
 /**
- * to be specified in the src/configs/pages/home.json :
+ * to be specified in the src/configs/pages/home.json
+ * manage number of badges per row and size of badges' images :
  */
 export interface BadgesDisplayOptions {
   profileBadgesGridClassName?: string,
   badgeClassName?: string,
   badgeImgClassName?: string,
+  badgeImgStyle?: CSSProperties,
 }
 
 const defaultDisplayOptions: BadgesDisplayOptions = {
-  profileBadgesGridClassName: 'row pb-2 pt-1',
-  badgeClassName: 'col-3 col-sm-3 col-md-3 col-lg-2 col-xl-2',
-  badgeImgClassName: '',
+  profileBadgesGridClassName: 'row',
+  badgeClassName: 'col-4 col-sm-4 col-md-4 col-lg-3 col-xl-2',
+  badgeImgClassName: 'w-75',
+  badgeImgStyle: {maxWidth: '7rem'},
 }
 
 interface UserBadgesProps extends GenericPageItemProps {
@@ -139,10 +142,11 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
         size="xl"
       >
       <ProfileBadgesComponent 
-        className='mb-2' 
         profilesBadges={profilesBadges} 
         displayOptions={displayOptions}
-        badgesTranslation={t} />
+        badgesTranslation={t} 
+        className='m-2'
+        />
     </Dialog>
     
   </div>;

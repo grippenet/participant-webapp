@@ -42,20 +42,23 @@ const BadgeComponent: React.FC<BadgeProps> = (props) => {
 
     const makeBadgeContent = () => (
         <div className={clsx(
-            "badge-wrapper position-relative flex",
+            "badge-wrapper position-relative",
+            // "flex",
             props.className,
             props.displayOptions?.badgeClassName,
         )}>
-            {(badge.isNew || false) &&
+            {(badge.isNew || true) &&
                 renderNewBadge(badgesTranslation)
             }
             {/* badge image */}
             <div className="text-center w-100">
                 <img className={clsx(
-                    "w-75 justify-self-center",
+                    // "justify-self-center",
                     styles['badge-image'],
-                    props.displayOptions?.badgeImgClassName
+                    props.displayOptions?.badgeImgClassName,
+                    
                     )} 
+                    style={props.displayOptions?.badgeImgStyle}
                     alt={"badge " + currentBadgeTranslation(translationLabelCode)}
                     src={badge.imgUrl}>
                 </img>
@@ -65,7 +68,7 @@ const BadgeComponent: React.FC<BadgeProps> = (props) => {
                 )}>
                 {badge.gained 
                     ? currentBadgeTranslation(translationLabelCode)
-                    : '' /* 'badge non obtenu ' + badge.keyFlag */ }
+                    : '' /* 'not gained (will never be showed because, so far, these badges are filtered in UserBadgesReportReader) ' + badge.keyFlag */ }
             </div>
             
         </div>

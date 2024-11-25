@@ -36,56 +36,55 @@ const ProfileBadgesComponent: React.FC<BadgeProps> = (props) => {
 
     return (
         <div className={clsx(
-            'bg-secondary',
+            '',
             props.className
           )}>
             {profiles.map((profile, idx) => (
-                <div key={idx} className="">
+                <div key={idx} className="mx-1 my-2 row border-grey-2 border-bottom-2">
                     {/* profile */}
-                    <div className="p-2 fw-bold" style={{
-                            'borderTop': '0.5rem white solid', 
-                            'borderBottom': '1px #005265 solid',
-                        }} >
+                    <div className="p-2 fw-bold bg-grey-2">
                         <img className={"d-inline-block text-body overflow-hidden me-1"} width={24} src={avatarsImgMap[profile.avatarId]}></img>
                         <span className="fs-5">
                             {profile.alias} {profile.mainProfile ? ' (Moi)' : ''}
                         </span>
                     </div>
                     {/* badges */}
-                    <div className={clsx(
-                        'py-2 px-4 ',
-                        props.displayOptions?.profileBadgesGridClassName
-                    )}>
+                    <div className="container-fluid m-0 p-0">
+                        <div className={clsx(
+                            'mx-0 py-2 px-2 p-2 bg-white',
+                            // make it possible to change display from row to flex (must be tested !): 
+                            props.displayOptions?.profileBadgesGridClassName
+                        )}>
 
-                        {/* FOR TESTING NO BADGE */}
-                        {/* <div className="pt-2 fs-5">
-                            <img className="me-1" src="https://img.freepik.com/vecteurs-premium/est-dessin-anime-drole-excrements-caca_53500-4600.jpg" width="130"/>
-                            {t('noBadgeMessage')}
-                        </div> */}
-                        { (profilesBadges[profile.id] && profilesBadges[profile.id].length > 0) ? 
-                        '' : <div className="pt-2 fs-5">{t('noBadgeMessage')}</div>
-                        }
+                            {/* FOR TESTING NO BADGE */}
+                            {/* <div className="pt-2 fs-5">
+                                <img className="me-1" src="https://img.freepik.com/vecteurs-premium/est-dessin-anime-drole-excrements-caca_53500-4600.jpg" width="130"/>
+                                {t('noBadgeMessage')}
+                            </div> */}
+                            { (profilesBadges[profile.id] && profilesBadges[profile.id].length > 0) ? 
+                            '' : <div className="pt-2 fs-5">{t('noBadgeMessage')}</div>
+                            }
 
-                        {profilesBadges[profile.id] && (
-                            profilesBadges[profile.id].map((profileBadge, idx) => 
-                                profileBadge.gained && (
-                                    <BadgeComponent 
-                                        key={idx} 
-                                        badge={profileBadge} 
-                                        badgesTranslation={t}
-                                        currentBadgeTranslation={makeBadgeTranslator(profileBadge)}
-                                        displayOptions={props.displayOptions}
-                                    ></BadgeComponent>
-                                )
-                        ))}
+                            {profilesBadges[profile.id] && (
+                                profilesBadges[profile.id].map((profileBadge, idx) => 
+                                    profileBadge.gained && (
+                                        <BadgeComponent 
+                                            key={idx} 
+                                            badge={profileBadge} 
+                                            badgesTranslation={t}
+                                            currentBadgeTranslation={makeBadgeTranslator(profileBadge)}
+                                            displayOptions={props.displayOptions}
+                                        ></BadgeComponent>
+                                    )
+                            ))}
+                        </div>
                     </div>
                 </div>
             ))}
-            <div className="py-2 px-4 fs-5" style={{
-                            'borderTop': '0.5rem white solid',
+            <div className="py-2 px-2 fs-5" style={{
+                            // 'borderTop': '0.5rem white solid',
                         }} >
                 <i className="fas fa-question-circle"></i> {t('badgesExplanations')}
-            
             </div>
         </div>
     )
