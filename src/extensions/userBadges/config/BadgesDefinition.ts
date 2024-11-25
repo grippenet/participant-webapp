@@ -19,7 +19,7 @@ export const badgesDefinition2024: Record<string, BadgesDefinition> = {
     },
     bg3: {
         code: 'loyalty',
-        seasonal: false,
+        seasonal: true,
         fileName: 'loyalty.svg' // OK
     },
     bg4: {
@@ -54,7 +54,7 @@ export const badgesDefinition2024: Record<string, BadgesDefinition> = {
     },
     bg10: {
         code: 'influenza_prev',
-        seasonal: false,
+        seasonal: true,
         fileName: 'influenza_prev.svg' // OK j'ai pris le premier
     },
     bg11: {
@@ -64,7 +64,7 @@ export const badgesDefinition2024: Record<string, BadgesDefinition> = {
     },
     bg12: {
         code: 'return',
-        seasonal: false,
+        seasonal: true,
         fileName: 'return.svg' // OK
     },
     bg13: {
