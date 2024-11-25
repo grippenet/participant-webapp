@@ -45,7 +45,7 @@ const ProfileBadgesComponent: React.FC<BadgeProps> = (props) => {
                     <div className="p-2 fw-bold bg-grey-2">
                         <img className={"d-inline-block text-body overflow-hidden me-1"} width={24} src={avatarsImgMap[profile.avatarId]}></img>
                         <span className="fs-5">
-                            {profile.alias} {profile.mainProfile ? ' (Moi)' : ''}
+                            {profile.alias}
                         </span>
                     </div>
                     {/* badges */}
