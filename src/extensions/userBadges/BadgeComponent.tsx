@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import { Badge } from "./services/UserBadgesReportReader";
 import { BadgesDisplayOptions } from "./UsersBadges";
-import { OverlayTrigger, Popover, PopoverProps, Tooltip, TooltipProps } from "react-bootstrap";
+import { OverlayTrigger, Popover, PopoverProps } from "react-bootstrap";
 import styles from "./styles/BadgeComponent.module.scss"
 
 const translationLabelCode = 'label';

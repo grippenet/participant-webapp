@@ -3,12 +3,12 @@ import clsx from 'clsx';
 import { useTranslation } from 'react-i18next';
 
 import { ProfilesBadges, UserBadgesReportReader } from './services/UserBadgesReportReader';
-import { Dialog, DialogBtn, LoadingPlaceholder } from '@influenzanet/case-web-ui';
+import { Dialog, LoadingPlaceholder } from '@influenzanet/case-web-ui';
 import ProfileBadgesComponent from './ProfileBadgesComponent';
 import { GenericPageItemProps } from '@influenzanet/case-web-app-core/build/types/extensionComponents';
 import { BadgesDefinition } from './config/BadgesDefinition';
 
-import styles from './styles/UserBadges.module.scss';
+// import styles from './styles/UserBadges.module.scss';
 
 // COMPONENT BUILDING SECTION
 /* 
@@ -101,7 +101,7 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
     return () => {
       isMounted.current = false;
     }
-  }, [ isMounted ])
+  }, [ isMounted, badgeReader ])
 
   // always null
   const errorContent = null;

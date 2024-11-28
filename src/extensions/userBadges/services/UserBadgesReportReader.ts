@@ -1,7 +1,7 @@
 
 import { studyAPI } from '@influenzanet/case-web-app-core/';
 import { Report } from '@influenzanet/case-web-app-core/build/api/types/studyAPI';
-import { Badge } from 'react-bootstrap';
+
 import { BadgesDefinition } from '../config/BadgesDefinition';
 import { UserBadgesConfig } from '../UsersBadges';
 
