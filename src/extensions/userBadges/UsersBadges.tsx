@@ -107,7 +107,9 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
   const errorContent = null;
 
   const loadingContent = (
-    <LoadingPlaceholder color='secondary' minHeight={200} />
+    <div className={clsx(props.className)}>
+      <LoadingPlaceholder color='secondary' minHeight={"45px"} height={"45px"}/>
+    </div>
   );
 
   const toggleBadgesDisplay = () => {
