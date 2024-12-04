@@ -40,10 +40,19 @@ export class UserBadgesReportReader {
 
     studyId: string;
 
+    currentUserId: string = "";
+
     /**
      * used to limit getReportsForUser() to fetch only the reports newer than the ones already fetched, when it is not a the first fetch 
      */
-    lastReportDate: number | undefined; 
+    lastReportDate?: number; 
+
+    /**
+     * the seasonal badges are considered only if they are newer than the beginning of the current season
+     */
+    startSeasonDate: number;
+
+    badgesRootUrl: string;
 
     /**
      * the first getReportsForUser() fetches all the badge report, the subsequents fetches only badges that could have been gained newly
@@ -55,13 +64,6 @@ export class UserBadgesReportReader {
      */
     hasNewBadges = false; 
     
-    /**
-     * the seasonal badges are considered only if they are newer than the beginning of the current season
-     */
-    startSeasonDate: number;
-
-    badgesRootUrl: string;
-
     // todo?: could be stored in localstore instead of property ? (it would allow the badges to not be fetched again when the
     // user reload the page of the participant-web-app application) 
     newProfilesBadges: ProfilesBadges = {}; // only the new badges
@@ -76,7 +78,20 @@ export class UserBadgesReportReader {
         this.badgesRootUrl = '/assets/badges/';
     }
 
-    public getProfilesBadges = async(): Promise<ResultProfilesBadges> => {
+    private resetBadges = () => {
+        this.isFirstFetch = true;
+        this.lastReportDate = undefined;
+        this.newProfilesBadges = {}; 
+        this.allProfilesBadges = {};
+        this.hasNewBadges = false;
+    }
+
+    public getProfilesBadges = async(currentUserid: string): Promise<ResultProfilesBadges> => {
+        console.log(currentUserid, this.currentUserId)
+        if (currentUserid !== this.currentUserId) {
+            this.resetBadges();
+            this.currentUserId = currentUserid;
+        } 
         
         const requestParameters: ReportRequestParameters = [
             [this.studyId],

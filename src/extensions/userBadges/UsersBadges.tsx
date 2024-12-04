@@ -7,6 +7,8 @@ import { Dialog, LoadingPlaceholder } from '@influenzanet/case-web-ui';
 import ProfileBadgesComponent from './ProfileBadgesComponent';
 import { GenericPageItemProps } from '@influenzanet/case-web-app-core/build/types/extensionComponents';
 import { BadgesDefinition } from './config/BadgesDefinition';
+import { useSelector } from 'react-redux';
+import { RootState } from '@influenzanet/case-web-app-core/build/store/rootReducer';
 
 // import styles from './styles/UserBadges.module.scss';
 
@@ -56,7 +58,7 @@ interface UserBadgesProps extends GenericPageItemProps {
 }
 
 
-// closure-like component function : need variable "userBadgeReader"
+// closure-like component function : need variable "userBadgeReader" to be set in createUserBadgesComponent function 
 const UserBadges: React.FC<UserBadgesProps> = (props) => {
   
   const [badgeReader] = useState<UserBadgesReportReader>(userBadgeReader);
@@ -71,6 +73,10 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
   const [profilesBadges, setProfilesBadges] = useState<ProfilesBadges>({});
   const [_newProfilesBadges, setNewProfilesBadges] = useState<ProfilesBadges>();
   const [hasNewProfilesBadges, setHasNewProfilesBadges] = useState<boolean>(false);
+
+  // used to check if the currentUserId has changed, and so make the badgeReader to reset all the stored badges
+  const currentUserId = useSelector((state: RootState) => state.user.currentUser.id);
+
   const [show, setShow] = useState<boolean>(false);
 
   const isMounted = useRef(true);
@@ -81,7 +87,7 @@ const UserBadges: React.FC<UserBadgesProps> = (props) => {
     
     async function init() {
       try {
-        const results = await badgeReader.getProfilesBadges();
+        const results = await badgeReader.getProfilesBadges(currentUserId);
 
         setProfilesBadges(results.all);
         setNewProfilesBadges(results.news);
