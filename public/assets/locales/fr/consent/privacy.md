@@ -14,13 +14,13 @@ Madame, Monsieur,
 
 Vous avez émis le souhait de participer à une recherche impliquant la personne humaine dont l'Institut National de la Santé et de la Recherche Médicale (*Inserm - Pôle Recherche Clinique - Biopark, Bâtiment A 8 rue de la Croix Jarry 75013 Paris*) est le promoteur.
 
-Cette recherche intitulée **Grippenet.fr, surveillance épidémiologique en population générale (Grippenet/Covidnet) a été mise en place en 2012 par le réseau Sentinelles (Inserm - Sorbonne Université)** en collaboration avec Santé publique France et est dirigée par le Pr Hanslik Thomas (*Faculté de médecine Sorbonne Université, site Saint Antoine, 27 rue Chaligny, 75571 Paris cedex 2, 01 44 73 84 35*, contact@grippenet.fr) en tant qu'investigateur principal.
+Cette recherche intitulée **Grippenet/Covidnet, surveillance épidémiologique en population générale a été mise en place en 2012 par le réseau Sentinelles (Iplesp, Inserm - Sorbonne Université)** en collaboration avec Santé publique France. Elle est dirigée par le Dr Thierry Blanchon (*Faculté de santé Sorbonne Université, site Saint Antoine, 27 rue Chaligny, 75571 Paris cedex 2, 06 64 84 66 62*, <a href="mailto:contact@grippenet.fr">contact@grippenet.fr</a>) en tant qu'investigateur principal.
 </div>
 
 #### 1. INFORMATION
 
 <div class="mb-2" style="text-align: justify;text-justify: inter-word;">
-Cette page a pour but de vous fournir les informations écrites nécessaires à votre décision. Nous vous remercions de lire attentivement cette notice d’information avant de participer à l’étude. Si vous ne comprenez pas certaines informations contenues dans cette notice, nous vous invitons à poser toutes les questions que vous souhaitez aux responsables de l'étude (réseau Sentinelles : par téléphone au 01 44 73 84 35 ou par email à l’adresse contact@grippenet.fr).
+Cette page a pour but de vous fournir les informations écrites nécessaires à votre décision. Nous vous remercions de lire attentivement cette notice d’information avant de participer à l’étude. Si vous ne comprenez pas certaines informations contenues dans cette notice, nous vous invitons à poser toutes les questions que vous souhaitez aux responsables de l'étude (réseau Sentinelles : par téléphone au 06 64 84 66 62 ou par email à l’adresse contact@grippenet.fr).
 
 Après avoir lu ce texte, si vous avez plus de 18 ans et que vous êtes d'accord pour participer à cette recherche, nous vous invitons à cocher les deux cases à la fin du document et cliquer sur « Valider votre accord ».
 
@@ -39,9 +39,9 @@ Si vous décidez de participer, sachez que vous pourrez quitter à tout moment l
 <div class="mb-2" style="text-align: justify;text-justify: inter-word;">
 Ce projet de surveillance et de recherche vise à recueillir directement auprès de la population des données épidémiologiques sur les maladies surveillées, par Internet et de façon anonyme.
 
-L'objectif principal de l'étude est de surveiller en temps réel les épidémies (grippe, COVID-19, etc.) en France métropolitaine, en se basant sur la participation volontaire de la population générale.
+L'objectif principal de l'étude est de surveiller en temps réel les épidémies (grippe, Covid-19, etc.) en France métropolitaine, en se basant sur la participation volontaire de la population générale.
 
-L'estimation du nombre de personnes atteintes par une épidémie, comme la grippe, est fondamentale pour pouvoir en mesurer correctement l'impact. En France, la surveillance des épidémies de grippe et de COVID-19 est principalement organisée par le biais de réseaux hospitaliers, de médecine de ville, ou de laboratoires. Grippenet/Covidnet est un projet de surveillance qui permet de collecter les données directement auprès de la population via Internet, et non en passant par des professionnels de santé. Ceci est particulièrement important car de nombreuses personnes ayant une grippe ou des symptômes susceptibles d'être en lien avec la COVID-19 ne consultent pas le système de soins.
+L'estimation du nombre de personnes atteintes par une épidémie, comme la grippe, est fondamentale pour pouvoir en mesurer correctement l'impact. En France, la surveillance des épidémies de grippe et de Covid-19 est principalement organisée par le biais de réseaux hospitaliers, de médecine de ville, ou de laboratoires. Grippenet/Covidnet est un projet de surveillance qui permet de collecter les données directement auprès de la population via Internet, et non en passant par des professionnels de santé. Ceci est particulièrement important car de nombreuses personnes ayant une grippe ou des symptômes susceptibles d'être en lien avec la Covid-19 ne consultent pas le système de soins.
 
 Des systèmes équivalents à Grippenet/Covidnet existent dans plusieurs autres pays d'Europe (projet Influenzanet).
 
@@ -62,7 +62,7 @@ Toute personne résidant en France métropolitaine peut participer à Grippenet/
 
 4. Vous recevrez ensuite chaque semaine un message électronique contenant un lien personnel pour remplir votre questionnaire hebdomadaire. Cliquez sur le lien pour accéder à votre questionnaire, et déclarez les symptômes que vous avez pu avoir depuis votre dernière connexion. Si vous n'avez pas eu de symptômes, ce questionnaire hebdomadaire devrait simplement vous prendre quelques secondes. Lorsque vous aurez rempli votre questionnaire, vous accéderez à un récapitulatif de votre état de santé, et de ceux correspondant à vos précédents questionnaires.
 
-Chaque hiver, le suivi se déroule entre novembre et avril-mail. Des adaptations peuvent être mises en place dans les contextes sanitaires où le suivi est nécessaire, comme ce fût le cas durant la saison 2019/2020 avec la survenue de la pandémie de COVID-19.
+Chaque hiver, le suivi se déroule entre novembre et avril-mail. Des adaptations peuvent être mises en place dans les contextes sanitaires où le suivi est nécessaire, comme ce fût le cas durant la saison 2019/2020 avec la survenue de la pandémie de Covid-19.
 
 **En plus de la surveillance de la grippe, des travaux sont entrepris pour mieux comprendre la grippe (recherche de facteurs de risque, rôle de l'âge, impact de la vaccination, études chez les populations à risque de complications...), ainsi que d'autres évènements de santé (investigation d'épidémies de salmonelles, acceptabilité des nouvelles recommandations vaccinales, questions concernant d'autres maladies infectieuses ou non infectieuses...).** De façon ponctuelle, un questionnaire additionnel en lien avec ces thématiques pourra vous être proposé dans votre lettre d'information hebdomadaire (pendant l'hiver, ou en dehors de l'hiver). Vous êtes bien sûr libre d'y répondre ou non.
 
@@ -74,7 +74,7 @@ Chaque hiver, le suivi se déroule entre novembre et avril-mail. Des adaptations
 <div class="mb-2" style="text-align: justify;text-justify: inter-word;">
 Vous avez le droit d'être informé(e) des résultats globaux de la recherche à l'issue de celle-ci, conformément au dernier alinéa de l'article L.1122-1 du Code de la Santé Publique.
 
-Lorsque vous avez rempli votre questionnaire, un récapitulatif de votre état de santé vous est proposé, ainsi que de ceux correspondant à vos précédents questionnaires. De plus, chaque semaine un retour d'information vous sera envoyé contenant les derniers résultats de l'étude, des nouvelles sur la grippe, la COVID-19 et la situation de ces maladies en France.
+Lorsque vous avez rempli votre questionnaire, un récapitulatif de votre état de santé vous est proposé, ainsi que de ceux correspondant à vos précédents questionnaires. De plus, chaque semaine un retour d'information vous sera envoyé contenant les derniers résultats de l'étude, des nouvelles sur la grippe, la Covid-19 et la situation de ces maladies en France.
 
 Les données obtenues permettent de connaître en temps réel l'évolution de la situation des maladies surveillées en France. Ces informations sont restituées sur le site Internet en temps réel, par le biais de cartes et de graphiques.
 

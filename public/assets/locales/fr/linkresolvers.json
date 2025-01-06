@@ -48,7 +48,7 @@
       "newPasswordPlaceholder": "Mot de passe",
       "confirmPasswordLabel": "Confirmez le mot de passe",
       "confirmPasswordPlaceholder": "Confirmez le mot de passe",
-      "informedConsentCheckbox": "Accéder à la <1>déclaration de consentement</1>.*",
+      "informedConsentCheckbox": "Lire et valider la <1>déclaration de consentement</1>.*",
       "btn": "Confirmer le mot de passe",
       "restartBtn": "Recommencer",
       "successMsg": "Votre mot de passe a bien été confirmé",
