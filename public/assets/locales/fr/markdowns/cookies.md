@@ -16,7 +16,7 @@ Retrouvez plus d'information sur les cookies sur le site de la [CNIL](https://ww
 
 ### Notre politique vis-à-vis des cookies
 
-Certains cookies sont nécessaires au fonctionnement de GrippeNet/COVIDnet. Ils permettent d'assurer la sécurité de nos formulaires Internet et d'accéder aux pages de votre espace personnel. Ces cookies sont anonymes (les informations contenues sur votre ordinateur ne contiennent pas d'informations identifiantes comme votre nom ou un e-mail, il s'agit de suite de chiffres et de lettres aléatoires).
+Certains cookies sont nécessaires au fonctionnement de Grippenet/Covidnet. Ils permettent d'assurer la sécurité de nos formulaires Internet et d'accéder aux pages de votre espace personnel. Ces cookies sont anonymes (les informations contenues sur votre ordinateur ne contiennent pas d'informations identifiantes comme votre nom ou un e-mail, il s'agit de suite de chiffres et de lettres aléatoires).
 
 Nous utilisons un outil de mesure d'audience de ce site conforme aux exigences de la CNIL : Matomo.
 

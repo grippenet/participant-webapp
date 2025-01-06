@@ -14,7 +14,7 @@ Madame, Monsieur,
 
 Vous avez émis le souhait de participer à une recherche impliquant la personne humaine dont l'Institut National de la Santé et de la Recherche Médicale (*Inserm - Pôle Recherche Clinique - Biopark, Bâtiment A 8 rue de la Croix Jarry 75013 Paris*) est le promoteur.
 
-Cette recherche intitulée **Grippenet.fr, surveillance épidémiologique en population générale (GrippeNet/COVIDnet) a été mise en place en 2012 par le réseau Sentinelles (Inserm - Sorbonne Université)** en collaboration avec Santé publique France et est dirigée par le Pr Hanslik Thomas (*Faculté de médecine Sorbonne Université, site Saint Antoine, 27 rue Chaligny, 75571 Paris cedex 2, 01 44 73 84 35*, contact@grippenet.fr) en tant qu'investigateur principal.
+Cette recherche intitulée **Grippenet.fr, surveillance épidémiologique en population générale (Grippenet/Covidnet) a été mise en place en 2012 par le réseau Sentinelles (Inserm - Sorbonne Université)** en collaboration avec Santé publique France et est dirigée par le Pr Hanslik Thomas (*Faculté de médecine Sorbonne Université, site Saint Antoine, 27 rue Chaligny, 75571 Paris cedex 2, 01 44 73 84 35*, contact@grippenet.fr) en tant qu'investigateur principal.
 </div>
 
 #### 1. INFORMATION
@@ -41,11 +41,11 @@ Ce projet de surveillance et de recherche vise à recueillir directement auprès
 
 L'objectif principal de l'étude est de surveiller en temps réel les épidémies (grippe, COVID-19, etc.) en France métropolitaine, en se basant sur la participation volontaire de la population générale.
 
-L'estimation du nombre de personnes atteintes par une épidémie, comme la grippe, est fondamentale pour pouvoir en mesurer correctement l'impact. En France, la surveillance des épidémies de grippe et de COVID-19 est principalement organisée par le biais de réseaux hospitaliers, de médecine de ville, ou de laboratoires. GrippeNet/COVIDnet est un projet de surveillance qui permet de collecter les données directement auprès de la population via Internet, et non en passant par des professionnels de santé. Ceci est particulièrement important car de nombreuses personnes ayant une grippe ou des symptômes susceptibles d'être en lien avec la COVID-19 ne consultent pas le système de soins.
+L'estimation du nombre de personnes atteintes par une épidémie, comme la grippe, est fondamentale pour pouvoir en mesurer correctement l'impact. En France, la surveillance des épidémies de grippe et de COVID-19 est principalement organisée par le biais de réseaux hospitaliers, de médecine de ville, ou de laboratoires. Grippenet/Covidnet est un projet de surveillance qui permet de collecter les données directement auprès de la population via Internet, et non en passant par des professionnels de santé. Ceci est particulièrement important car de nombreuses personnes ayant une grippe ou des symptômes susceptibles d'être en lien avec la COVID-19 ne consultent pas le système de soins.
 
-Des systèmes équivalents à GrippeNet/COVIDnet existent dans plusieurs autres pays d'Europe (projet Influenzanet).
+Des systèmes équivalents à Grippenet/Covidnet existent dans plusieurs autres pays d'Europe (projet Influenzanet).
 
-Toute personne résidant en France métropolitaine peut participer à GrippeNet/COVIDnet, quels que soit sa nationalité, son âge, son lieu d'habitation ou son état de santé. Les mineurs peuvent participer par le biais d'un de leur représentant légal, s'il est lui-même inscrit à l'étude. Chaque participant majeur peut remplir des questionnaires pour une autre personne, membre ou non de son foyer, si elle a été informée et est consentante, et pour les mineurs si le détenteur du compte est le représentant légal.
+Toute personne résidant en France métropolitaine peut participer à Grippenet/Covidnet, quels que soit sa nationalité, son âge, son lieu d'habitation ou son état de santé. Les mineurs peuvent participer par le biais d'un de leur représentant légal, s'il est lui-même inscrit à l'étude. Chaque participant majeur peut remplir des questionnaires pour une autre personne, membre ou non de son foyer, si elle a été informée et est consentante, et pour les mineurs si le détenteur du compte est le représentant légal.
 </div>
 
 #### 4. DEROULEMENT DE LA RECHERCHE
@@ -56,7 +56,7 @@ Toute personne résidant en France métropolitaine peut participer à GrippeNet/
 
 1.  Après avoir lu cette notice de non-opposition, cocher les deux cases situées sous le texte et cliquer sur « Valider votre accord ». Enregistrer votre compte en remplissant le formulaire dans la page suivante. Renseignez une adresse email valide et choisissez un mot de passe (constitué d’au moins 8 caractères, contenant 3 des 4 éléments suivants : une minuscule, une majuscule, un chiffre, un signe de ponctuation) et un nom d'utilisateur (constitué de chiffres, lettres et/ou caractères @, +, ., -, _). Ne pas utiliser de caractères avec accents ou d'espace.
 
-2. Activez votre compte GrippeNet/COVIDnet en cliquant sur le lien d'activation reçu sur votre adresse email (ou copiez-collez ce lien dans la barre de recherche de votre navigateur).
+2. Activez votre compte Grippenet/Covidnet en cliquant sur le lien d'activation reçu sur votre adresse email (ou copiez-collez ce lien dans la barre de recherche de votre navigateur).
 
 3. Connectez-vous et remplissez votre *questionnaire préliminaire*, permettant de préciser vos caractéristiques sociodémographiques : âge, sexe, famille, localisation géographique, statut vaccinal et état de santé général. Une fois ce questionnaire rempli, vous pourrez accéder aux autres rubriques de votre espace personnel : *questionnaire hebdomadaire*, *questionnaire de vaccination*, gérer mon foyer (si vous souhaitez ajouter des participants à votre compte), mes paramètres, se déconnecter. Vous pourrez à tout moment de l'étude revenir modifier votre *questionnaire préliminaire* et votre *questionnaire de vaccination*.
 
@@ -93,7 +93,7 @@ Votre participation à la recherche implique donc de collecter des données vous
 
 Les données personnelles (email, login et mot de passe) ne sont pas disponibles pour l'exploitation et sont détruites lorsque vous vous désinscrivez, ou si votre compte reste inactif pendant plus de 18 mois.
 
-Le projet GrippeNet/COVIDnet faisant partir du projet européen Influenzanet, les données anonymisées pourront être transmises au consortium européen d'Influenzanet. Ces données ne contiennent aucune adresse email, login ou mot de passe. Le transfert de ces données se fera de façon sécurisée.
+Le projet Grippenet/Covidnet faisant partir du projet européen Influenzanet, les données anonymisées pourront être transmises au consortium européen d'Influenzanet. Ces données ne contiennent aucune adresse email, login ou mot de passe. Le transfert de ces données se fera de façon sécurisée.
 
 ##### *La durée de conservation de vos données*
 
@@ -121,7 +121,7 @@ Aucune indemnité n'est prévue pour la participation à cette recherche et aucu
 #### 8. CADRE REGLEMENTAIRE DE LA RECHERCHE IMPLIQUANT LA PERSONNE HUMAINE
 
 <div class="mb-2" style="text-align: justify;text-justify: inter-word;">
-L'étude GrippeNet/COVIDnet a obtenu une autorisation de la CNIL pour la collecte et le traitement des données (avis DR-2012-024 du 20 avril 2012). Elle a été approuvée par le Comité consultatif sur le traitement de l'information en matière de recherche dans le domaine de la santé (CCTIRS, autorisation 11.565). Elle est réalisée en accord avec les règlementations relatives à l'informatique, aux fichiers et aux libertés (L78-17).
+L'étude Grippenet/Covidnet a obtenu une autorisation de la CNIL pour la collecte et le traitement des données (avis DR-2012-024 du 20 avril 2012). Elle a été approuvée par le Comité consultatif sur le traitement de l'information en matière de recherche dans le domaine de la santé (CCTIRS, autorisation 11.565). Elle est réalisée en accord avec les règlementations relatives à l'informatique, aux fichiers et aux libertés (L78-17).
 
 Conformément aux dispositions de la CNIL (loi relative à l'informatique, aux fichiers et aux libertés), vous disposez d'un droit d'accès et de rectification aux données que vous nous avez transmises.
 

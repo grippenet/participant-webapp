@@ -1,4 +1,4 @@
-GrippeNet/COVIDnet utilise Google Recaptcha pour assurer la sécurité du site Internet.
+Grippenet/Covidnet utilise Google Recaptcha pour assurer la sécurité du site Internet.
 Ce service utilise des « cookies de suivi ». Ces cookies suivent votre comportement tout au long de votre visite sur le site Internet Grippenet.fr, et ce afin de s'assurer qu'aucune action automatisée ne puisse limiter l'accessibilité du présent site Internet. Les données collectées et analysées par Google par le biais des cookies de suivi susmentionnés comprennent, notamment :
 
 * l’adresse IP ;

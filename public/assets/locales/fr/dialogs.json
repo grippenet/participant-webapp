@@ -63,7 +63,7 @@
   },
   "signupSuccess": {
     "title": "Bienvenue !",
-    "successMsg": "Merci pour votre inscription au projet GrippeNet/COVIDnet. Pour valider votre adresse, merci de cliquer sur le lien contenu dans l’email qui vous a été envoyé. Ce lien est valable pendant 30 jours. Si vous ne trouvez pas l’email en question, veuillez vérifier votre dossier des courriers indésirables (spams). \nVous pouvez également demander l’envoi d’un nouvel email en cliquant sur le bouton ci-dessous.",
+    "successMsg": "Merci pour votre inscription au projet Grippenet/Covidnet. Pour valider votre adresse, merci de cliquer sur le lien contenu dans l’email qui vous a été envoyé. Ce lien est valable pendant 30 jours. Si vous ne trouvez pas l’email en question, veuillez vérifier votre dossier des courriers indésirables (spams). \nVous pouvez également demander l’envoi d’un nouvel email en cliquant sur le bouton ci-dessous.",
     "emailSentMsg": "Un e-mail a été envoyé.",
     "resendVerificationEmailBtn": "Envoyer à nouveau un e-mail de confirmation",
     "wrongEmailBtn": "Avez-vous utilisé une mauvaise adresse e-mail ? Si tel est le cas, vous pouvez la modifier ici.",
@@ -92,7 +92,7 @@
     "emailInputPlaceholder": "Nouvelle adresse e-mail",
     "passwordInputLabel": "Mot de passe",
     "passwordInputPlaceholder": "Mot de passe",
-    "info": "Souhaitez-vous utiliser une autre adresse e-mail ? Modifiez votre adresse e-mail en cliquant sur le bouton ci-dessous. Veuillez noter que vous ne pouvez vous connecter à GrippeNet/COVIDnet qu'après confirmation de votre adresse e-mail.",
+    "info": "Souhaitez-vous utiliser une autre adresse e-mail ? Modifiez votre adresse e-mail en cliquant sur le bouton ci-dessous. Veuillez noter que vous ne pouvez vous connecter à Grippenet/Covidnet qu'après confirmation de votre adresse e-mail.",
     "cancelBtn": "Annuler",
     "confirmBtn": "Modifier l’adresse e-mail",
     "errors": {
@@ -102,7 +102,7 @@
     },
     "warningDialog": {
       "title": "Confirmez la nouvelle adresse e-mail.",
-      "content": "Attention : vous ne pourrez vous reconnecter à GrippeNet/COVIDnet qu'après confirmation de votre nouvelle adresse e-mail par le biais du lien figurant dans l'e-mail de confirmation que nous vous avons envoyé.",
+      "content": "Attention : vous ne pourrez vous reconnecter à Grippenet/Covidnet qu'après confirmation de votre nouvelle adresse e-mail par le biais du lien figurant dans l'e-mail de confirmation que nous vous avons envoyé.",
       "cancelBtn": "Annuler",
       "confirmBtn": "Modifier l’adresse e-mail"
     },

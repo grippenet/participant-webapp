@@ -5,7 +5,7 @@
     "close": "Fermer"
   },
   "topFaq": {
-    "title": "Questions fréquentes concernant GrippeNet/COVIDnet",
+    "title": "Questions fréquentes concernant Grippenet/Covidnet",
     "content": ""
   },
   "signupCard": {
@@ -16,15 +16,15 @@
   },
   "faq": [
     {
-      "title": "Qui a mis sur pied GrippeNet/COVIDnet ?",
-      "content": "GrippeNet/COVIDnet fait partie d'Influenzanet, un partenariat européen entre diverses universités et autorités publiques. L'objectif d'Influenzanet est de cartographier et de surveiller les symptômes des infections, telles que le nouveau coronavirus (COVID-19), et de la grippe, et ce, auprès de citoyens européens. Ces données seront utilisées à des fins de recherche scientifique dans le cadre des maladies infectieuses. Actuellement, ces données serviront à mieux connaître le nouveau coronavirus."
+      "title": "Qui a mis sur pied Grippenet/Covidnet ?",
+      "content": "Grippenet/Covidnet fait partie d'Influenzanet, un partenariat européen entre diverses universités et autorités publiques. L'objectif d'Influenzanet est de cartographier et de surveiller les symptômes des infections, telles que le nouveau coronavirus (COVID-19), et de la grippe, et ce, auprès de citoyens européens. Ces données seront utilisées à des fins de recherche scientifique dans le cadre des maladies infectieuses. Actuellement, ces données serviront à mieux connaître le nouveau coronavirus."
     },
     {
-      "title": "À qui le GrippeNet/COVIDnet s’adresse-t-il ?",
-      "content": "Toutes les personnes qui résident en France métropolitaine et qui ont accès à Internet peuvent participer à GrippeNet/COVIDnet, sur une base volontaire, et pour la durée qu’elles souhaitent."
+      "title": "À qui le Grippenet/Covidnet s’adresse-t-il ?",
+      "content": "Toutes les personnes qui résident en France métropolitaine et qui ont accès à Internet peuvent participer à Grippenet/Covidnet, sur une base volontaire, et pour la durée qu’elles souhaitent."
     },
     {
-      "title": "Comment puis-je participer à l’étude proposée par GrippeNet/COVIDnet ?",
+      "title": "Comment puis-je participer à l’étude proposée par Grippenet/Covidnet ?",
       "content": "Vous pouvez participer en vous inscrivant au moyen d’une adresse e-mail et d’un mot de passe personnel."
     },
     {
@@ -33,14 +33,14 @@
     },
     {
       "title": "J’ai été vacciné contre la grippe cette année. Puis-je participer ?",
-      "content": "L’étude de GrippeNet/COVIDnet s'adresse à tous les citoyens, indépendamment du fait qu’ils aient été vaccinés contre la grippe ou non."
+      "content": "L’étude de Grippenet/Covidnet s'adresse à tous les citoyens, indépendamment du fait qu’ils aient été vaccinés contre la grippe ou non."
     },
     {
-      "title": "Combien de temps faut-il consacrer pour compléter le questionnaire du GrippeNet/COVIDnet ?",
+      "title": "Combien de temps faut-il consacrer pour compléter le questionnaire du Grippenet/Covidnet ?",
       "content": "5 minutes s’avèrent nécessaires pour s'inscrire et compléter le premier questionnaire. Chaque semaine, il faut ensuite consacrer entre 30 secondes (si vous n'avez pas de plaintes) et quelques minutes (si vous avez des plaintes ou si vous avez eu des plaintes au cours de la semaine écoulée) afin de compléter le questionnaire hebdomadaire."
     },
     {
-      "title": "Quelle est la durée de l'étude GrippeNet/COVIDnet ?",
+      "title": "Quelle est la durée de l'étude Grippenet/Covidnet ?",
       "content": "Aucune date de fin n’a été définie, mais vous pouvez cesser votre participation à tout moment en vous désabonnant du questionnaire hebdomadaire. Vous pouvez vous réinscrire ultérieurement si vous changez d'avis et souhaitez participer à nouveau."
     },
     {
@@ -73,15 +73,15 @@
     },
     {
       "title": "J'ai déjà été contaminé(e) par le nouveau coronavirus, est-ce encore utile de participer ?",
-      "content": "Oui, nous vous conseillons de participer à cette étude, même si vous avez déjà eu le coronavirus. L’étude proposée par GrippeNet/COVIDnet a été mise sur pied dans le but d’étudier les symptômes ou les plaintes liées à ce nouveau virus, y compris parmi les personnes qui ont déjà été infectées par le nouveau coronavirus. Lorsque vous vous connectez, nous vous demandons d'indiquer si vous avez déjà été infecté(e) par le coronavirus."
+      "content": "Oui, nous vous conseillons de participer à cette étude, même si vous avez déjà eu le coronavirus. L’étude proposée par Grippenet/Covidnet a été mise sur pied dans le but d’étudier les symptômes ou les plaintes liées à ce nouveau virus, y compris parmi les personnes qui ont déjà été infectées par le nouveau coronavirus. Lorsque vous vous connectez, nous vous demandons d'indiquer si vous avez déjà été infecté(e) par le coronavirus."
     },
     {
       "title": "J'ai oublié mon mot de passe, que dois-je faire ?",
       "content": "Au niveau de la fenêtre de connexion, cliquez sur « mot de passe oublié ». Introduisez votre adresse e-mail, et vous recevrez un e-mail afin de pouvoir créer un nouveau mot de passe."
     },
     {
-      "title": "Puis-je configurer si je souhaite recevoir des courriers électroniques de la part de GrippeNet/COVIDnet ?",
-      "content": "Oui, c'est possible. Au niveau de la barre bleue située dans la partie supérieure droite de l’écran, cliquez sur le nom de votre profil. Accédez aux paramètres. Vous pouvez alors y indiquer si vous souhaitez recevoir des courriers électroniques. Par exemple, un e-mail envoyé dans le cadre de l’invitation hebdomadaire en vue de communiquer vos plaintes / symptômes (toutefois, un nouveau questionnaire vous attend chaque semaine sur le site Internet de GrippeNet/COVIDnet, même en l’absence de d'e-mail hebdomadaire)."
+      "title": "Puis-je configurer si je souhaite recevoir des courriers électroniques de la part de Grippenet/Covidnet ?",
+      "content": "Oui, c'est possible. Au niveau de la barre bleue située dans la partie supérieure droite de l’écran, cliquez sur le nom de votre profil. Accédez aux paramètres. Vous pouvez alors y indiquer si vous souhaitez recevoir des courriers électroniques. Par exemple, un e-mail envoyé dans le cadre de l’invitation hebdomadaire en vue de communiquer vos plaintes / symptômes (toutefois, un nouveau questionnaire vous attend chaque semaine sur le site Internet de Grippenet/Covidnet, même en l’absence de d'e-mail hebdomadaire)."
     },
     {
       "title": "Comment puis-je créer un profil pour mon (mes) enfant(s) ?",

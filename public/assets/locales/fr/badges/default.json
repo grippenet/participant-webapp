@@ -8,7 +8,7 @@
         "beginner": {
             "label": "C’est parti !",
             "description": "",
-            "message_new": "Bravo vous venez de gagner le badge « C’est parti ! »"
+            "message_new": "Bravo vous venez de gagner le badge « C’est parti ! » pour le remplissage de votre premier questionnaire hebdomadaire Grippenet/Covidnet. C’est parti !"
         },
         "starting": {
             "label": "Prêt au départ",

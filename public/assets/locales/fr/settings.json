@@ -4,7 +4,7 @@
     "title": "Paramètres du compte",
     "email": {
       "title": "Adresse e-mail",
-      "info": "Souhaitez-vous utiliser une autre adresse e-mail ? Modifiez votre adresse e-mail en cliquant sur le bouton ci-dessous. Veuillez noter que vous ne pouvez vous connecter à GrippeNet/COVIDnet qu'après confirmation de votre adresse e-mail."
+      "info": "Souhaitez-vous utiliser une autre adresse e-mail ? Modifiez votre adresse e-mail en cliquant sur le bouton ci-dessous. Veuillez noter que vous ne pouvez vous connecter à Grippenet/Covidnet qu'après confirmation de votre adresse e-mail."
     },
     "password": {
       "title": "Mot de passe",
@@ -33,20 +33,20 @@
     }
   },
   "deletion": {
-    "title": "Se désabonner du site GrippeNet/COVIDnet / retirer son consentement",
-    "warning": "Se désabonner du site GrippeNet/COVIDnet / retirer son consentement implique la suppression des informations de votre compte. \n Au terme de la suppression de votre compte, nous ne serons plus en mesure d’associer les informations que vous nous avez fournies (comme votre âge et vos plaintes / symptômes) à votre compte.",
+    "title": "Se désabonner du site Grippenet/Covidnet / retirer son consentement",
+    "warning": "Se désabonner du site Grippenet/Covidnet / retirer son consentement implique la suppression des informations de votre compte. \n Au terme de la suppression de votre compte, nous ne serons plus en mesure d’associer les informations que vous nous avez fournies (comme votre âge et vos plaintes / symptômes) à votre compte.",
     "deleteBtn": "Se désabonner"
   },
   "references": {
     "title": "Besoin d’aide ?",
     "faqLink": "Questions fréquentes",
     "privacyStatementLink": "Déclaration de confidentialité",
-    "contactLink": "Contact GrippeNet/COVIDnet"
+    "contactLink": "Contact Grippenet/Covidnet"
   },
   "systemInfo": {
     "title": "Informations relatives au système",
     "appNameLabel": "Nom de l’application",
-    "appName": "GrippeNet/COVIDnet",
+    "appName": "Grippenet/Covidnet",
     "versionLabel": "Version",
     "browserNameLabel": "Nom du navigateur",
     "browserVersionLabel": "Version du navigateur"
