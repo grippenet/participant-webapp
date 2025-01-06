@@ -14,7 +14,7 @@ Madame, Monsieur,
 
 Vous avez émis le souhait de participer à une recherche impliquant la personne humaine dont l'Institut National de la Santé et de la Recherche Médicale (*Inserm - Pôle Recherche Clinique - Biopark, Bâtiment A 8 rue de la Croix Jarry 75013 Paris*) est le promoteur.
 
-Cette recherche intitulée **Grippenet/Covidnet, surveillance épidémiologique en population générale a été mise en place en 2012 par le réseau Sentinelles (Iplesp, Inserm - Sorbonne Université)** en collaboration avec Santé publique France. Elle est dirigée par le Dr Thierry Blanchon (*Faculté de santé Sorbonne Université, site Saint Antoine, 27 rue Chaligny, 75571 Paris cedex 2, 06 64 84 66 62*, <a href="mailto:contact@grippenet.fr">contact@grippenet.fr</a>) en tant qu'investigateur principal.
+Cette recherche intitulée **Grippenet/Covidnet, surveillance épidémiologique en population générale a été mise en place en 2012 par le réseau Sentinelles (Iplesp, Inserm - Sorbonne Université)** en collaboration avec Santé publique France. Elle est dirigée par le Dr Thierry Blanchon (*Faculté de santé Sorbonne Université, site Saint Antoine, 27 rue Chaligny, 75571 Paris cedex 2, 06 64 84 66 62*, [contact@grippenet.fr](mailto:contact@grippenet.fr)) en tant qu'investigateur principal.
 </div>
 
 #### 1. INFORMATION
