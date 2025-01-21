@@ -14,3 +14,17 @@ export const useTranslatedMarkdown = (markdownPath: string) => {
   const url = getTranslatedMarkdownPath(markdownPath, i18n.language);
   return useFetchTextFile(url);
 }
+
+export const getExternalTranslatedMarkdownFullUrl = (url: string, language?: string): string => {
+  return url.replace('%LANG%', language ?? '');
+}
+
+const external_content_base_url = process.env.REACT_APP_EXTERNAL_CONTENT_URL?.replace(/\/$/g, '');
+
+export const getExternalTranslatedMarkdownPath = (markdownName: string, language: string): string => {
+  if (markdownName.startsWith('http')) {
+    return getExternalTranslatedMarkdownFullUrl(markdownName, language)
+  }
+  markdownName = markdownName?.replace(/^\//g, '')
+  return external_content_base_url + `/locales/${language}/${markdownName}`;
+}

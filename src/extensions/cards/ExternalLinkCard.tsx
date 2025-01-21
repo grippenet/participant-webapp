@@ -6,7 +6,7 @@ import { getExternalOrLocalContentURL, MarkdownLoader } from '@influenzanet/case
 
 import { useTranslation } from 'react-i18next';
 
-import { getTranslatedMarkdownPath } from '../copied_tools/useTranslatedMarkdown';
+import { getExternalTranslatedMarkdownFullUrl, getTranslatedMarkdownPath } from '../copied_tools/useTranslatedMarkdown';
 
 import { getOpenExternalPageHandler } from '../utils/routeUtils';
 
@@ -28,6 +28,7 @@ interface ExternalLinkCardProps extends GenericPageItemProps {
     showActionBtn?: string;
 
     // new
+    externalMarkdownUrl?: string;
     containerClass?:string;
     externalLink?: string;
     externalLinkTarget?: '_blank' | '_self';
@@ -80,7 +81,12 @@ const ExternalLinkCard: React.FC<ExternalLinkCardProps> = (props) => {
     const openActionText = props.showActionBtn ? ctxT('openActionText') : '';
     const customClassBodyText = props.customClassBodyText || "";
     
-    const markdownUrl = props.markdownUrl ? getTranslatedMarkdownPath(props.markdownUrl, i18n.language) : '';
+    let markdownUrl = props.markdownUrl ? getTranslatedMarkdownPath(props.markdownUrl, i18n.language) : '';
+    if (props.externalMarkdownUrl) {
+      markdownUrl = getExternalTranslatedMarkdownFullUrl(props.externalMarkdownUrl ?? '', i18n.language);
+    }
+    console.log(i18n.language)
+
     const customClassMarkdown = props.customClassMarkdown || "";
     
 
@@ -109,7 +115,7 @@ const ExternalLinkCard: React.FC<ExternalLinkCardProps> = (props) => {
         )}>{title}</VariantTitle>
         : null}
 
-      {props.markdownUrl ? 
+      {markdownUrl ? 
           <MarkdownLoader
               className={clsx(
                 'w-100',

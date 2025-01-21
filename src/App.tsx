@@ -12,6 +12,7 @@ import ExternalLinkCard from './extensions/cards/ExternalLinkCard';
 import YoutubeCard from './extensions/cards/YoutubeCard';
 import { createUserBadgesComponent } from './extensions/userBadges/UsersBadges';
 import { badgesDefinition2024 } from './extensions/userBadges/config/BadgesDefinition';
+import ExternalMarkdown from './extensions/dataLoaders/ExternalMarkdown';
 
 registerLookupService('postalcodes', process.env.REACT_APP_POSTALCODES_URL ?? '');
 
@@ -55,6 +56,10 @@ const extensions = [
   {
     name: 'userBadges',
     component: GrippenetUserBadges
+  },
+  {
+    name: 'externalMarkdown',
+    component: ExternalMarkdown
   }
 ];
 
