@@ -16,16 +16,14 @@ const accessibility : PageConfig = {
               "itemKey": "accessibility",
               "className": "justify-p",
               "config": {
-                // "type": "markdown",
-                // "markdownUrl": "/markdowns/accessibility.md"
-                
+                "type": "markdown",
+                "markdownUrl": "/markdowns/accessibility.md"
                 //// for test, assuming a markdown locales/fr/markdowns/test.md has been published on a local public-website
-                "type": "extension",
-                "config": {
-                    "type": "externalMarkdown",
-                    // "externalMarkdownUrl": "http://127.0.0.1:8000/webapp_assets/get/locales/%LANG%/markdowns/test.md",
-                    "externalMarkdownUrl": "/markdowns/accessibility.md",
-                }
+                // "type": "extension",
+                // "config": {
+                //     "type": "externalMarkdown",
+                //     "externalMarkdownUrl": "/markdowns/accessibility.md",
+                // }
               }
             }
           ]
