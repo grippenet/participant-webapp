@@ -66,7 +66,7 @@ const renderBodyText = (bodyText : string, openActionText : string, classBodyTex
 const ExternalLinkCard: React.FC<ExternalLinkCardProps> = (props) => {
 
     // use Translation
-    const { t, i18n } = useTranslation([props.pageKey, 'global']);
+    const { t, i18n } = useTranslation([props.pageKey]);
     const ctxT = (key : string) => {return t(`${props.itemKey}.${key}`)};
 
     const link = props.externalLink ? getExternalOrLocalContentURL(props.externalLink) : '';

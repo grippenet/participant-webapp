@@ -31,7 +31,7 @@ interface ExternalMarkdownProps extends GenericPageItemProps {
 const ExternalMarkdown: React.FC<ExternalMarkdownProps> = (props) => {
 
     // use Translation
-    const { t, i18n } = useTranslation([props.pageKey, 'global']);
+    const { i18n } = useTranslation();
 
     let markdownUrl = props.markdownUrl ? getTranslatedMarkdownPath(props.markdownUrl, i18n.language) : '';
     if (props.externalMarkdownUrl) {
