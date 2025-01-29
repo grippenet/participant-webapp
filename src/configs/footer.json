@@ -10,9 +10,9 @@
         },
         {
           "type": "external",
-          "itemKey": "twitter",
-          "value": "https://twitter.com/grippenet",
-          "iconClass": "fab fa-twitter"
+          "itemKey": "instagram",
+          "value": "https://www.instagram.com/grippenet_covidnet/",
+          "iconClass": "fab fa-instagram"
         },
         {
           "type": "external",
