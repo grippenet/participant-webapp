@@ -188,12 +188,12 @@
     "weeklyReminder": {
       "label": "E-mail de rappel hebdomadaire",
       "on": "Oui, je souhaite recevoir l'e-mail de rappel hebdomadaire.",
-      "off": "Non, je ne souhaite pas recevoir l'e-mail de rappel hebdomadaire."
+      "off": "Oui, je souhaite recevoir l'e-mail de rappel hebdomadaire."
     },
     "newsletter": {
       "label": "E-mail à l’attention de tous les participants. Il sera parfois nécessaire d'envoyer un e-mail à tous les participants en vue de leur communiquer des informations relatives à l'étude.",
       "on": "Oui, je souhaite recevoir ces e-mails à l’attention de tous les participants.",
-      "off": "Non, je ne souhaite pas recevoir ces e-mails à l’attention de tous les participants."
+      "off": "Oui, je souhaite recevoir ces e-mails à l’attention de tous les participants."
     },
     "cancelBtn": "Annuler",
     "submitBtn": "Enregistrer les modifications",
