@@ -5,8 +5,6 @@ Grippenet/Covidnet est un projet de recherche sur la grippe mis en place par l�
 La maintenance technique et les mises à jour du site sont assurées par le webmestre : webmaster@covidnet.fr
 
 
-
-
 ## Objectif du site
 
 Ce site est destiné au grand public. Ce site a pour but de recueillir des informations concernant la situation de la grippe et de la Covid-19 en France, et de fournir à la population française des informations concernant ces épidémies.
@@ -28,12 +26,13 @@ La mise en ligne de ces informations est validée par un Comité éditorial cons
 
 - Caroline Guerrisi, animatrice du réseau Grippenet/Covidnet, épidémiologiste
 
-- Charly Kengne Kuetche, animatrice du réseau Grippenet/Covidnet, épidémiologiste
+- Romain Marmorat, chargé de projet 
+
+- Mélissa Mégy, chargée de l'animation et de la communication 
 
 - Olivier Steichen, responsable du réseau Sentinelles, Médecin spécialiste en Médecine Interne, Professeur des Universités - Praticien Hospitalier
 
 - Clément Turbelin, responsable du Pôle "Système d'information et biostatistique" du réseau Sentinelles, Médecin Généraliste
-
 
 ## Financement et politique publicitaire
 
