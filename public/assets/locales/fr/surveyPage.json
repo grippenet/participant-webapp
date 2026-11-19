@@ -19,7 +19,7 @@
   "profileSelectionDialog": {
     "title":"Sélectionnez un participant",
     "info":"Sélectionnez le participant pour lequel vous souhaitez répondre au questionnaire",
-    "manageProfilesBtn":"Gérer les profiles"
+    "manageProfilesBtn":"Gérer les profils"
   },
   "noSurveyLoaded": "Erreur. Actualiser cette page",
   "submittingSurveyResponsesMsg": "Soumettre le questionnaire",
