@@ -6,6 +6,4 @@ Ce service utilise des « cookies de suivi ». Ces cookies suivent votre comport
 * le statut de connexion de votre compte Google ;
 * le comportement de défilement du visiteur sur le site Internet Grippenet.fr.
 
-Pour de plus amples informations relatives à l'utilisation de ce service, et au traitement de vos données, veuillez consulter la [Déclaration de confidentialité](https://survey.Grippenet.fr/privacy).
-
 En cliquant sur « J'accepte », vous consentez à l'installation de cookies de suivi, et au traitement desdites données par Google.
